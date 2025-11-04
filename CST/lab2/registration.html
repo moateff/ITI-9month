@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Registration Form</title>
+
+        <style>
+            body {
+                background-color: rgb(205, 218, 236);
+            }
+
+            table, td {
+                margin: auto;
+                border: 3px solid rgb(175, 172, 172);
+                border-collapse: collapse;
+                padding: 15px;
+            }
+
+            h1 {
+                text-align: center;
+                text-decoration: underline;
+                font-weight: bold;
+                font-size: 20pt;
+                padding-bottom: 15px;
+            }
+
+            label {
+                font-weight: bold;
+                color: #5c1a1a;
+            }
+
+            input[type="submit"], input[type="reset"] {
+                padding: 10px 14px;
+            }
+
+            input[type="submit"] {
+                margin-right: 60px;
+            }
+
+            input[type="text"], input[type="email"], 
+            input[type="password"], input[type="date"] {
+                width: 250px;
+            }
+
+            select {
+                width: 255px;
+            }            
+        </style>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <table>
+            <form action="login.html" method="get">
+            <tr>
+                <td><label for="firstname">First Name</label></td>
+                <td>
+                    <input type="text" id="firstname" name="firstname" 
+                        placeholder="Enter your first name">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="lastname">Last Name</label></td>
+                <td>
+                    <input type="text" id="lastname" name="lastname"
+                        placeholder="Enter your last name">
+                </td>                    
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td>
+                    <input type="email" id="email" name="email"
+                        placeholder="Enter your email">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td>
+                    <input type="password" id="password" name="password"
+                        placeholder="Enter your password">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2"><label for="gender">Gender:</label></td>
+                <td>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td>
+                    <select id="country" name="country">  
+                        <option>Select a Country</option>   
+                        <optgroup label="Africa">
+                            <option>Egypt</option>
+                            <option>Sudan</option>
+                            <option>Libya</option>
+                            <option>Tunisia</option>
+                            <option>Morocco</option>
+                        </optgroup>
+                        <optgroup label="Europe" disabled>
+                            <option>Italy</option> 
+                            <option>Sweden</option>
+                            <option>Spain</option>
+                        </optgroup>
+                        <optgroup label="Asia">
+                            <option>Palestine</option>
+                            <option>South Korea</option>
+                            <option>India</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="birthday">Birthday</label></td>
+                <td><input type="date" id="birthday" name="birthday"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;"><label><u>Interests</u></label></td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="1" style="text-align:center;">
+                    <input type="checkbox" id="sports" name="interests" value="Sports">
+                    <label for="sports" style="margin-right:25px;">Sports</label>
+
+                    <input type="checkbox" id="music" name="interests" value="Music">
+                    <label for="music" style="margin-right:25px;">Music</label>
+
+                    <input type="checkbox" id="fashion" name="interests" value="Fashion">
+                    <label for="fashion">Fashion</label><br><br>
+
+                    <input type="checkbox" id="reading" name="interests" value="Reading">
+                    <label for="reading" style="margin-right:12px;">Reading</label>
+                    
+                    <input type="checkbox" id="shoping" name="interests" value="Shoping">
+                    <label for="shoping" style="margin-right:8px;">Shoping</label>
+
+                    <input type="checkbox" id="movies" name="interests" value="Movies">
+                    <label for="movies" style="margin-right:6px;">Movies</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;"><label for="bio"><u>Bio</u></label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><textarea id="bio" name="bio" rows="4" cols="50" placeholder="Write about yourself..."></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <input type="submit" value="Register..">
+                    <input type="reset" value="Clear..">
+                </td>
+            </tr>
+            </form>
+        </table>
+
+    </body>
+</html>
