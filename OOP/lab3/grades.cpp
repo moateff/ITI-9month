@@ -11,14 +11,13 @@ int main() {
     int student_total[total_students] = {0};      // Sum of grades for each student
     int subject_total[total_subjects] = {0};      // Sum of grades for each subject
 
-    for (int student = 0; student < total_students; student++) {
-        for (int subject = 0; subject < total_subjects; subject++) {
-            cout << "Enter grade of subject " << subject + 1 
-                 << " for student " << student + 1 << ": ";
-            cin >> grades[student][subject];
+    for (int i = 0; i < total_students; i++) {
+        for (int j = 0; j < total_subjects; j++) {
+            cout << "Enter grade of subject " << j + 1 << " for student " << i + 1 << ": ";
+            cin >> grades[i][j];
 
-            student_total[student] += grades[student][subject];  
-            subject_total[subject] += grades[student][subject];  
+            student_total[i] += grades[i][j];  
+            subject_total[j] += grades[i][j];  
         }
     }
 
