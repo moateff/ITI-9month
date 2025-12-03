@@ -8,16 +8,40 @@ private:
     int size;   // maximum size of stack
 
 public:
-    // Constructor
-    Stack(int s) {
-        size = s;
-        arr = new int[size];
+    Stack(int _size = 5) {
+        size = _size;
+        arr = new int[_size];
         tos = -1; // stack initially empty
-    }
 
+        cout << "Single parameter constructor called" << endl;
+    }
+    
+    // Copy constructor
+    Stack(const Stack& s) {
+        size = s.size;
+        tos = s.tos;
+
+        // allocate new memory
+        arr = new int[size];
+
+        // copy elements
+        for (int i = 0; i <= tos; i++) {
+            arr[i] = s.arr[i];
+        }
+
+        cout << "Copy constructor called" << endl;
+    }
+    
     // Destructor
     ~Stack() {
+        for (int i = 0; i <= tos; i++) {
+            arr[i] = -1;  
+        }
+
         delete[] arr;
+        arr = NULL;
+
+        cout << "Destructor called, memory freed" << endl;
     }
 
     // Check if stack is full
@@ -62,9 +86,39 @@ public:
     int getCount() const {
         return tos + 1;
     }
+
+    // Returns a new Stack with elements in reversed order
+    Stack reverse() const {
+        Stack reversed(size);           
+        for (int i = tos; i >= 0; i--) {
+            reversed.push(arr[i]);     
+        }
+        return reversed;
+    }
+
+    friend void viewContentByValue(const Stack s);
+    friend void viewContentByReference(const Stack& s);
 };
 
-// Example usage
+// View content 
+// Pass by value
+void viewContentByValue(const Stack s) {
+    cout << "Stack content (by value): ";
+    for (int i = 0; i <= s.tos; i++) {
+        cout << s.arr[i] << " ";
+    }
+    cout << endl;
+}
+
+// Pass by refernence 
+void viewContentByReference(const Stack& s) {
+    cout << "Stack content (by reference): ";
+    for (int i = 0; i <= s.tos; i++) {
+        cout << s.arr[i] << " ";
+    }
+    cout << endl;
+}
+
 int main() {
     Stack s(7);
 
@@ -72,12 +126,13 @@ int main() {
     s.push(4);
     s.push(5);
 
-    cout << "Popped: " << s.pop() << endl;
-    cout << "Top element: " << s.peek() << endl;
-    cout << "Top element: " << s.peek() << endl;
-    cout << "Popped: " << s.pop() << endl;
+    viewContentByValue(s); 
+    viewContentByReference(s); 
 
-    cout << "Count after pops: " << s.getCount() << endl;
+    Stack rs = s.reverse();
+
+    viewContentByValue(rs); 
+    viewContentByReference(rs); 
 
     return 0;
 }

@@ -1,0 +1,47 @@
+Inside the classes
+|                               |   Base    |       Derived1        |             Derived2              | 
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+| Derived1      | Derived2      | x | y | z | x | y | z | a | b | c | x | y | z | a | b | c | k | l | m |
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+| **public**    | **public**    | A | A | A | – | A | A | A | A | A | – | A | A | – | A | A | A | A | A |
+| **public**    | **protected** | A | A | A | – | A | A | A | A | A | – | A | A | – | A | A | A | A | A |
+| **public**    | **private**   | A | A | A | – | A | A | A | A | A | – | A | A | – | A | A | A | A | A |
+| **protected** | **public**    | A | A | A | – | A | A | A | A | A | – | A | A | – | A | A | A | A | A |
+| **protected** | **protected** | A | A | A | – | A | A | A | A | A | – | A | A | – | A | A | A | A | A |
+| **protected** | **private**   | A | A | A | – | A | A | A | A | A | – | A | A | – | A | A | A | A | A |
+| **private**   | **public**    | A | A | A | – | A | A | A | A | A | – | – | – | – | A | A | A | A | A |
+| **private**   | **protected** | A | A | A | – | A | A | A | A | A | – | – | – | – | A | A | A | A | A |
+| **private**   | **private**   | A | A | A | – | A | A | A | A | A | – | – | – | – | A | A | A | A | A |
+
+Inside the main func
+|                               |   Base    |       Derived1        |             Derived2              | 
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+| Derived1      | Derived2      | x | y | z | x | y | z | a | b | c | x | y | z | a | b | c | k | l | m |
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+| **public**    | **public**    | – | – | A | – | – | A | – | – | A | – | – | A | – | – | A | – | – | A |
+| **public**    | **protected** | – | – | A | – | – | A | – | – | A | – | – | – | – | – | – | – | – | A |
+| **public**    | **private**   | – | – | A | – | – | A | – | – | A | – | – | – | – | – | – | – | – | A |
+| **protected** | **public**    | – | – | A | – | – | – | – | – | A | – | – | – | – | – | A | – | – | A |
+| **protected** | **protected** | – | – | A | – | – | – | – | – | A | – | – | – | – | – | – | – | – | A |
+| **protected** | **private**   | – | – | A | – | – | – | – | – | A | – | – | – | – | – | – | – | – | A |
+| **private**   | **public**    | – | – | A | – | – | – | – | – | A | – | – | – | – | – | A | – | – | A |
+| **private**   | **protected** | – | – | A | – | – | – | – | – | A | – | – | – | – | – | – | – | – | A |
+| **private**   | **private**   | – | – | A | – | – | – | – | – | A | – | – | – | – | – | – | – | – | A |
+
+class Base {
+private:   int x;             
+protected: int y;         
+public:    int z;
+}
+
+class Derived1 : ? Base {
+private:   int a;               
+protected: int b;            
+public:    int c; 
+}
+
+class Derived2 : ? Derived1 {
+private:   int k;                
+protected: int l;              
+public:    int m;
+}
