@@ -1,5 +1,8 @@
 .vscode
 
 *.exe
+*.out
+*.elf
+*
 
 *.docx
