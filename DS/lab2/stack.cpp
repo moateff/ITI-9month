@@ -7,6 +7,7 @@ public:
     void push(Employee emp){
         insertAtHead(emp);
     }
+    
     Employee pop(){
         Employee emp = head->data;
         delete head;

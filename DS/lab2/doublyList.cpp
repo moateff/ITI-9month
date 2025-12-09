@@ -186,7 +186,7 @@ public:
         return *this;
     }
 };
-/*
+
 int main() {
     DoublyList list;
 
@@ -201,21 +201,17 @@ int main() {
     list.insertAtHead(e3);  // 3
     list.insertAtHead(e2);  // 2 3
     list.displayAll();
-    cout << "----------------------------" << endl;
 
     // Test insertAtTail
     list.insertAtTail(e4);  // 2 3 4
     list.displayAll();
-    cout << "----------------------------" << endl;
 
     // Test insertOnPosition
     list.insertOnPosition(e5, 2); // insert at pos 2 → 2 3 (5) 4
     list.displayAll();
-    cout << "----------------------------" << endl;
 
     list.insertOnPosition(e1, 3); // insert at pos 0 → 2 3 5 (1) 4
     list.displayAll();
     
     return 0;
 }
-*/
