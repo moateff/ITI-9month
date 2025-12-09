@@ -18,7 +18,7 @@ public:
 };
 
 class DoublyList{
-private:
+protected:
     node* head;
     node* tail;
 
@@ -128,7 +128,7 @@ public:
         return nullptr;
     }
 
-    int nodeCount(){
+    int count(){
         int count = 0;
         node* current = head;
         while(current != nullptr){
@@ -186,7 +186,7 @@ public:
         return *this;
     }
 };
-
+/*
 int main() {
     DoublyList list;
 
@@ -197,56 +197,25 @@ int main() {
     Employee e4 = {4, "Sara", 29, 7000};
     Employee e5 = {5, "Khaled", 22, 3800};
 
-    cout << "\n Testing insertAtHead \n";
+    // Test insertAtHead
     list.insertAtHead(e3);  // 3
     list.insertAtHead(e2);  // 2 3
-    list.insertAtHead(e1);  // 1 2 3
     list.displayAll();
+    cout << "----------------------------" << endl;
 
-    cout << "\n Testing insertAtTail \n";
-    list.insertAtTail(e4);  // 1 2 3 4
+    // Test insertAtTail
+    list.insertAtTail(e4);  // 2 3 4
     list.displayAll();
+    cout << "----------------------------" << endl;
 
-    cout << "\n Testing insertOnPosition \n";
-    list.insertOnPosition(e5, 2); // insert at pos 2 → 1 2 (5) 3 4
+    // Test insertOnPosition
+    list.insertOnPosition(e5, 2); // insert at pos 2 → 2 3 (5) 4
     list.displayAll();
+    cout << "----------------------------" << endl;
 
-    cout << "\n Testing searchById (search ID 3) \n";
-    node* found = list.searchById(3);
-    if (found)
-        cout << "Found: " << found->data.name << endl;
-    else
-        cout << "Not found.\n";
-
-    cout << "\n Testing deleteById (delete ID 2) \n";
-    bool deleted = list.deleteById(2);
-    cout << (deleted ? "Deleted successfully.\n" : "Employee not found.\n");
-
-    cout << "\nList after deletion:\n";
+    list.insertOnPosition(e1, 3); // insert at pos 0 → 2 3 5 (1) 4
     list.displayAll();
-
-    cout << "\n Testing nodeCount \n";
-    cout << "Nodes: " << list.nodeCount() << endl;
-
-    cout << "\n Testing displayById (ID 4) \n";
-    list.displayById(4);
-
-    cout << "\n Testing operator[] (index 1) \n";
-    try {
-        Employee &emp = list[1];
-        cout << "Employee at index 1 → " << emp.id << ", " << emp.name << endl;
-    } catch (const exception& e) {
-        cout << e.what() << endl;
-    }
-
-    cout << "\n Testing Copy Constructor \n";
-    DoublyList copiedList(list);
-    copiedList.displayAll();
-
-    cout << "\n Testing Assignment Operator \n";
-    DoublyList assignedList;
-    assignedList = list;
-    assignedList.displayAll();
-
+    
     return 0;
 }
+*/

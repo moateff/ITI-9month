@@ -15,6 +15,7 @@ public:
     node* prev;
 
     node(Employee emp) : data(emp), next(nullptr), prev(nullptr) {}
+    ~node() {}
 };
 
 class SortedDoublyList{
@@ -22,8 +23,32 @@ private:
     node* head;
     node* tail;
 
+protected:
+    void insertAtHead(Employee emp){
+        node* newNode = new node(emp);
+        if(isEmpty()){
+            head = tail = newNode;
+        } else{
+            newNode->next = head;
+            head->prev = newNode;
+            head = newNode;
+        }
+    }
+
+    void insertAtTail(Employee emp){
+        node* newNode = new node(emp);
+        if(isEmpty()){
+            head = tail = newNode;
+        } else{
+            tail->next = newNode;
+            newNode->prev = tail;
+            tail = newNode;
+        }
+    }
+
 public:
     SortedDoublyList() : head(nullptr), tail(nullptr) {}
+
     SortedDoublyList(const SortedDoublyList& other) {
         head = nullptr;
         tail = nullptr;
@@ -45,28 +70,6 @@ public:
 
     bool isEmpty(){
         return head == nullptr && tail == nullptr;
-    }
-
-    void insertAtHead(Employee emp){
-        node* newNode = new node(emp);
-        if(isEmpty()){
-            head = tail = newNode;
-        } else{
-            newNode->next = head;
-            head->prev = newNode;
-            head = newNode;
-        }
-    }
-
-    void insertAtTail(Employee emp){
-        node* newNode = new node(emp);
-        if(isEmpty()){
-            head = tail = newNode;
-        } else{
-            tail->next = newNode;
-            newNode->prev = tail;
-            tail = newNode;
-        }
     }
 
     void insertInOrder(Employee emp){
@@ -101,16 +104,19 @@ public:
             if(current->data.id == id){
                 if(current->prev != nullptr){
                     current->prev->next = current->next;
-                } else{
+                } else {
                     head = current->next;
                 }
                 if(current->next != nullptr){
                     current->next->prev = current->prev;
-                } else{
+                } else {
                     tail = current->prev;
                 }
                 delete current;
                 return true;
+            }
+            if(current->data.id > id){
+                break;
             }
             current = current->next;
         }
@@ -123,12 +129,15 @@ public:
             if(current->data.id == id){
                 return current;
             }
+            if(current->data.id > id){
+                break;
+            }
             current = current->next;
         }
         return nullptr;
     }
 
-    int nodeCount(){
+    int count(){
         int count = 0;
         node* current = head;
         while(current != nullptr){
@@ -223,8 +232,8 @@ int main() {
     cout << "\nAfter deletion:\n";
     list.displayAll();
 
-    // Test nodeCount 
-    cout << "\nNode count = " << list.nodeCount() << endl;
+    // Test count 
+    cout << "\nNode count = " << list.count() << endl;
 
     // Test operator[]
     cout << "\nEmployee at index 1:\n";
