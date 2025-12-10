@@ -15,6 +15,7 @@ public:
     node* prev;
 
     node(Employee emp) : data(emp), next(nullptr), prev(nullptr) {}
+    ~node() {}
 };
 
 class DoublyList{
@@ -24,6 +25,7 @@ protected:
 
 public:
     DoublyList() : head(nullptr), tail(nullptr) {}
+    
     DoublyList(const DoublyList& other) {
         head = nullptr;
         tail = nullptr;
@@ -93,6 +95,38 @@ public:
             head = newNode;
         }
         current->prev = newNode;
+    }
+
+    Employee deleteAtHead(){
+        if(isEmpty()){
+            throw runtime_error("List is empty");
+        }
+        node* temp = head;
+        Employee emp = head->data;
+        head = head->next;
+        if(head != nullptr){
+            head->prev = nullptr;
+        } else{
+            tail = nullptr;
+        }
+        delete temp;
+        return emp;
+    }
+
+    Employee deleteAtTail(){
+        if(isEmpty()){
+            throw runtime_error("List is empty");
+        }
+        node* temp = tail;
+        Employee emp = tail->data;
+        tail = tail->prev;
+        if(tail != nullptr){
+            tail->next = nullptr;
+        } else{
+            head = nullptr;
+        }
+        delete temp;
+        return emp;
     }
 
     bool deleteById(int id){

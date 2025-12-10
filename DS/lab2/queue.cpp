@@ -9,13 +9,17 @@ public:
     }
 
     Employee dequeue(){
-        Employee emp = head->data;
-        delete head;
-        head = head->next;
+        if(isEmpty()){
+            throw runtime_error("Queue is empty");
+        }
+        Employee emp = deleteAtHead();
         return emp;
     }
 
     Employee peek(){
+        if(isEmpty()){
+            throw runtime_error("Queue is empty");
+        }
         return head->data;
     }
 };

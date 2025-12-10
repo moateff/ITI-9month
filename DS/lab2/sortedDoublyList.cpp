@@ -152,7 +152,7 @@ public:
         if(empNode != nullptr){
             cout << "ID: " << empNode->data.id << ", Name: " << empNode->data.name 
                  << ", Age: " << empNode->data.age << ", Salary: " << empNode->data.salary << endl;
-        } else{
+        } else {
             cout << "Employee with ID " << id << " not found." << endl;
         }
     }
