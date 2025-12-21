@@ -106,10 +106,6 @@ public:
     }
 
     int& operator[](int index) {
-    /*
-        if (index < 0 || index > heap.size() - 1)
-            throw out_of_range("Index out of range");
-    */
         return heap[index];
     }
 };

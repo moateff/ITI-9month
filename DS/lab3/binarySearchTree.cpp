@@ -28,44 +28,7 @@ private:
         }
         return node;
     }
-    /*
-    bool insertNode(Node* root, Node* leaf, Node* newNode){
-        if(leaf == nullptr){
-            if(root == nullptr){
-                root = newNode;
-            } else {
-                if(newNode->data < root->data) {
-                    root->left = newNode;
-                } else  if(newNode->data > root->data){
-                    root->right = newNode;
-                } else {
-                    return false;
-                }
-            }
-            return true;
-        } else if(newNode->data < leaf->data){
-            return insertNode(leaf, leaf->left, newNode);
-        } else if(newNode->data > leaf->data){
-            return insertNode(leaf, leaf->right, newNode);
-        } else {
-            return false;
-        }
-    }
-    */
-    /*
-    bool insertNode(Node*& root, Node* newNode){
-        if(root == nullptr){
-            root = newNode;
-            return true;
-        }
-        if(newNode->data < root->data){
-            return insert(root->left, newNode);
-        } else if(newNode->data > root->data){
-            return insert(root->right, newNode);
-        }
-        return false;
-    }
-    */
+
     Node* copyNode(Node* otherNode) {
         if (otherNode == nullptr) return nullptr;
         Node* newNode = new Node(otherNode->data);
@@ -193,17 +156,7 @@ public:
     bool isBalanced(){
         return isBalanced(root);
     }
-    /*
-    bool insertNode(int value) {
-        Node* newNode = new Node(value);
-        return insertNode(root, newNode);
-    }
 
-    bool insertNode(int value) {
-        Node* newNode = new Node(value);
-        return insertNode(root, root, newNode);
-    }
-    */
     void insertNode(int val){
         root = insertNode(root, val);
     }
