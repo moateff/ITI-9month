@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent</title>
+</head>
+<body>
+    <button onclick="onOpen()">open</button>
+    <script>
+        let childWindow = null;
+        let scrollInterval = null;
+
+        let step = 15;
+
+        function onOpen() {
+            if (childWindow && !childWindow.closed) {
+                alert("The child window is already open.");
+                return;
+            }
+            
+            childWindow = window.open(
+                "child.html", 
+                "", 
+                "width=200,height=150,scrollbars=yes"
+            );
+
+            if (childWindow && !childWindow.closed) {
+                childWindow.focus();
+            }
+
+            scrollInterval = setInterval(() => {
+                if (!childWindow || childWindow.closed) {
+                    clearInterval(scrollInterval);
+                    return;
+                }
+                
+                childWindow.scrollBy(0, step);
+
+                // console.log(childWindow.scrollY);
+                
+                if (childWindow.scrollY >= childWindow.document.body.scrollHeight - 115) {
+                    clearInterval(scrollInterval);
+                    scrollInterval = null;
+                    childWindow.close();
+                }
+            }, 100);
+        }
+    </script>
+</body>
+</html>
