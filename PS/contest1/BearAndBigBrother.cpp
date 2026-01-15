@@ -7,13 +7,13 @@ int main () {
 
     cin >> LimakWeight >> BobWeight;
 
-    int yearCount = 0;
+    int years = 0;
     while (LimakWeight <= BobWeight) {
         LimakWeight *= 3;
         BobWeight *= 2;
-        yearCount++;
+        years++;
     }
     
-    cout << yearCount << endl;
+    cout << years;
     return 0;
 }
