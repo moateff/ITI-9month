@@ -11,19 +11,13 @@ function NumericSequence(start, end, step) {
     var list = [];
 
     // private method
-    function fillList() {
+    (function fillList() {
         for (var i = start; i <= end; i += step) {
             list.push(i);
         }
-    }
+    })();
 
-    function validateDuplicate(value) {
-        if (list.indexOf(value) !== -1) {
-            throw new Error("Duplicate values are not allowed");
-        }
-    }
-
-    fillList();
+    // fillList();
 
     // public methods
     this.getList = function () {
@@ -31,8 +25,6 @@ function NumericSequence(start, end, step) {
     };
 
     this.append = function (value) {
-        // validateDuplicate(value);
-
         var last = list[list.length - 1];
         if (value !== last + step) {
             throw new Error("Value is not sequential");
@@ -42,8 +34,6 @@ function NumericSequence(start, end, step) {
     };
 
     this.prepend = function (value) {
-        // validateDuplicate(value);
-
         var first = list[0];
         if (value !== first - step) {
             throw new Error("Value is not sequential");
@@ -93,8 +83,8 @@ try {
 // Error: Value is not sequential
 
 try {
-    seq.append(10);
+    seq.append(1);
 } catch (e) {
     console.log(e.message);
 }
-// Error: Duplicate values are not allowed
+// Error: Value is not sequential
