@@ -13,7 +13,6 @@ const images = [
     "images/6.gif"
 ]
 const moonImage = "images/moon.gif";
-
 const board = document.querySelector(".game-board");
 
 let firstCard = null;
@@ -37,7 +36,7 @@ function createBoard() {
 
         const img = document.createElement("img");
         img.src = moonImage;
-        img.dataset.image = src;
+        img.hiddenImage = src;
 
         card.appendChild(img);
         card.addEventListener("click", flipCard);
@@ -45,12 +44,10 @@ function createBoard() {
         board.appendChild(card);
 
         /*
-        <div class="game-board">
-            <div class="card">
-                <img src="images/moon.gif" data-image="images/1.gif">
-            </div>
-            ...
-        </div>
+        board.innerHTML += 
+            `<div class="card" isMatched="false">
+                <img src="${moonImage}" hiddenImage="${src}" onclick="flipCard(this)">
+            </div>`;
         */
     });
 }
@@ -63,7 +60,7 @@ function flipCard() {
     if (this.classList.contains("matched")) return;
 
     const img = this.querySelector("img");
-    img.src = img.dataset.image;
+    img.src = img.hiddenImage;
 
     if (!firstCard) {
         firstCard = this;
@@ -75,8 +72,8 @@ function flipCard() {
 }
 
 function checkMatch() {
-    const img1 = firstCard.querySelector("img").dataset.image;
-    const img2 = secondCard.querySelector("img").dataset.image;
+    const img1 = firstCard.querySelector("img").hiddenImage;
+    const img2 = secondCard.querySelector("img").hiddenImage;
 
     img1 === img2 ? disableCards() : unflipCards();
 }
@@ -111,5 +108,7 @@ function resetTurn() {
     lockBoard = false;
 }
 
-
-createBoard();
+document.body.onload = () => {
+    createBoard();
+}
+// createBoard();
