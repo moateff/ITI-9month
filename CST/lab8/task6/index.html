@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Pictures</title>
+
+    <style>
+        .container {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            border: 2px solid red;
+            margin-bottom: 10px;
+        }   
+
+        .container img {
+            position: absolute;
+            transition: all 0.6s ease;
+        }
+
+        button {
+            width: 50px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        p {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+
+    <button id="goBtn">go</button>
+    <button id="resetBtn">reset</button>
+
+    <p class="img1Tag"></p>
+    <p class="img2Tag"></p>
+    <p class="img3Tag"></p>
+
+    <script>
+        const container = document.querySelector(".container");
+
+        let isClicked = false;
+        const goBtn = document.querySelector("#goBtn");
+        const resetBtn = document.querySelector("#resetBtn");
+
+        const img1Tag = document.querySelector(".img1Tag");
+        const img2Tag = document.querySelector(".img2Tag");
+        const img3Tag = document.querySelector(".img3Tag");
+
+        function createImage(src, className, altText) {
+            const img = document.createElement("img");
+            img.src = src;
+            img.className = className;
+            return img;
+        }
+
+        window.onload = function() {
+            const img1 = createImage("./images/icon1.gif", "img1");
+            const img2 = createImage("./images/icon2.gif", "img2");
+            const img3 = createImage("./images/TOP.JPG", "img3");
+
+            container.append(img1, img2, img3);
+            resetPositions();
+
+            goBtn.addEventListener("click", () => {
+                if (isClicked) {
+                    goBtn.textContent = "stop"; 
+                    isClicked = false;
+
+                    stopMoving();
+                } else {
+                   goBtn.textContent = "go"; 
+                   isClicked = true;
+
+                   startMoving();
+                }
+            });
+
+            function resetPositions() {
+                img1.style.left = "0px";
+                img1.style.top = "120px";
+                img2.style.left = "255px";
+                img2.style.top = "120px";
+                img3.style.left = "130px";
+                img3.style.top = "270px";
+            }
+
+            resetBtn.addEventListener("click", () => {
+                resetPositions();
+
+                goBtn.textContent = "go";
+                isClicked = false;
+
+                stopMoving();
+            });
+
+            setInterval(() => {
+                img1Tag.textContent = img1.outerHTML;
+                img2Tag.textContent = img2.outerHTML;
+                img3Tag.textContent = img3.outerHTML;
+            }, 100);
+
+            let img1Direction = "right";
+            let img2Direction = "left";
+            let img3Direction = "up";
+            let step = 10;
+            let moveInterval = null;
+
+            function startMoving() {
+                if (!moveInterval) {
+                    moveInterval = setInterval(() => {
+                        let newLeft = parseInt(img1.style.left) 
+                            + (img1Direction === "right" ? step : -step);
+                        
+                        if (newLeft >= 280) {
+                            img1Direction = "left";
+                            newLeft = 280;
+                        } else if (newLeft <= -25) {
+                            img1Direction = "right";
+                            newLeft = -25;
+                        }
+                        img1.style.left = newLeft + "px";
+
+                        let newRight = parseInt(img2.style.left) 
+                            + (img2Direction === "left" ? -step : step);
+                        
+                        if (newRight <= -25) {
+                            img2Direction = "right";
+                            newRight = -25;
+                        } else if (newRight >= 280) {
+                            img2Direction = "left";
+                            newRight = 280;
+                        }
+                        img2.style.left = newRight + "px";
+
+                        let img3Top = parseInt(img3.style.top)
+                            + (img3Direction === "up" ? -step : step);
+                        
+                        if (img3Top <= -25) {
+                            img3Direction = "down";
+                            img3Top = -25;
+                        } else if (img3Top >= 300) {
+                            img3Direction = "up";
+                            img3Top = 280;
+                        }
+                        img3.style.top = img3Top + "px";
+                    }, 100);
+                }
+            }
+
+            function stopMoving() {
+                clearInterval(moveInterval);
+                moveInterval = null;
+            }
+        };
+    </script>
+</body>
+</html>

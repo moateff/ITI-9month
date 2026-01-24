@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .right-box {
+            padding-top: 150px;
+        }
+
+        .name, .count {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-box">
+            <img>
+        </div>
+
+        <div class="right-box">Welcome <span class="name"></span> you have visited 
+            this site <span class="count"></span> times :)</div>
+    </div>
+    
+    <script src="cookie.js"></script>
+    <script>
+        window.onload = function() {
+            updateVisits();
+            insertData();
+        }
+
+        function updateVisits() {
+            let visits = getCookie("visits");
+
+            if (visits) {
+                visits = Number(visits) + 1;
+            } else {
+                visits = 1;
+            }
+            setCookie("visits", visits);
+        }
+
+        let genderImage = document.querySelector('.left-box img');
+        let nameSpan = document.querySelector('.name');
+        let countSpan = document.querySelector('.count');
+
+        function insertData() {
+            if (getCookie("gender") == "male") {
+                genderImage.setAttribute("src", "./images/1.jpg");
+            } else {
+                genderImage.setAttribute("src", "./images/2.jpg");
+            }
+
+            nameSpan.textContent = getCookie("name").split(' ')[0];
+            nameSpan.style.color = getCookie("color");
+
+            countSpan.textContent = getCookie("visits");
+            countSpan.style.color = getCookie("color");
+        }
+    </script>
+</body>
+</html>

@@ -27,6 +27,19 @@
         </div>
 
     </div>
+
+    <script>
+        const container = document.querySelector(".center");
+        const header = document.getElementById("header");
+        const footer = header.cloneNode(true);
+        container.appendChild(footer);
+
+        header.style.textAlign = "right";
+        footer.style.textAlign = "left";
+
+        const nav = document.getElementById("nav");
+        nav.style.listStyleType = "circle";
+    </script>
 </body>
 
 

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Style</title>
+    <style>
+        
+        #text {
+            font-family: Arial;
+            text-align: left;
+            line-height: normal;
+            letter-spacing: normal;
+            text-indent: 0px;
+            text-transform: none;
+            text-decoration: none;
+
+            font-size: 16px;
+            padding: 15px;
+            width: 930px;
+            height: 100px;
+            margin-left: 100px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            align-items: center;
+
+        }
+
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px;
+        }
+
+        .group h4 {
+            margin: 0 0 8px 0;
+            font-size: 14px;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            font-size: 13px;
+            cursor: pointer;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <textarea id="text" placeholder="Write Some Text!"></textarea>
+
+        <div class="controls">
+            <div class="group">
+                <h4>fontFamily</h4>
+                <label><input type="radio" name="fontFamily" value="Arial" checked> arial</label>
+                <label><input type="radio" name="fontFamily" value="Courier New"> courier</label>
+                <label><input type="radio" name="fontFamily" value="Georgia"> georgia</label>
+                <label><input type="radio" name="fontFamily" value="Impact"> impact</label>
+                <label><input type="radio" name="fontFamily" value="Times New Roman"> times new roman</label>
+                <label><input type="radio" name="fontFamily" value="Verdana"> verdana</label>
+            </div>
+
+            <div class="group">
+                <h4>textAlign</h4>
+                <label><input type="radio" name="textAlign" value="left" checked> left</label>
+                <label><input type="radio" name="textAlign" value="center"> center</label>
+                <label><input type="radio" name="textAlign" value="right"> right</label>
+                <label><input type="radio" name="textAlign" value="justify"> justify</label>
+            </div>
+
+            <div class="group">
+                <h4>lineHeight</h4>
+                <label><input type="radio" name="lineHeight" value="normal" checked> normal</label>
+                <label><input type="radio" name="lineHeight" value="10px"> 10px</label>
+                <label><input type="radio" name="lineHeight" value="15px"> 15px</label>
+                <label><input type="radio" name="lineHeight" value="1.5"> 1.5</label>
+            </div>
+
+            <div class="group">
+                <h4>letterSpacing</h4>
+                <label><input type="radio" name="letterSpacing" value="normal" checked> normal</label>
+                <label><input type="radio" name="letterSpacing" value="-1px"> -1px</label>
+                <label><input type="radio" name="letterSpacing" value="2px"> 2px</label>
+                <label><input type="radio" name="letterSpacing" value="3px"> 3px</label>
+            </div>
+
+            <div class="group">
+                <h4>textIndent</h4>
+                <label><input type="radio" name="textIndent" value="0px" checked> 0px</label>
+                <label><input type="radio" name="textIndent" value="5px"> 5px</label>
+                <label><input type="radio" name="textIndent" value="15px"> 15px</label>
+                <label><input type="radio" name="textIndent" value="25px"> 25px</label>
+            </div>
+
+            <div class="group">
+                <h4>textTransform</h4>
+                <label><input type="radio" name="textTransform" value="none" checked> none</label>
+                <label><input type="radio" name="textTransform" value="capitalize"> capitalize</label>
+                <label><input type="radio" name="textTransform" value="uppercase"> uppercase</label>
+                <label><input type="radio" name="textTransform" value="lowercase"> lowercase</label>
+            </div>
+
+            <div class="group">
+                <h4>textDecoration</h4>
+                <label><input type="radio" name="textDecoration" value="none" checked> none</label>
+                <label><input type="radio" name="textDecoration" value="line-through"> line-through</label>
+                <label><input type="radio" name="textDecoration" value="overline"> overline</label>
+                <label><input type="radio" name="textDecoration" value="underline"> underline</label>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const text = document.getElementById("text");
+        const radios = document.querySelectorAll("input[type='radio']");
+        radios.forEach(radio => {
+            radio.addEventListener("change", () => {
+                const property = radio.name;
+                const value = radio.value;
+
+                text.style[property] = value;
+                console.log(`Changed ${property} to ${value}`);
+            });
+        });
+
+        window.onload = () => {
+            radios.forEach(radio => {
+                if (radio.checked) {
+                    const property = radio.name;
+                    const value = radio.value;
+                    text.style[property] = value;
+                }
+            });
+        };
+    </script>
+</body>
+</html>
