@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Zoom SVG Demo</title>
+
+    <link rel="stylesheet" href="./zoom-svg.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script src="./jquery.zoom-svg.js"></script>
+</head>
+
+<body>
+
+    <div class="zoom-svg-container">
+        <svg width="400" height="400" viewBox="0 0 400 400">
+            <image href="./img.png" width="400" height="400"></image>
+        </svg>
+
+        <div class="zoom-svg-zoom zoom-svg-zoom-in">+</div>
+        <div class="zoom-svg-zoom zoom-svg-zoom-rst">=</div>
+        <div class="zoom-svg-zoom zoom-svg-zoom-out">−</div>
+    </div>
+
+    <script>
+        $(function () {
+            $("svg").zoomSvg({
+                step: 5
+            });
+        });
+    </script>
+
+</body>
+</html>
