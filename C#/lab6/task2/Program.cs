@@ -6,7 +6,7 @@ namespace Task
     {
         static void Main(string[] args)
         {
-            Task4.Program.Execute();
+            Task1.Program.Execute();
         }
     }
 }
