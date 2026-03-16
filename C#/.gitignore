@@ -1,5 +1,15 @@
+*
+!*.*
+!*/
+
+*/.vs/
+*/.vscode/
 */bin/
 */obj/
+*/.idea/
 
+**/.vs/
+**/.vscode/
 **/bin/
 **/obj/
+**/.idea/
