@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent</title>
+</head>
+<body>
+    <button onclick="onOpen()">open</button>
+    <button onclick="onPause()">pause</button>
+    <button onclick="onClose()">close</button>
+
+    <script>
+        let childWindow = null;
+        let moveInterval = null;
+        let focusInterval = null;
+
+        let direction = "down";
+        let step = 10;
+
+        function startMoving() {
+            moveInterval = setInterval(() => {
+                if (!childWindow || childWindow.closed) {
+                    clearInterval(moveInterval);
+                    return;
+                }
+
+                const maxY = screen.availHeight - childWindow.outerHeight;
+                const minY = 50;
+
+                let childWindowNewY = 
+                    childWindow.screenY + 
+                    (direction === "down" ? step : -step);
+
+                // console.log(childWindowNewY);
+
+                if (childWindowNewY >= maxY) {
+                    childWindowNewY = maxY;
+                    direction = "up";
+                } else if (childWindowNewY <= minY) {
+                    childWindowNewY = minY;
+                    direction = "down";
+                }
+
+                childWindow.moveTo(childWindow.screenX, childWindowNewY);
+            }, 100);
+        }
+
+        function onOpen() {
+            if (childWindow && !childWindow.closed) {
+                alert("The child window is already open.");
+                return;
+            }
+
+            childWindow = window.open(
+                "child.html", 
+                "FlyingChild", 
+                "width=200,height=150"
+            );
+
+            focusInterval = setInterval(() => {
+                if (childWindow && !childWindow.closed) {
+                    childWindow.focus();
+                } else {
+                    clearInterval(focusInterval);
+                    focusInterval = null;
+                }
+            }, 100);
+
+            startMoving();
+        }
+
+        function onPause() {
+            if (!childWindow || childWindow.closed) {
+                alert("The child window is already closed.");
+                return;
+            }
+
+            if (moveInterval) {
+                clearInterval(moveInterval);
+                moveInterval = null;
+            } else {
+                startMoving();
+            }
+        }
+
+        function onClose() {
+            if (!childWindow || childWindow.closed) {
+                alert("The child window is already closed.");
+                return;
+            }
+
+            childWindow.close();
+            childWindow = null;
+
+            if (focusInterval) {
+                clearInterval(focusInterval);
+                focusInterval = null;
+            }
+            if (moveInterval) {
+                clearInterval(moveInterval);
+                moveInterval = null;
+            }
+        }
+    </script>
+</body>
+</html>

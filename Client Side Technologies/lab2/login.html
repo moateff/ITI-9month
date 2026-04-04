@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            body {
+                background-color: rgb(205, 218, 236);
+            }
+
+            legend {
+                font-size: 17pt;
+                color: red;
+            }
+
+            input[type="text"], input[type="password"] {
+                width: 400px;
+                height: 30px;
+                padding-left: 10px;
+            }
+
+            form {
+                width: 400px;
+                margin: auto;
+                margin-top: 150px;
+            }
+
+            fieldset {
+                padding: 30px;
+                border: solid;
+                border-width: 5px;
+                border-color: rgb(73, 166, 219);
+            }
+
+            input[type="submit"] {
+                padding: 10px;
+                margin-left: 175px;
+                color: #a31e1e;
+            }
+
+            label {
+                font-weight: bold;
+                color: #5c1a1a;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="mainpage.html" method="get">
+            <fieldset>
+                <legend><b>Login</b></legend>
+                <label for="username">User name:</label><br>
+                <input type="text" id="username" name="username"
+                    placeholder="Enter user name"><br><br>
+
+                <label for="password">User password:</label><br>
+                <input type="password" id="password" name="password"
+                    placeholder="Enter user password"><br><br>
+
+                <input type="checkbox" id="remember-me" name="remember-me" value="remember-me">
+                <label for="remember-me">Remember me</label><br><br>
+
+                <input type="submit" value="Sign in..">
+            </fieldset>
+        </form>
+    </body>
+</html>

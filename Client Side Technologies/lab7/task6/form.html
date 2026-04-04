@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="button" value="1" onclick="displayVal(this)" />
+    <input type="button" value="2" onclick="displayVal(this)" />
+    <input type="button" value="3" onclick="displayVal(this)" />
+    <input type="button" value="4" onclick="displayVal(this)" />
+    <input type="button" value="5" onclick="displayVal(this)" />
+    <input type="button" value="6" onclick="displayVal(this)" />
+    <input type="button" value="7" onclick="displayVal(this)" />
+    <input type="button" value="8" onclick="displayVal(this)" />
+    <input type="button" value="9" onclick="displayVal(this)" />
+    <input type="button" value="0" onclick="displayVal(this)" />
+    <input type="button" value="." onclick="displayVal(this)" />
+    <input type="text" id="txt1" />
+    <input type="button" value=" << " onclick="eraserFun()" />
+    <input type="button" value=" C " onclick="clearFun()" />
+  </body>
+  <script>
+    let text = document.getElementById("txt1");
+    let pointFlag = false;
+
+    function displayVal(val) {
+      if (val.value == ".") {
+        if (!pointFlag) {
+          text.value += val.value;
+          pointFlag = true;
+        }
+        return;
+      }
+      text.value += val.value;
+    }
+
+    function clearFun() {
+      text.value = "";
+      pointFlag = false;
+    }
+
+    function eraserFun() {
+      if (text.value[text.value.length - 1] == ".") pointFlag = false;
+      text.value = text.value.slice(0, -1);
+    }
+
+    onload = () => {
+      text.value = "";
+    }
+  </script>
+</html>

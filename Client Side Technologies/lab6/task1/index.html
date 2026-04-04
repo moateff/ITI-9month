@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Click me</button>
+    <script>
+        function wait5sec() {
+            const end = Date.now() + 5000;
+            while (Date.now() < end) {
+                console.log(end - Date.now());
+            }
+        }
+
+        document.querySelector('button').addEventListener('click', () => {
+            console.log("Blocking started");
+            wait5sec();
+            console.log("Blocking ended");
+        });
+    </script>
+</body>
+</html>

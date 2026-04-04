@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>keydown vs keypress</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .log {
+            margin-top: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            height: 220px;
+            overflow-y: auto;
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>keydown vs keypress</h2>
+    <input type="text" placeholder="Type here">
+    <div class="log" id="log"></div>
+
+    <script>
+        const logBox = document.getElementById("log");
+
+        function log(message) {
+            logBox.innerHTML += message + "<br>";
+            logBox.scrollTop = logBox.scrollHeight;
+        }
+
+        document.querySelector("input").addEventListener("keydown", (event) => {
+            log("keydown > key: " + event.key);
+        });
+
+        document.querySelector("input").addEventListener("keypress", (event) => {
+            log("keypress > key: " + event.key);
+        });
+    </script>
+
+</body>
+</html>

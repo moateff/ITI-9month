@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form action="mainpage.html">
+        <label>
+            Name:
+            <input type="text" name="name">
+        </label>
+        <br><br>
+
+        <label>
+            Email:
+            <input type="email" name="email">
+        </label>
+        <br><br>
+
+        <label>
+            Password:
+            <input type="password" name="password">
+        </label>
+        <br><br>
+
+        <label>
+            Gender:
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </label>
+        <br><br>
+
+        <label>
+            Country:
+            <select name="country">
+                <option>Egypt</option>
+                <option>USA</option>
+                <option>UK</option>
+            </select>
+        </label>
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+    </form>
+
+    <script>
+        document.querySelector('form').addEventListener('submit', (event) => {
+            let choices = confirm("Are you sure you want to submit the form?");
+            if (!choices) {
+                event.preventDefault();
+            }
+        })
+
+        let hasInput = false;
+
+        // create custom event
+        let custEvent = new Event("custEvent");
+        
+        // listen for user input
+        document.querySelector('form').addEventListener("input", () => {
+            hasInput = true;
+        });
+
+        // listen for the custom event
+        document.querySelector('form').addEventListener('custEvent', (event) => {
+            alert("No data entered for 30 seconds!");
+        });
+
+        // fire custom event after 30 seconds if no input
+        setTimeout(() => {
+            if (!hasInput) {
+                document.querySelector('form').dispatchEvent(custEvent);
+            }
+        }, 30000);
+    </script>
+</body>
+</html>
