@@ -1,0 +1,22 @@
+div {
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+span {
+    display: none;
+    font-size: 14px;
+}
+
+input:invalid + span {
+    display: inline;
+}
+
+input:invalid {
+    border-color: red;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Video Player</title>
+</head>
+<body>
+
+<div class="player">
+    <video class="video" width="300">
+        <source src="frozen.mp4" type="video/mp4">
+    </video>
+
+    <div class="controls">
+        <input type="range" class="time-range">
+        <span><span class="time-stamp">0:00</span> / <span class="time-max">0:00</span></span>
+
+        <div class="buttons">
+            <button class="play-button">Play</button>
+            <button class="stop-button">Stop</button>
+            <button class="start-button">&lt;&lt;</button>
+            <button class="backward-button">&lt;</button>
+            <button class="forward-button">&gt;</button>
+            <button class="end-button">&gt;&gt;</button>
+        </div>
+
+        <div>
+            <input type="range" class="sound-range">
+            <button class="mute-button">Mute</button>
+        </div>
+
+        <div>
+            <span>Speed</span>
+            <input type="range" class="speed-range">
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

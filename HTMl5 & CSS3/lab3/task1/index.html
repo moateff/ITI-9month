@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Change Email Address</h2>
+
+<form>
+    <div>
+        <input type="text" id="username" required pattern="[A-Za-z]+" placeholder="Username">
+        <span>the required username may only be a series of alphabetic characters</span>
+    </div>
+    <div>
+        <input type="email" id="email" required placeholder="Email">  
+        <span>the required email address may not include any special characters other than the '@' sign</span>
+    </div>
+
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
