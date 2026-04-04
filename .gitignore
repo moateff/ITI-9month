@@ -1,3 +1,4 @@
+.vs
 .vscode
 
 *.exe
@@ -9,3 +10,9 @@
 *.odt
 
 *.ss
+
+**/bin/
+**/obj/
+*.csproj
+*.sln
+*.resx
