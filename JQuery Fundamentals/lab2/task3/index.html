@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.css">
+
+    <style>
+        .droppable {
+            width: 450px;
+            height: 450px;
+            border: 1px solid black;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+
+        .draggable {
+            width: 250px;
+            height: 250px;
+            border: 1px solid black;
+            background-color: yellow;
+            position: absolute;
+            top: 150px;
+            left: 700px
+        }
+
+        .rabbit {
+            padding-left: 50px;
+            width: 150px;
+            height: 200px;
+        }
+
+        .dragText {
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
+
+</head>
+<body>
+    <div class="droppable ui-widget-content">
+        <img class="blackHole" src="./3.jpg">
+    </div>
+
+    <div class="draggable ui-widget-content">
+        <img class="rabbit" src="./2.jpg">
+        <div class="dragText">Drag me</div>
+    </div>
+
+    <p class="text"></p>
+
+    <script>
+        $(function() {
+            // drag
+            $(".draggable").draggable(); 
+
+            // shake
+            $(".draggable").on("click", function() {
+                $(this).effect("shake", { direction: "left", times: 3, distance: 20 }, 500);
+            });
+
+            // drop and hide 
+            $(".droppable").droppable({
+                drop: function(event, ui) {
+                    $(".draggable").hide("explode", {}, 1000);
+                    $(".text").html("Dropped!");                    
+                }
+            });
+        });
+    </script>
+</body>
+</html>

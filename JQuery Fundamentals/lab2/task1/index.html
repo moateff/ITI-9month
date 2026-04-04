@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .carImg {
+            position: relative;
+        }
+
+        .carTag {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <img class="carImg" src="./car.gif">
+    <p class="carTag" ></p>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+        $(document).ready(() => {
+            $('.carImg').animate(
+                { 
+                    left: "1000px" 
+                }, {
+                    duration: 2000, 
+                    easing: "linear",
+                    step: function() {
+                        $('.carTag').text($('.carImg')[0].outerHTML);
+                    }
+                }
+            );
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navigation Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item" id="about">About</li>
+            <li class="nav-item" id="gallery">Gallery</li>
+            <li class="nav-item" id="services">Services</li>
+            <li class="nav-item" id="complaint">Complaint</li>
+        </ul>
+    </nav>
+
+    <!-- Sections -->
+    <section class="section section-boxed about">
+        <p>Story about the snowman</p>
+    </section>
+
+    <section class="section section-boxed gallery">
+        <div class="gallery">
+            <img class="prev" src="./images/left.png" alt="Previous">
+            <img class="image" src="./images/1.jpg" alt="Gallery image">
+            <img class="next" src="./images/right.png" alt="Next">
+        </div>
+    </section>
+
+    <section class="section section-boxed complaint">
+        <form class="form">
+            <label>
+                Name:&nbsp
+                <input type="text" name="name">
+            </label>
+
+            <label>
+                Email:
+                <input type="email" name="email">
+            </label>
+
+            <label>
+                Phone:
+                <input type="text" name="phone">
+            </label>
+
+            <label>
+                Complaint:
+                <textarea></textarea>
+            </label>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <section class="section section-boxed complaint-result">
+        <div>
+            your complaint is <b><span class="complaint-text"></span></b>
+        </div>
+
+        <div>
+            your name is <b><span class="name-text"></span></b>
+        </div>
+
+        <div>
+            your email is <b><span class="email-text"></span></b>
+        </div>
+
+        <div>
+            your phone is <b><span class="phone-text"></span></b>
+        </div>
+
+        <button>Back to edit</button>
+    </section>
+
+    <section class="section services">
+        <ul class="services-list">
+            <li class="services-item">Service 1</li>
+            <li class="services-item">Service 2</li>
+            <li class="services-item">Service 3</li>
+        </ul>
+    </section>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
