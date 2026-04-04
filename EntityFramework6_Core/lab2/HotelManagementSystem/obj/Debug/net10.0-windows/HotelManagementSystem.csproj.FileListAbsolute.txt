@@ -1,0 +1,323 @@
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\HotelManagementSystem.exe
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\HotelManagementSystem.deps.json
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\HotelManagementSystem.runtimeconfig.json
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\HotelManagementSystem.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\HotelManagementSystem.pdb
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Azure.Core.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Azure.Identity.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Humanizer.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Bcl.Cryptography.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Build.Framework.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Data.SqlClient.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Memory.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyModel.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Options.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Primitives.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Identity.Client.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Abstractions.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Logging.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Protocols.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Tokens.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.SqlServer.Server.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.VisualStudio.SolutionPersistence.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Mono.TextTemplating.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Newtonsoft.Json.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\System.ClientModel.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\System.Composition.AttributedModel.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\System.Composition.Convention.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\System.Composition.Hosting.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\System.Composition.Runtime.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\System.Composition.TypedParts.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\System.IdentityModel.Tokens.Jwt.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\System.Memory.Data.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\MetroFramework.Design.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\MetroFramework.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\MetroFramework.Fonts.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\RestSharp.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Twilio.Api.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\RestSharp.xml
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Twilio.Api.pdb
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\Twilio.Api.xml
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.csproj.AssemblyReference.cache
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.UI.FinalizePayment.resources
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.UI.FoodMenu.resources
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.UI.Frontend.resources
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.UI.Kitchen.resources
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.UI.License.resources
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.UI.Login.resources
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.csproj.GenerateResource.cache
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.AssemblyInfoInputs.cache
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.AssemblyInfo.cs
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.csproj.CoreCompileInputs.cache
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\HotelMan.F5E31FD0.Up2Date
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\refint\HotelManagementSystem.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.pdb
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.genruntimeconfig.cache
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\obj\Debug\net10.0-windows\ref\HotelManagementSystem.dll
+S:\ITI-9Months-IDA\C#\Day-16\LabTask\HotelManagementSystem\HotelManagementSystem\bin\Debug\net10.0-windows\HotelManagementSystem.dll.config
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\HotelManagementSystem.exe
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\HotelManagementSystem.dll.config
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\HotelManagementSystem.deps.json
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\HotelManagementSystem.runtimeconfig.json
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\HotelManagementSystem.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\HotelManagementSystem.pdb
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Humanizer.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Bcl.Cryptography.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Build.Framework.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Data.SqlClient.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Memory.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyModel.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Options.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Extensions.Primitives.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Abstractions.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Logging.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Protocols.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Tokens.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.SqlServer.Server.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.VisualStudio.SolutionPersistence.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Mono.TextTemplating.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Newtonsoft.Json.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\System.Composition.AttributedModel.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\System.Composition.Convention.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\System.Composition.Hosting.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\System.Composition.Runtime.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\System.Composition.TypedParts.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\System.IdentityModel.Tokens.Jwt.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\MetroFramework.Design.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\MetroFramework.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\MetroFramework.Fonts.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\RestSharp.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Twilio.Api.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\RestSharp.xml
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Twilio.Api.pdb
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Twilio.Api.xml
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.csproj.AssemblyReference.cache
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.UI.FinalizePayment.resources
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.UI.FoodMenu.resources
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.UI.Frontend.resources
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.UI.Kitchen.resources
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.UI.License.resources
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.UI.Login.resources
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.csproj.GenerateResource.cache
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.AssemblyInfoInputs.cache
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.AssemblyInfo.cs
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.csproj.CoreCompileInputs.cache
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.sourcelink.json
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelMan.F5E31FD0.Up2Date
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\refint\HotelManagementSystem.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.pdb
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\HotelManagementSystem.genruntimeconfig.cache
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\obj\Debug\net10.0-windows\ref\HotelManagementSystem.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Data.SqlClient.Extensions.Abstractions.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Microsoft.Data.SqlClient.Internal.Logging.dll
+S:\ITI-9month\Entity Framework 6 & Core\lab2\HotelManagementSystem\bin\Debug\net10.0-windows\Dapper.dll

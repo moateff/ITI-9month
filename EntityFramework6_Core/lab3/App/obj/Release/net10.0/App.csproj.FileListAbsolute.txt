@@ -1,0 +1,30 @@
+/mnt/shared/ITI-9month/Entity Framework 6 & Core/lab3/App/bin/Release/net10.0/App.deps.json
+/mnt/shared/ITI-9month/Entity Framework 6 & Core/lab3/App/bin/Release/net10.0/App.runtimeconfig.json
+/mnt/shared/ITI-9month/Entity Framework 6 & Core/lab3/App/bin/Release/net10.0/App.dll
+/mnt/shared/ITI-9month/Entity Framework 6 & Core/lab3/App/bin/Release/net10.0/App.pdb
+/mnt/shared/ITI-9month/Entity Framework 6 & Core/lab3/App/obj/Release/net10.0/App.csproj.AssemblyReference.cache
+/mnt/shared/ITI-9month/Entity Framework 6 & Core/lab3/App/obj/Release/net10.0/App.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/shared/ITI-9month/Entity Framework 6 & Core/lab3/App/obj/Release/net10.0/App.AssemblyInfoInputs.cache
+/mnt/shared/ITI-9month/Entity Framework 6 & Core/lab3/App/obj/Release/net10.0/App.AssemblyInfo.cs
+/mnt/shared/ITI-9month/Entity Framework 6 & Core/lab3/App/obj/Release/net10.0/App.csproj.CoreCompileInputs.cache
+/mnt/shared/ITI-9month/Entity Framework 6 & Core/lab3/App/obj/Release/net10.0/App.sourcelink.json
+/mnt/shared/ITI-9month/Entity Framework 6 & Core/lab3/App/obj/Release/net10.0/App.dll
+/mnt/shared/ITI-9month/Entity Framework 6 & Core/lab3/App/obj/Release/net10.0/refint/App.dll
+/mnt/shared/ITI-9month/Entity Framework 6 & Core/lab3/App/obj/Release/net10.0/App.pdb
+/mnt/shared/ITI-9month/Entity Framework 6 & Core/lab3/App/obj/Release/net10.0/App.genruntimeconfig.cache
+/mnt/shared/ITI-9month/Entity Framework 6 & Core/lab3/App/obj/Release/net10.0/ref/App.dll
+/mnt/shared/ITI-9month/EntityFramework6_Core/lab3/App/bin/Release/net10.0/App.deps.json
+/mnt/shared/ITI-9month/EntityFramework6_Core/lab3/App/bin/Release/net10.0/App.runtimeconfig.json
+/mnt/shared/ITI-9month/EntityFramework6_Core/lab3/App/bin/Release/net10.0/App.dll
+/mnt/shared/ITI-9month/EntityFramework6_Core/lab3/App/bin/Release/net10.0/App.pdb
+/mnt/shared/ITI-9month/EntityFramework6_Core/lab3/App/obj/Release/net10.0/App.csproj.AssemblyReference.cache
+/mnt/shared/ITI-9month/EntityFramework6_Core/lab3/App/obj/Release/net10.0/App.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/shared/ITI-9month/EntityFramework6_Core/lab3/App/obj/Release/net10.0/App.AssemblyInfoInputs.cache
+/mnt/shared/ITI-9month/EntityFramework6_Core/lab3/App/obj/Release/net10.0/App.AssemblyInfo.cs
+/mnt/shared/ITI-9month/EntityFramework6_Core/lab3/App/obj/Release/net10.0/App.csproj.CoreCompileInputs.cache
+/mnt/shared/ITI-9month/EntityFramework6_Core/lab3/App/obj/Release/net10.0/App.sourcelink.json
+/mnt/shared/ITI-9month/EntityFramework6_Core/lab3/App/obj/Release/net10.0/App.dll
+/mnt/shared/ITI-9month/EntityFramework6_Core/lab3/App/obj/Release/net10.0/refint/App.dll
+/mnt/shared/ITI-9month/EntityFramework6_Core/lab3/App/obj/Release/net10.0/App.pdb
+/mnt/shared/ITI-9month/EntityFramework6_Core/lab3/App/obj/Release/net10.0/App.genruntimeconfig.cache
+/mnt/shared/ITI-9month/EntityFramework6_Core/lab3/App/obj/Release/net10.0/ref/App.dll
