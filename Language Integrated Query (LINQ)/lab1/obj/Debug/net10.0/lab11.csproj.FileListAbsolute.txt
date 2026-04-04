@@ -1,0 +1,15 @@
+/mnt/shared/ITI-9month/C#/lab11/bin/Debug/net10.0/lab11
+/mnt/shared/ITI-9month/C#/lab11/bin/Debug/net10.0/lab11.deps.json
+/mnt/shared/ITI-9month/C#/lab11/bin/Debug/net10.0/lab11.runtimeconfig.json
+/mnt/shared/ITI-9month/C#/lab11/bin/Debug/net10.0/lab11.dll
+/mnt/shared/ITI-9month/C#/lab11/bin/Debug/net10.0/lab11.pdb
+/mnt/shared/ITI-9month/C#/lab11/obj/Debug/net10.0/lab11.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/shared/ITI-9month/C#/lab11/obj/Debug/net10.0/lab11.AssemblyInfoInputs.cache
+/mnt/shared/ITI-9month/C#/lab11/obj/Debug/net10.0/lab11.AssemblyInfo.cs
+/mnt/shared/ITI-9month/C#/lab11/obj/Debug/net10.0/lab11.csproj.CoreCompileInputs.cache
+/mnt/shared/ITI-9month/C#/lab11/obj/Debug/net10.0/lab11.sourcelink.json
+/mnt/shared/ITI-9month/C#/lab11/obj/Debug/net10.0/lab11.dll
+/mnt/shared/ITI-9month/C#/lab11/obj/Debug/net10.0/refint/lab11.dll
+/mnt/shared/ITI-9month/C#/lab11/obj/Debug/net10.0/lab11.pdb
+/mnt/shared/ITI-9month/C#/lab11/obj/Debug/net10.0/lab11.genruntimeconfig.cache
+/mnt/shared/ITI-9month/C#/lab11/obj/Debug/net10.0/ref/lab11.dll
