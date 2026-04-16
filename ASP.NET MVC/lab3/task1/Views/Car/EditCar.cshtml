@@ -1,0 +1,32 @@
+@{
+    var selectedCar = ViewBag.car;
+}
+
+<h1>Edit Car</h1>
+<br />
+
+<form action="/Car/UpdateCar" method="post">
+    <input type="hidden" name="num" value="@selectedCar.Num" />
+
+    <label>
+        Color: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="color" value="@selectedCar.Color" />
+    </label><br />
+
+    <label>
+        Model: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="model" value="@selectedCar.Model" />
+    </label><br />
+
+    <label>
+        Manfacture: &nbsp;
+        <input type="text" name="manfacture" value="@selectedCar.Manfacture" />
+    </label><br />
+
+    <br />
+
+    <input type="submit" class="btn btn-warning" value="Update" />
+
+</form><br />
+
+<a class="btn btn-primary" href="/Car/GetAllCars">Back to List</a>

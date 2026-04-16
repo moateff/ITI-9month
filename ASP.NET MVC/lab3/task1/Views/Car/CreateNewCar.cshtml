@@ -1,0 +1,25 @@
+<h1>Create New Car</h1>
+<br />
+
+<form action="/Car/AddNewCar" method="post">
+    <label>
+        Color: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="color" />
+    </label><br />
+
+    <label>
+        Model: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="model" />
+    </label><br />
+
+    <label>
+        Manfacture: &nbsp;
+        <input type="text" name="manfacture" />
+    </label><br />
+    
+
+    <input type="submit" class="btn btn-warning" value="Create" />
+
+</form><br />
+
+<a class="btn btn-primary" href="/Car/GetAllCars">Back to List</a>

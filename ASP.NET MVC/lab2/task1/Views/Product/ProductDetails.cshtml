@@ -1,0 +1,11 @@
+<h1>Show Product Details</h1>
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="~/Images/@ViewData["Picture"]" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">@ViewData["Name"]</h5>
+    <p class="card-text text-muted">Price: $@ViewData["Price"]</p>
+    <p class="card-text text-muted">Description: @ViewData["Description"]</p>
+    <a href="#" class="btn btn-primary">See more</a>
+  </div>
+</div>

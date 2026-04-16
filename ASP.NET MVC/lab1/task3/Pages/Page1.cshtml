@@ -1,0 +1,37 @@
+@page
+@model Page1Model
+
+<form>
+    <label>
+        Name: <input type="text" name="name"  required/>
+    </label><br />
+    <label>
+        Birthday: <input type="date" name="birthday" required/>
+    </label><br />
+    <label>
+        <input type="checkbox" name="graduated" /> IsGraduated
+    </label><br />
+
+    <input type="submit" value="Go" />
+</form>
+
+@{
+    var name = Request.Query["name"];
+    var birthday = Request.Query["birthday"];
+    var graduated = Request.Query["graduated"];
+}
+
+@if (!string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(birthday))
+{
+    <p style="color:red">Hello @name!</p>
+    <p style="color:blue"">Your birthday is @birthday</p>
+
+    if (graduated == "on")
+    {
+        <p>Graduated: Yes</p>
+    }
+    else
+    {
+        <p>Graduated: No</p>
+    }
+}

@@ -1,0 +1,17 @@
+@{
+    var user = ViewBag._user;
+}
+
+<h1>Show User Details</h1>
+
+<div>
+    <p>
+        Id: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @user.ID <br />
+        Name: &nbsp;&nbsp; @user.Name
+    </p>
+    <img src="~/Images/@user.Image" width="300"/>
+</div>
+
+<br />
+
+<a href="/User/Index" class="btn btn-primary">Back</a>

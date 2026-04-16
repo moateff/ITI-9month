@@ -1,0 +1,18 @@
+@{
+    var selectedCar = ViewBag.car;
+}
+
+<h1>Car Details</h1>
+<br />
+
+<div>
+    <p>
+        Number: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @selectedCar.Num <br />
+        Color: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @selectedCar.Color <br />
+        Model: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @selectedCar.Model <br />
+        Manfacture: &nbsp; @selectedCar.Manfacture
+    </p>
+</div><br />
+
+
+<a class="btn btn-primary" href="/Car/GetAllCars">Back to List</a>

@@ -1,0 +1,149 @@
+@page
+@{
+    bool formSubmitted = false;
+    string backgroundUrl = "";
+    string color = "";
+    string greeting = "";
+    bool showPicture = false;
+    string text = "";
+
+    if (Request.Method == "POST")
+    {
+        formSubmitted = true;
+
+        var backgroundFile = Request.Form["background"];
+        color = Request.Form["color"];
+        greeting = Request.Form["greeting"];
+        showPicture = Request.Form["picture"] == "on";
+        text = Request.Form["text"];
+
+        // Server-side path
+        var workingDir = Environment.CurrentDirectory;
+        var backgroundPath = System.IO.Path.Combine(workingDir, "wwwroot", "Images", "backgrounds", backgroundFile);
+
+        // Use default if missing
+        if (!System.IO.File.Exists(backgroundPath))
+            backgroundUrl = "/Images/backgrounds/default.jpg";
+        else
+            backgroundUrl = "/Images/backgrounds/" + backgroundFile;
+    }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Greeting Preview</title>
+    <style>
+        .results {
+            width: 500px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            background-size: cover;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Greeting Card Preview</h1>
+
+    <form method="post" id="greetingForm">
+        <label>Background:
+            <select name="background">
+                <option value="0.jpg">Image 1</option>
+                <option value="1.jpg">Image 2</option>
+                <option value="2.jpg">Image 3</option>
+                <option value="3.jpg">Image 4</option>
+                <option value="4.jpg">Image 5</option>
+                <option value="5.jpg">Image 6</option>
+                <option value="6.jpg">Image 7</option>
+                <option value="7.jpg">Image 8</option>
+                <option value="8.jpg">Image 9</option>
+                <option value="9.jpg">Image 10</option>
+            </select>
+        </label><br />
+
+        <label>Color:
+            <select name="color">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="yellow">Yellow</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+            </select>
+        </label><br />
+
+        <label>Greeting:
+            <label>
+                <input type="radio" name="greeting" value="Birthday" /> Birthday
+            </label>
+            <label>
+                <input type="radio" name="greeting" value="GetWell" /> Get Well
+            </label>
+            <label>
+                <input type="radio" name="greeting" value="Valentine" /> Valentine
+            </label>
+            <label>
+                <input type="radio" name="greeting" value="Congrats" /> Congrats
+            </label>
+        </label><br />
+
+        <label>Add Picture: <input type="checkbox" name="picture" /></label><br />
+
+        <label>Text:<br />
+            <textarea name="text" rows="4" cols="50"></textarea>
+        </label><br />
+
+        <input type="submit" value="Preview" />
+    </form>
+
+    @if (formSubmitted)
+    {
+        <div class="results" style="background-image: url('@backgroundUrl');">
+            @switch (greeting)
+            {
+                case "Birthday":
+                    <h1 style="color:@color">Happy Birthday!</h1>
+                    break;
+                case "GetWell":
+                    <h1 style="color:@color">Get Well Soon!</h1>
+                    break;
+                case "Valentine":
+                    <h1 style="color:@color">Happy Valentine's Day!</h1>
+                    break;
+                case "Congrats":
+                    <h1 style="color:@color">Congratulations!</h1>
+                    break;
+            }
+
+            @if (showPicture)
+            {
+                string pictureUrl = greeting switch
+                {
+                    "Birthday" => "/Images/cards/bd.jpg",
+                    "GetWell" => "/Images/cards/well.gif",
+                    "Valentine" => "/Images/cards/bd2.jpg",
+                    "Congrats" => "/Images/cards/congrats2.gif",
+                    _ => ""
+                };
+
+                if (!string.IsNullOrEmpty(pictureUrl))
+                {
+                    <img src="@pictureUrl" />
+                }
+            }
+
+            <h2 style="color:@color">@text</h2>
+        </div>
+    }
+</body>
+</html>
