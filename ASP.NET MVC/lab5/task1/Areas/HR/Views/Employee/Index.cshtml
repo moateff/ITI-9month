@@ -1,0 +1,57 @@
+@model IEnumerable<Employee>
+
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<h2>Employees</h2>
+
+<!-- Filter by Department -->
+<form method="post">
+    <label>Filter by Department:</label>
+    <select name="dept" class="form-control" onchange="this.form.submit()">
+        <option value="">-- All --</option>
+        @foreach (var d in ViewBag.depts as SelectList)
+        {
+            <option value="@d.Value" selected="@d.Selected">@d.Text</option>
+        }
+    </select>
+</form>
+
+<br />
+
+<a class="btn btn-success" asp-area="HR" asp-controller="Employee" asp-action="Create">Create New</a>
+
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Salary</th>
+            <th>Join Date</th>
+            <th>Phone</th>
+            <th>Department</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Email</td>
+            <td>@item.Salary</td>
+            <td>@item.joinDate.ToShortDateString()</td>
+            <td>@item.PhoneNum</td>
+            <td>@item.Dept?.Name</td>
+
+            <td>
+                <a asp-area="HR" asp-controller="Employee" asp-action="Details" asp-route-id="@item.EmpID" class="btn btn-primary">Details</a> 
+                <a asp-area="HR" asp-controller="Employee" asp-action="Edit" asp-route-id="@item.EmpID" class="btn btn-warning">Edit</a> 
+                <a asp-area="HR" asp-controller="Employee" asp-action="Delete" asp-route-id="@item.EmpID" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

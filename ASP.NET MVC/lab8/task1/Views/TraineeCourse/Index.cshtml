@@ -1,0 +1,47 @@
+@model IEnumerable<task1.Models.TraineeCourse>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create", class="btn btn-success">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Grade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Trainee)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Trainee.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Course.Topic)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { traineeId = item.TraineeId, courseId = item.CourseId }, new { @class = "btn btn-primary" }) 
+                @Html.ActionLink("Details", "Details", new { traineeId = item.TraineeId, courseId = item.CourseId }, new { @class = "btn btn-warning" }) 
+                @Html.ActionLink("Delete", "Delete", new { traineeId = item.TraineeId, courseId = item.CourseId }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

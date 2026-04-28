@@ -1,0 +1,53 @@
+@model List<Product>
+
+@functions {
+    public string Badge(string text)
+    {
+        if (string.IsNullOrEmpty(text))
+            return "";
+
+        string color = text.ToLower() switch
+        {
+            "active" => "success",
+            "pending" => "warning",
+            "inactive" => "secondary",
+            "blocked" => "danger",
+            _ => "dark"
+        };
+
+        return $"<span class='badge bg-{color}'>{text}</span>";
+    }
+
+    public string RenderRow(Product item)
+    {
+        return $@"
+<tr>
+    <td>{item.Id}</td>
+    <td>{item.Name}</td>
+    <td>{item.Category}</td>
+    <td>{Badge(item.Status)}</td>
+</tr>";
+    }
+    
+}
+
+<h1>Product List</h1>
+<br />
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(m => m[0].Id)</th>
+            <th>@Html.DisplayNameFor(m => m[0].Name)</th>
+            <th>@Html.DisplayNameFor(m => m[0].Category)</th>
+            <th>@Html.DisplayNameFor(m => m[0].Status)</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            @Html.Raw(RenderRow(item))
+        }
+    </tbody>
+</table>

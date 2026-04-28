@@ -1,0 +1,45 @@
+@model Car
+
+<h1>Edit Car</h1>
+
+<br />
+
+@using (Html.BeginForm("EditCar", "Car", FormMethod.Post))
+{
+    @Html.HiddenFor(m => m.Num)
+
+    <div class="row">
+        <label class="col-sm-3">
+            @Html.DisplayNameFor(m => m.Color):
+        </label>
+        <div class="col-sm-9">
+            @Html.EditorFor(m => m.Color)
+        </div>
+    </div>
+
+    <div class="row">
+        <label class="col-sm-3">
+            @Html.DisplayNameFor(m => m.Model):
+        </label>
+        <div class="col-sm-9">
+            @Html.EditorFor(m => m.Model)
+        </div>
+    </div>
+
+    <div class="row">
+        <label class="col-sm-3">
+            @Html.DisplayNameFor(m => m.Manfacture):
+        </label>
+        <div class="col-sm-9">
+            @Html.EditorFor(m => m.Manfacture)
+        </div>
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-warning">Update</button>
+}
+
+<br />
+
+@Html.ActionLink("Back to List", "GetAllCars", "Car", null, new { @class = "btn btn-primary" })

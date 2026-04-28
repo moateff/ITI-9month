@@ -1,0 +1,20 @@
+@model IEnumerable<task2.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Create New</a>
+</p>
+
+<div class="row g-5">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4">
+            @Html.Partial("_ProductDetailsPartial", item)
+        </div>
+    }
+</div>

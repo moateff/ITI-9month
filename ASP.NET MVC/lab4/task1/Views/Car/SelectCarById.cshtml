@@ -1,0 +1,41 @@
+@model Car
+
+<h1>Car Details</h1>
+
+<br />
+
+<div class="card shadow-sm p-3">
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(m => m.Num):
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(m => m.Num)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(m => m.Color):
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(m => m.Color)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(m => m.Model):
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(m => m.Model)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(m => m.Manfacture):
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(m => m.Manfacture)
+        </dd>
+    </dl>
+</div>
+
+<br />
+
+@Html.ActionLink("Back to List", "GetAllCars", "Car", null, new { @class = "btn btn-primary" })

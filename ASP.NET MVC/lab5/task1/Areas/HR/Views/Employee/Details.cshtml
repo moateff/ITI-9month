@@ -1,0 +1,14 @@
+@model Employee
+
+<h2>Employee Details</h2>
+
+<ul>
+    <li><b>Name:</b> @Model.Name</li>
+    <li><b>Email:</b> @Model.Email</li>
+    <li><b>Phone:</b> @Model.PhoneNum</li>
+    <li><b>Salary:</b> @Model.Salary</li>
+    <li><b>Join Date:</b> @Model.joinDate.ToShortDateString()</li>
+    <li><b>Department:</b> @Model.Dept?.Name</li>
+</ul>
+
+<a asp-area="HR" asp-controller="Employee" asp-action="Index" class="btn btn-primary">Back</a>

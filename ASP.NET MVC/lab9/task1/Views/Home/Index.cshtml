@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome Everone!</h1>
+    <environment include="Development">
+        <h6>We are in Development Mode</h6>
+    </environment>
+
+    <environment exclude="Development">
+        <h6>We are in Production Mode</h6>
+    </environment>
+</div>
+

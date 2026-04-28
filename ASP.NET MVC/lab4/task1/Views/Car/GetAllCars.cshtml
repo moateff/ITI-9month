@@ -1,0 +1,40 @@
+@model List<Car>
+
+<h1>Car List</h1>
+
+<br />
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model[0].Num)</th>
+            <th>@Html.DisplayNameFor(model => model[0].Color)</th>
+            <th>@Html.DisplayNameFor(model => model[0].Model)</th>
+            <th>@Html.DisplayNameFor(model => model[0].Manfacture)</th>
+            <th colspan="3">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var car in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m => car.Num)</td>
+                <td>@Html.DisplayFor(m => car.Color)</td>
+                <td>@Html.DisplayFor(m => car.Model)</td>
+                <td>@Html.DisplayFor(m => car.Manfacture)</td>
+
+                <td>
+                    @Html.ActionLink("Update", "EditCar", "Car", new { num = car.Num }, new { @class = "btn btn-warning" })
+                </td>
+                <td>
+                    @Html.ActionLink("Delete", "DeleteCar", "Car", new { num = car.Num }, new { @class = "btn btn-danger" })
+                </td>
+                <td>
+                    @Html.ActionLink("Details", "SelectCarById", "Car", new { num = car.Num }, new { @class = "btn btn-success" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table><br />
+
+@Html.ActionLink("Create New Car", "CreateNewCar", "Car", null, new { @class = "btn btn-primary" })

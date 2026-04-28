@@ -1,0 +1,49 @@
+@model Employee
+
+<h2>Create Employee</h2>
+
+<form method="post">
+
+    <div>
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div>
+        <label>Password</label>
+        <input asp-for="Password" class="form-control" type="password" />
+    </div>
+
+    <div>
+        <label>Salary</label>
+        <input asp-for="Salary" class="form-control" />
+    </div>
+
+    <div>
+        <label>Join Date</label>
+        <input asp-for="joinDate" class="form-control" type="date" />
+    </div>
+
+    <div>
+        <label>Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div>
+        <label>Phone</label>
+        <input asp-for="PhoneNum" class="form-control" />
+    </div>
+
+    <div>
+        <label>Department</label>
+        <select asp-for="DeptID" class="form-control">
+            @foreach (var d in ViewBag.DeptID)
+            {
+                <option value="@d.DeptID">@d.Name</option>
+            }
+        </select>
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-success">Save</button>
+</form>
