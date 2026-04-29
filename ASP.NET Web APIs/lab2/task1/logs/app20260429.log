@@ -1,0 +1,17 @@
+2026-04-29 04:29:15.774 +03:00 [INF] Now listening on: http://localhost:5103
+2026-04-29 04:29:15.842 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 04:29:15.842 +03:00 [INF] Hosting environment: Development
+2026-04-29 04:29:15.842 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab2/task1
+2026-04-29 04:29:39.076 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5103/api/Test/ok - null null
+2026-04-29 04:29:39.112 +03:00 [INF] [Request] GET /api/Test/ok
+2026-04-29 04:29:39.151 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-29 04:29:39.156 +03:00 [INF] Executing endpoint 'TestController.OK (task1)'
+2026-04-29 04:29:39.171 +03:00 [INF] Route matched with {action = "OK", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OK() on controller TestController (task1).
+2026-04-29 04:29:39.175 +03:00 [INF] Before sending response
+2026-04-29 04:29:39.181 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-04-29 04:29:39.182 +03:00 [INF] After sending response
+2026-04-29 04:29:39.187 +03:00 [INF] Executed action TestController.OK (task1) in 11.2002ms
+2026-04-29 04:29:39.188 +03:00 [INF] Executed endpoint 'TestController.OK (task1)'
+2026-04-29 04:29:39.188 +03:00 [INF] [Response] 200 took 75 ms
+2026-04-29 04:29:39.194 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5103/api/Test/ok - 200 0 null 121.5632ms
+2026-04-29 04:29:54.341 +03:00 [INF] Application is shutting down...
