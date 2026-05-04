@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Get All Department</title>
+
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Get All Department</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Students' Count</th>
+                <th>Students' Names</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+
+    <script>
+        (async function getAllDepartments() {
+            const response = await fetch("http://localhost:5278/api/Department");
+            const departments = await response.json();
+
+            const tbody = document.getElementById("tbody");
+
+            departments.forEach(department => {
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td>${department.department}</td>
+                    <td>${department.count}</td>
+                    <td>${department.students.length === 0 ? "-" : department.students.join(", ")}</td>
+                    <td>${department.msg}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        })();
+    </script>
+</body>
+</html>
+

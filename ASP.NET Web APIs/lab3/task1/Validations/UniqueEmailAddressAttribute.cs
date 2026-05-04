@@ -23,9 +23,9 @@ public class UniqueEmailAddressAttribute : ValidationAttribute
         
         var ssn = (int)ssnProp.GetValue(validationContext.ObjectInstance);
 
-        var found = _context.Students.Any(s => s.Email == email && s.SSN != ssn);
+        var existingUser = _context.Students.Any(s => s.Email == email && s.SSN != ssn);
 
-        if (found == true)
+        if (existingUser == true)
         {
             return new ValidationResult("Email already exists");
         }

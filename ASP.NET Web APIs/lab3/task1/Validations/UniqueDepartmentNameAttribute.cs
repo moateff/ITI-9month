@@ -3,11 +3,11 @@ using task1.Context;
 
 namespace task1.Validations;
 
-public class UniqueEmailAddressAttribute : ValidationAttribute
+public class UniqueDepartmentNameAttribute : ValidationAttribute
 {
     private readonly AppDbContext _context;
 
-    public UniqueEmailAddressAttribute()
+    public UniqueDepartmentNameAttribute()
     {
         _context = new AppDbContext();
     }
@@ -17,17 +17,17 @@ public class UniqueEmailAddressAttribute : ValidationAttribute
         if (value == null)
             return ValidationResult.Success; 
 
-        var email = value.ToString();
+        var name = value.ToString();
 
-        var ssnProp = validationContext.ObjectType.GetProperty("SSN");
+        var idProp = validationContext.ObjectType.GetProperty("Id");
         
-        var ssn = (int)ssnProp.GetValue(validationContext.ObjectInstance);
+        var id = (int)idProp.GetValue(validationContext.ObjectInstance);
 
-        var found = _context.Students.Any(s => s.Email == email && s.SSN != ssn);
+        var found = _context.Departments.Any(d => d.Name == name && d.Id != id);
 
         if (found == true)
         {
-            return new ValidationResult("Email already exists");
+            return new ValidationResult("Department name already exists");
         }
 
         return ValidationResult.Success;

@@ -15,3 +15,257 @@
 2026-04-29 04:29:39.188 +03:00 [INF] [Response] 200 took 75 ms
 2026-04-29 04:29:39.194 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5103/api/Test/ok - 200 0 null 121.5632ms
 2026-04-29 04:29:54.341 +03:00 [INF] Application is shutting down...
+2026-04-29 17:59:51.649 +03:00 [INF] Now listening on: http://localhost:5103
+2026-04-29 17:59:52.079 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 17:59:52.081 +03:00 [INF] Hosting environment: Development
+2026-04-29 17:59:52.082 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab2/task1
+2026-04-29 18:03:30.154 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5103/swagger/ - null null
+2026-04-29 18:03:30.522 +03:00 [INF] [Request] GET /swagger/
+2026-04-29 18:03:31.475 +03:00 [INF] [Response] 301 took 29 ms
+2026-04-29 18:03:32.663 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5103/swagger/ - 301 0 null 2514.7214ms
+2026-04-29 18:03:33.397 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.html - null null
+2026-04-29 18:03:33.594 +03:00 [INF] [Request] GET /swagger/index.html
+2026-04-29 18:03:34.437 +03:00 [INF] [Response] 304 took 213 ms
+2026-04-29 18:03:34.707 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.html - 304 null null 1311.5116ms
+2026-04-29 18:03:35.186 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-29 18:03:35.463 +03:00 [INF] [Request] GET /swagger/swagger-ui-standalone-preset.js
+2026-04-29 18:03:35.266 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.css - null null
+2026-04-29 18:03:35.266 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui.css - null null
+2026-04-29 18:03:36.980 +03:00 [INF] [Request] GET /swagger/swagger-ui.css
+2026-04-29 18:03:36.053 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5103/swagger/index.js - null null
+2026-04-29 18:03:36.980 +03:00 [INF] [Request] GET /swagger/index.css
+2026-04-29 18:03:38.173 +03:00 [INF] [Response] 304 took 0 ms
+2026-04-29 18:03:38.170 +03:00 [INF] [Request] GET /swagger/index.js
+2026-04-29 18:03:38.172 +03:00 [INF] [Response] 304 took 1197 ms
+2026-04-29 18:03:38.365 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui-standalone-preset.js - 304 null null 3179.6963ms
+2026-04-29 18:03:38.366 +03:00 [INF] [Response] 304 took 0 ms
+2026-04-29 18:03:38.365 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.css - 304 null null 3098.7265ms
+2026-04-29 18:03:38.173 +03:00 [INF] [Response] 304 took 134 ms
+2026-04-29 18:03:38.770 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui.css - 304 null null 3503.7092ms
+2026-04-29 18:03:38.769 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5103/swagger/index.js - 304 null null 2715.8772ms
+2026-04-29 18:03:35.465 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui-bundle.js - null null
+2026-04-29 18:03:39.432 +03:00 [INF] [Request] GET /swagger/swagger-ui-bundle.js
+2026-04-29 18:03:39.797 +03:00 [INF] [Response] 304 took 249 ms
+2026-04-29 18:03:40.145 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5103/swagger/swagger-ui-bundle.js - 304 null null 4679.2978ms
+2026-04-29 18:03:54.344 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - null null
+2026-04-29 18:03:54.344 +03:00 [INF] [Request] GET /swagger/v1/swagger.json
+2026-04-29 18:03:54.619 +03:00 [INF] [Response] 200 took 274 ms
+2026-04-29 18:03:54.620 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 276.3819ms
+2026-04-29 18:04:15.846 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5103/api/Student - null null
+2026-04-29 18:04:15.848 +03:00 [INF] [Request] GET /api/Student
+2026-04-29 18:04:15.852 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-29 18:04:15.860 +03:00 [INF] Executing endpoint 'StudentController.GetAll (task1)'
+2026-04-29 18:04:16.223 +03:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller StudentController (task1).
+2026-04-29 18:04:43.867 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[task1.Models.Student, task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-29 18:04:43.898 +03:00 [INF] Executed action StudentController.GetAll (task1) in 27667.2493ms
+2026-04-29 18:04:43.899 +03:00 [INF] Executed endpoint 'StudentController.GetAll (task1)'
+2026-04-29 18:04:43.899 +03:00 [INF] [Response] 200 took 28050 ms
+2026-04-29 18:04:43.899 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5103/api/Student - 200 null application/json; charset=utf-8 28053.5439ms
+2026-04-29 18:05:03.482 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5103/api/Student - application/json 150
+2026-04-29 18:05:03.485 +03:00 [INF] [Request] POST /api/Student
+2026-04-29 18:05:03.486 +03:00 [INF] Executing endpoint 'StudentController.Add (task1)'
+2026-04-29 18:05:03.520 +03:00 [INF] Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.Models.Student) on controller StudentController (task1).
+2026-04-29 18:05:05.184 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-29 18:05:05.213 +03:00 [INF] Executed action StudentController.Add (task1) in 1693.0543ms
+2026-04-29 18:05:05.214 +03:00 [INF] Executed endpoint 'StudentController.Add (task1)'
+2026-04-29 18:05:05.215 +03:00 [INF] [Response] 400 took 1729 ms
+2026-04-29 18:05:05.215 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5103/api/Student - 400 null application/problem+json; charset=utf-8 1733.1695ms
+2026-04-29 18:05:31.287 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5103/api/Student - application/json 150
+2026-04-29 18:05:31.287 +03:00 [INF] [Request] POST /api/Student
+2026-04-29 18:05:31.288 +03:00 [INF] Executing endpoint 'StudentController.Add (task1)'
+2026-04-29 18:05:31.288 +03:00 [INF] Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.Models.Student) on controller StudentController (task1).
+2026-04-29 18:05:31.305 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-29 18:05:31.306 +03:00 [INF] Executed action StudentController.Add (task1) in 16.8567ms
+2026-04-29 18:05:31.306 +03:00 [INF] Executed endpoint 'StudentController.Add (task1)'
+2026-04-29 18:05:31.308 +03:00 [INF] [Response] 400 took 20 ms
+2026-04-29 18:05:31.309 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5103/api/Student - 400 null application/problem+json; charset=utf-8 22.1612ms
+2026-04-29 18:05:38.541 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5103/api/Student - application/json 150
+2026-04-29 18:05:38.542 +03:00 [INF] [Request] POST /api/Student
+2026-04-29 18:05:38.542 +03:00 [INF] Executing endpoint 'StudentController.Add (task1)'
+2026-04-29 18:05:38.543 +03:00 [INF] Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.Models.Student) on controller StudentController (task1).
+2026-04-29 18:05:38.606 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-29 18:05:38.606 +03:00 [INF] Executed action StudentController.Add (task1) in 62.1743ms
+2026-04-29 18:05:38.607 +03:00 [INF] Executed endpoint 'StudentController.Add (task1)'
+2026-04-29 18:05:38.607 +03:00 [INF] [Response] 400 took 64 ms
+2026-04-29 18:05:38.607 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5103/api/Student - 400 null application/problem+json; charset=utf-8 65.9791ms
+2026-04-29 18:05:46.714 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5103/api/Student - application/json 150
+2026-04-29 18:05:46.714 +03:00 [INF] [Request] POST /api/Student
+2026-04-29 18:05:46.715 +03:00 [INF] Executing endpoint 'StudentController.Add (task1)'
+2026-04-29 18:05:46.716 +03:00 [INF] Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.Models.Student) on controller StudentController (task1).
+2026-04-29 18:05:46.721 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-29 18:05:46.722 +03:00 [INF] Executed action StudentController.Add (task1) in 5.4063ms
+2026-04-29 18:05:46.722 +03:00 [INF] Executed endpoint 'StudentController.Add (task1)'
+2026-04-29 18:05:46.722 +03:00 [INF] [Response] 400 took 7 ms
+2026-04-29 18:05:46.723 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5103/api/Student - 400 null application/problem+json; charset=utf-8 8.8219ms
+2026-04-29 18:06:04.091 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5103/api/Student - application/json 151
+2026-04-29 18:06:04.091 +03:00 [INF] [Request] POST /api/Student
+2026-04-29 18:06:04.092 +03:00 [INF] Executing endpoint 'StudentController.Add (task1)'
+2026-04-29 18:06:04.093 +03:00 [INF] Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.Models.Student) on controller StudentController (task1).
+2026-04-29 18:06:04.141 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-29 18:06:04.142 +03:00 [INF] Executed action StudentController.Add (task1) in 49.0832ms
+2026-04-29 18:06:04.142 +03:00 [INF] Executed endpoint 'StudentController.Add (task1)'
+2026-04-29 18:06:04.142 +03:00 [INF] [Response] 400 took 50 ms
+2026-04-29 18:06:04.143 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5103/api/Student - 400 null application/problem+json; charset=utf-8 51.4854ms
+2026-04-29 18:06:11.511 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5103/api/Student - application/json 151
+2026-04-29 18:06:11.511 +03:00 [INF] [Request] POST /api/Student
+2026-04-29 18:06:11.513 +03:00 [INF] Executing endpoint 'StudentController.Add (task1)'
+2026-04-29 18:06:11.513 +03:00 [INF] Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.Models.Student) on controller StudentController (task1).
+2026-04-29 18:06:11.577 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-29 18:06:11.578 +03:00 [INF] Executed action StudentController.Add (task1) in 63.8533ms
+2026-04-29 18:06:11.578 +03:00 [INF] Executed endpoint 'StudentController.Add (task1)'
+2026-04-29 18:06:11.579 +03:00 [INF] [Response] 400 took 67 ms
+2026-04-29 18:06:11.580 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5103/api/Student - 400 null application/problem+json; charset=utf-8 69.2206ms
+2026-04-29 18:06:34.079 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5103/api/Student - application/json 145
+2026-04-29 18:06:34.080 +03:00 [INF] [Request] POST /api/Student
+2026-04-29 18:06:34.080 +03:00 [INF] Executing endpoint 'StudentController.Add (task1)'
+2026-04-29 18:06:34.080 +03:00 [INF] Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.Models.Student) on controller StudentController (task1).
+2026-04-29 18:06:34.119 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-29 18:06:34.121 +03:00 [INF] Executed action StudentController.Add (task1) in 40.7939ms
+2026-04-29 18:06:34.122 +03:00 [INF] Executed endpoint 'StudentController.Add (task1)'
+2026-04-29 18:06:34.123 +03:00 [INF] [Response] 400 took 42 ms
+2026-04-29 18:06:34.123 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5103/api/Student - 400 null application/problem+json; charset=utf-8 43.7796ms
+2026-04-29 18:09:11.907 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5103/api/Student - application/json 120
+2026-04-29 18:09:11.908 +03:00 [INF] [Request] POST /api/Student
+2026-04-29 18:09:11.908 +03:00 [INF] Executing endpoint 'StudentController.Add (task1)'
+2026-04-29 18:09:11.908 +03:00 [INF] Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.Models.Student) on controller StudentController (task1).
+2026-04-29 18:09:11.909 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-29 18:09:11.909 +03:00 [INF] Executed action StudentController.Add (task1) in 1.0216ms
+2026-04-29 18:09:11.910 +03:00 [INF] Executed endpoint 'StudentController.Add (task1)'
+2026-04-29 18:09:11.910 +03:00 [INF] [Response] 400 took 1 ms
+2026-04-29 18:09:11.910 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5103/api/Student - 400 null application/problem+json; charset=utf-8 2.965ms
+2026-04-29 18:09:20.684 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5103/api/Student - application/json 134
+2026-04-29 18:09:20.685 +03:00 [INF] [Request] POST /api/Student
+2026-04-29 18:09:20.685 +03:00 [INF] Executing endpoint 'StudentController.Add (task1)'
+2026-04-29 18:09:20.686 +03:00 [INF] Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.Models.Student) on controller StudentController (task1).
+2026-04-29 18:09:20.688 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-29 18:09:20.689 +03:00 [INF] Executed action StudentController.Add (task1) in 3.4008ms
+2026-04-29 18:09:20.690 +03:00 [INF] Executed endpoint 'StudentController.Add (task1)'
+2026-04-29 18:09:20.690 +03:00 [INF] [Response] 400 took 4 ms
+2026-04-29 18:09:20.690 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5103/api/Student - 400 null application/problem+json; charset=utf-8 5.9418ms
+2026-04-29 18:09:36.504 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5103/api/Student - application/json 145
+2026-04-29 18:09:36.507 +03:00 [INF] [Request] POST /api/Student
+2026-04-29 18:09:36.508 +03:00 [INF] Executing endpoint 'StudentController.Add (task1)'
+2026-04-29 18:09:36.508 +03:00 [INF] Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.Models.Student) on controller StudentController (task1).
+2026-04-29 18:09:36.511 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-29 18:09:36.511 +03:00 [INF] Executed action StudentController.Add (task1) in 2.9275ms
+2026-04-29 18:09:36.511 +03:00 [INF] Executed endpoint 'StudentController.Add (task1)'
+2026-04-29 18:09:36.511 +03:00 [INF] [Response] 400 took 3 ms
+2026-04-29 18:09:36.512 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5103/api/Student - 400 null application/problem+json; charset=utf-8 7.2785ms
+2026-04-29 18:09:42.980 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5103/api/Student - null null
+2026-04-29 18:09:42.980 +03:00 [INF] [Request] GET /api/Student
+2026-04-29 18:09:42.981 +03:00 [INF] Executing endpoint 'StudentController.GetAll (task1)'
+2026-04-29 18:09:42.982 +03:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller StudentController (task1).
+2026-04-29 18:09:43.631 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[task1.Models.Student, task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-29 18:09:43.632 +03:00 [INF] Executed action StudentController.GetAll (task1) in 650.0173ms
+2026-04-29 18:09:43.633 +03:00 [INF] Executed endpoint 'StudentController.GetAll (task1)'
+2026-04-29 18:09:43.633 +03:00 [INF] [Response] 200 took 652 ms
+2026-04-29 18:09:43.634 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5103/api/Student - 200 null application/json; charset=utf-8 653.7728ms
+2026-04-29 18:10:40.808 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5103/api/Student - application/json 145
+2026-04-29 18:10:40.808 +03:00 [INF] [Request] POST /api/Student
+2026-04-29 18:10:40.809 +03:00 [INF] Executing endpoint 'StudentController.Add (task1)'
+2026-04-29 18:10:40.809 +03:00 [INF] Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.Models.Student) on controller StudentController (task1).
+2026-04-29 18:10:40.852 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-29 18:10:40.853 +03:00 [INF] Executed action StudentController.Add (task1) in 43.7544ms
+2026-04-29 18:10:40.853 +03:00 [INF] Executed endpoint 'StudentController.Add (task1)'
+2026-04-29 18:10:40.854 +03:00 [INF] [Response] 400 took 45 ms
+2026-04-29 18:10:40.854 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5103/api/Student - 400 null application/problem+json; charset=utf-8 46.2586ms
+2026-04-29 18:10:48.433 +03:00 [INF] Application is shutting down...
+2026-04-29 18:12:23.181 +03:00 [INF] Now listening on: http://localhost:5103
+2026-04-29 18:12:23.257 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 18:12:23.259 +03:00 [INF] Hosting environment: Development
+2026-04-29 18:12:23.259 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab2/task1
+2026-04-29 18:12:32.683 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5103/api/Student - application/json 145
+2026-04-29 18:12:32.740 +03:00 [INF] [Request] POST /api/Student
+2026-04-29 18:12:32.782 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-29 18:12:32.789 +03:00 [INF] Executing endpoint 'StudentController.Add (task1)'
+2026-04-29 18:12:32.818 +03:00 [INF] Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.Models.Student) on controller StudentController (task1).
+2026-04-29 18:12:37.371 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'task1.Models.Student'.
+2026-04-29 18:12:37.433 +03:00 [INF] Executed action StudentController.Add (task1) in 4568.0655ms
+2026-04-29 18:12:37.434 +03:00 [INF] Executed endpoint 'StudentController.Add (task1)'
+2026-04-29 18:12:37.435 +03:00 [INF] [Response] 201 took 4692 ms
+2026-04-29 18:12:37.437 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5103/api/Student - 201 null application/json; charset=utf-8 4759.0558ms
+2026-04-29 18:12:46.002 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5103/api/Student - application/json 145
+2026-04-29 18:12:46.005 +03:00 [INF] [Request] POST /api/Student
+2026-04-29 18:12:46.008 +03:00 [INF] Executing endpoint 'StudentController.Add (task1)'
+2026-04-29 18:12:46.008 +03:00 [INF] Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.Models.Student) on controller StudentController (task1).
+2026-04-29 18:12:46.023 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-04-29 18:12:46.076 +03:00 [INF] Executed action StudentController.Add (task1) in 68.2317ms
+2026-04-29 18:12:46.077 +03:00 [INF] Executed endpoint 'StudentController.Add (task1)'
+2026-04-29 18:12:46.078 +03:00 [INF] [Response] 400 took 71 ms
+2026-04-29 18:12:46.078 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5103/api/Student - 400 null application/problem+json; charset=utf-8 77.1701ms
+2026-04-29 18:15:42.897 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5103/api/Test - null null
+2026-04-29 18:15:42.924 +03:00 [INF] [Request] GET /api/Test
+2026-04-29 18:15:42.945 +03:00 [INF] Executing endpoint 'TestController.Index (task1)'
+2026-04-29 18:15:42.951 +03:00 [INF] Route matched with {action = "Index", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller TestController (task1).
+2026-04-29 18:15:42.955 +03:00 [INF] Executed action TestController.Index (task1) in 3.147ms
+2026-04-29 18:15:42.956 +03:00 [INF] Executed endpoint 'TestController.Index (task1)'
+2026-04-29 18:15:42.958 +03:00 [ERR] Something went wrong
+System.NotImplementedException: The method or operation is not implemented.
+   at TestController.Index() in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab2/task1/Controllers/TestController.cs:line 11
+   at lambda_method86(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ExceptionMiddleware.InvokeAsync(HttpContext context) in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab2/task1/Middlewares/ExceptionMiddleware.cs:line 19
+2026-04-29 18:15:43.096 +03:00 [INF] [Response] 500 took 171 ms
+2026-04-29 18:15:43.097 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5103/api/Test - 500 null application/json 200.1389ms
+2026-04-29 18:16:50.030 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5103/api/Test/error - null null
+2026-04-29 18:16:50.031 +03:00 [INF] [Request] GET /api/Test/error
+2026-04-29 18:16:50.033 +03:00 [INF] Executing endpoint 'TestController.Error (task1)'
+2026-04-29 18:16:50.036 +03:00 [INF] Route matched with {action = "Error", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller TestController (task1).
+2026-04-29 18:16:50.042 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-29 18:16:50.045 +03:00 [INF] Executed action TestController.Error (task1) in 7.5518ms
+2026-04-29 18:16:50.046 +03:00 [INF] Executed endpoint 'TestController.Error (task1)'
+2026-04-29 18:16:50.046 +03:00 [INF] [Response] 500 took 14 ms
+2026-04-29 18:16:50.048 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5103/api/Test/error - 500 null application/json; charset=utf-8 17.673ms
+2026-04-29 18:18:40.922 +03:00 [INF] Application is shutting down...
+2026-04-29 18:19:11.674 +03:00 [INF] Now listening on: http://localhost:5103
+2026-04-29 18:19:11.744 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-29 18:19:11.745 +03:00 [INF] Hosting environment: Development
+2026-04-29 18:19:11.746 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab2/task1
+2026-04-29 18:19:25.162 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5103/api/Test/error - null null
+2026-04-29 18:19:25.256 +03:00 [INF] [Request] GET /api/Test/error
+2026-04-29 18:19:25.305 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-29 18:19:25.312 +03:00 [INF] Executing endpoint 'TestController.Error (task1)'
+2026-04-29 18:19:25.332 +03:00 [INF] Route matched with {action = "Error", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller TestController (task1).
+2026-04-29 18:19:25.338 +03:00 [ERR] Something went wrong
+System.Exception: Db exception
+   at TestController.Error() in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab2/task1/Controllers/TestController.cs:line 18
+   at lambda_method4(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2026-04-29 18:19:25.376 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-29 18:19:25.419 +03:00 [INF] Executed action TestController.Error (task1) in 78.3311ms
+2026-04-29 18:19:25.421 +03:00 [INF] Executed endpoint 'TestController.Error (task1)'
+2026-04-29 18:19:25.421 +03:00 [INF] [Response] 500 took 163 ms
+2026-04-29 18:19:25.424 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5103/api/Test/error - 500 null application/json; charset=utf-8 267.4125ms
+2026-04-29 18:19:45.601 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5103/api/Test/ok - null null
+2026-04-29 18:19:45.608 +03:00 [INF] [Request] GET /api/Test/ok
+2026-04-29 18:19:45.611 +03:00 [INF] Executing endpoint 'TestController.OK (task1)'
+2026-04-29 18:19:45.619 +03:00 [INF] Route matched with {action = "OK", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OK() on controller TestController (task1).
+2026-04-29 18:19:45.621 +03:00 [INF] Before sending response
+2026-04-29 18:19:45.628 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-04-29 18:19:45.629 +03:00 [INF] After sending response
+2026-04-29 18:19:45.630 +03:00 [INF] Executed action TestController.OK (task1) in 9.7927ms
+2026-04-29 18:19:45.630 +03:00 [INF] Executed endpoint 'TestController.OK (task1)'
+2026-04-29 18:19:45.630 +03:00 [INF] [Response] 200 took 21 ms
+2026-04-29 18:19:45.631 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5103/api/Test/ok - 200 0 null 30.1996ms
+2026-04-29 18:20:09.338 +03:00 [INF] Application is shutting down...

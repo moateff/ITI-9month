@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Department</title>
+
+    <style>
+        h2 {
+            text-align: center;
+        }
+        
+        label {
+            display: inline-block;
+            width: 100px;
+            text-align: right;
+            margin-right: 10px;
+        }
+
+        input {
+            margin-bottom: 10px;
+        }
+
+        button {
+            margin-top: 10px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Add Department</h2>
+
+    <form id="deptForm">
+
+        <label>Name</label>
+        <input type="text" id="name" required minlength="3" maxlength="50"><br>
+
+        <label>Location</label>
+        <input type="text" id="location" required minlength="3" maxlength="50"><br>
+
+        <label>Phone</label>
+        <input type="tel" id="phoneNumber" required><br>
+
+        <label>Manager</label>
+        <input type="text" id="manager" required minlength="3" maxlength="50"><br>
+
+        <button type="button" onclick="addDepartment()">Submit</button>
+
+    </form>
+
+    <script>
+        async function addDepartment() {
+
+            const dept = {
+                name: document.getElementById("name").value,
+                location: document.getElementById("location").value,
+                phoneNumber: document.getElementById("phoneNumber").value,
+                manger: document.getElementById("manager").value
+            };
+
+            const response = await fetch("http://localhost:5278/api/Department", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(dept)
+            });
+
+            if (response.ok) {
+                console.log("Department added successfully!");
+            } else {
+                const error = await response.text();
+                console.log("Error: " + error);
+            }
+        }
+    </script>
+
+</body>
+</html>
