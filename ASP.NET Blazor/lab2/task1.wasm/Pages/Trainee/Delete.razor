@@ -1,0 +1,53 @@
+@page "/Trainee/Delete/{Id:int}"
+@inject NavigationManager NavigationManager
+
+<PageTitle>Trainee</PageTitle>
+
+<h1>Delete Trainee</h1>
+
+@if (isDeleted && found == true)
+{
+    <p class="alert alert-success">Deleted successfully!</p>
+}
+else if (found == false)
+{
+    <p class="alert alert-danger">Delete failed!</p>
+}
+else
+{
+    <p><em>Deleting...</em></p>
+}
+
+@code {
+    bool? found;
+    public bool isDeleted = false;
+
+    [Parameter]
+    public int Id { get; set; }
+    private Trainee? trainee;
+
+    [Inject]
+    public ITraineeService TraineeService { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        trainee = await TraineeService.GetTrainee(Id);
+
+        if (trainee != null)
+        {
+            found = true;
+
+            await TraineeService.DeleteTrainee(Id);
+
+            isDeleted = true;
+
+            await Task.Delay(2000);
+        }
+        else
+        {
+            found = false;
+        }
+
+        NavigationManager.NavigateTo("/Trainee");
+    }
+}

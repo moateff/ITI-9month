@@ -1,0 +1,103 @@
+@page "/Track/Edit/{Id:int}"
+@inject NavigationManager Navigation
+
+<PageTitle>Track</PageTitle>
+
+<h1>Edit Track</h1>
+
+@if(showMessage)
+{
+    <p class="alert alert-success">Edited successfully!</p>
+}
+
+@if (track == null && found == null)
+{
+    <p><em>Loading...</em></p>
+}
+
+@if (found == true)
+{
+    <EditForm Model="@tempTrack" OnValidSubmit="EditTrack">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label>Name</label>
+            <InputText class="form-control" @bind-Value="tempTrack.Name" />
+            <ValidationMessage For="@(() => tempTrack.Name)" />
+        </div>
+
+        <div class="form-group mt-2">
+            <label>Description</label>
+            <InputText class="form-control" @bind-Value="tempTrack.Description" />
+            <ValidationMessage For="@(() => tempTrack.Description)" />
+        </div>
+
+        <br />
+
+        <button type="submit" class="btn btn-success">Save</button>
+        <button type="button" class="btn btn-secondary ms-2" @onclick="Cancel">Cancel</button>
+    </EditForm>
+}
+else if (found == false)
+{
+    <p class="alert alert-danger">Track not found</p>
+}
+
+@code {
+    bool? found;
+
+    public bool showMessage = false;
+
+    [Parameter]
+    public int Id { get; set; }
+    private Track? track;
+    private Track? tempTrack;
+
+    [Inject]
+    public ITrackService TrackService { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        track = await TrackService.GetTrack(Id);
+
+        if (track == null)
+        {
+            found = false;
+
+            await Task.Delay(2000);
+
+            Navigation.NavigateTo("/Track");
+        }
+        else
+        {
+            found = true;
+
+            tempTrack = new Track
+            {
+                Id = track.Id,
+                Name = track.Name,
+                Description = track.Description
+            };
+        }
+    }
+
+    async void EditTrack()
+    {
+        if (track != null && tempTrack != null)
+        {
+            await TrackService.UpdateTrack(track.Id, tempTrack);
+        }
+
+        showMessage = true;
+
+        await Task.Delay(2000);
+
+        Navigation.NavigateTo("/Track");
+    }
+
+    void Cancel()
+    {
+        Navigation.NavigateTo("/Track");
+    }
+}

@@ -1,0 +1,63 @@
+@page "/Track/Details/{Id:int}"
+@inject NavigationManager NavigationManager
+
+<PageTitle>Track</PageTitle>
+
+<h1>Details Track</h1>
+
+@if (track != null)
+{
+    <div>
+        <div class="row">
+            <div class="col-md-2">
+                <b>Id</b>
+            </div>
+            <div class=col-md-10>
+                @track.Id
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-2">
+                <b>Name</b>
+            </div>
+            <div class=col-md-10>
+                @track.Name
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-2">
+                <b>Description</b>
+            </div>
+            <div class=col-md-10>
+                @track.Description
+            </div>
+        </div>
+        <br />
+        <a class="btn btn-success" href="/Track/Edit/@track.Id">Edit</a>
+        <a class="btn btn-primary" href="/Track">Back to List</a>
+    </div>
+}
+else
+{
+    <p class="alert alert-danger">Track not found</p>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    private Track? track;
+
+    protected override async Task OnInitializedAsync()
+    {
+        track = Context.Tracks.FirstOrDefault(t => t.Id == Id);
+
+        if (track == null)
+        {
+            await Task.Delay(1000);
+
+            NavigationManager.NavigateTo("/Track");
+        }
+    }
+}

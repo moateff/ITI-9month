@@ -1,0 +1,92 @@
+@page "/Trainee/Create"
+@inject NavigationManager Navigation
+
+<PageTitle>Trainee</PageTitle>
+
+<h1>Create Trainee</h1>
+
+@if(showMessage)
+{
+    <p class="alert alert-success">Created successfully!</p>
+}
+
+<EditForm Model="@trainee" OnValidSubmit="CreateTrainee">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label>Name</label>
+        <InputText class="form-control" @bind-Value="trainee.Name" />
+        <ValidationMessage For="@(() => trainee.Name)" />
+    </div>
+
+    <div class="form-group mt-2">
+        <label>Gender</label>
+        <InputSelect class="form-control" @bind-Value="trainee.Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </InputSelect>
+        <ValidationMessage For="@(() => trainee.Gender)" />
+    </div>
+
+    <div class="form-group mt-2">
+        <label>Email</label>
+        <InputText class="form-control" @bind-Value="trainee.Email" />
+        <ValidationMessage For="@(() => trainee.Email)" />
+    </div>
+
+    <div class="form-group mt-2">
+        <label>Mobile Number</label>
+        <InputText class="form-control" @bind-Value="trainee.MobileNumber" />
+        <ValidationMessage For="@(() => trainee.MobileNumber)" />
+    </div>
+
+    <div class="form-group mt-2">
+        <label>Birth Date</label>
+        <InputDate class="form-control" @bind-Value="trainee.BirthDate" />
+    </div>
+
+    <div class="form-check mt-2">
+        <InputCheckbox class="form-check-input" @bind-Value="trainee.IsGraduated" />
+        <label class="form-check-label">Is Graduated</label>
+    </div>
+
+    <div class="form-group mt-2">
+        <label>Track</label>
+        <InputSelect class="form-control" @bind-Value="trainee.TrackId">
+            @foreach (var track in Context.Tracks)
+            {
+                <option value="@track.Id">@track.Name</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="@(() => trainee.Track)" />
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <button type="button" class="btn btn-secondary ms-2" @onclick="Cancel">Cancel</button>
+</EditForm>
+
+@code {
+    public bool showMessage = false;
+    private Trainee trainee = new Trainee();
+
+    async void CreateTrainee()
+    {
+        trainee.Id = Context.NextTraineeId;
+
+        ((List<Trainee>)Context.Trainees).Add(trainee);
+
+        showMessage = true;
+
+        await Task.Delay(1000);
+
+        Navigation.NavigateTo("/Trainee");
+    }
+
+    void Cancel()
+    {
+        Navigation.NavigateTo("/Trainee");
+    }
+}

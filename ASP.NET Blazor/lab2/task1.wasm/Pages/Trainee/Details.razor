@@ -1,0 +1,124 @@
+@page "/Trainee/Details/{Id:int}"
+@inject NavigationManager NavigationManager
+
+<PageTitle>Trainee</PageTitle>
+
+<h1>Details Trainee</h1>
+
+@if (trainee == null && found == null)
+{
+    <p><em>Loading...</em></p>
+}
+
+@if (found == true)
+{
+    <div>
+        <div class="row">
+            <div class="col-md-2">
+                <b>Id</b>
+            </div>
+            <div class=col-md-10>
+                @trainee.Id
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-2">
+                <b>Name</b>
+            </div>
+            <div class=col-md-10>
+                @trainee.Name
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-2">
+                <b>Gender</b>
+            </div>
+            <div class=col-md-10>
+                @trainee.Gender
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-2">
+                <b>Email</b>
+            </div>
+            <div class=col-md-10>
+                @trainee.Email
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-2">
+                <b>Mobile Number</b>
+            </div>
+            <div class=col-md-10>
+                @trainee.MobileNumber
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-2">
+                <b>Birth Date</b>
+            </div>            
+            <div class=col-md-10>            
+                @trainee.BirthDate
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-2">
+                <b>Is Graduated</b>
+            </div>
+            <div class=col-md-10>
+                @trainee.IsGraduated
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-2">
+                <b>Track</b>
+            </div>
+            <div class=col-md-10>
+                @trainee.Track.Name
+            </div>
+        </div>
+        <br />
+        <a class="btn btn-success" href="/Trainee/Edit/@trainee.Id">Edit</a>
+        <a class="btn btn-primary" href="/Trainee">Back to List</a>
+    </div>
+}
+else if (found == false)
+{
+    <p class="alert alert-danger">Trainee not found</p>
+}
+
+@code {
+    bool? found;
+
+    [Parameter]
+    public int Id { get; set; }
+    private Trainee? trainee;
+
+    [Inject]
+    public ITraineeService TraineeService { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        trainee = await TraineeService.GetTrainee(Id);
+
+        if (trainee == null)
+        {
+            found = false;
+
+            await Task.Delay(2000);
+
+            NavigationManager.NavigateTo("/Trainee");
+        }
+        else
+        {
+            found = true;
+        }
+    }
+}

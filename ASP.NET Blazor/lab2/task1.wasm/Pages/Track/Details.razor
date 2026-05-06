@@ -1,0 +1,79 @@
+@page "/Track/Details/{Id:int}"
+@inject NavigationManager NavigationManager
+
+<PageTitle>Track</PageTitle>
+
+<h1>Details Track</h1>
+
+@if (track == null && found == null)
+{
+    <p><em>Loading...</em></p>
+}
+
+@if (found == true)
+{
+    <div>
+        <div class="row">
+            <div class="col-md-2">
+                <b>Id</b>
+            </div>
+            <div class=col-md-10>
+                @track.Id
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-2">
+                <b>Name</b>
+            </div>
+            <div class=col-md-10>
+                @track.Name
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-2">
+                <b>Description</b>
+            </div>
+            <div class=col-md-10>
+                @track.Description
+            </div>
+        </div>
+        <br />
+        <a class="btn btn-success" href="/Track/Edit/@track.Id">Edit</a>
+        <a class="btn btn-primary" href="/Track">Back to List</a>
+    </div>
+}
+else if (found == false)
+{
+    <p class="alert alert-danger">Track not found</p>
+}
+
+@code {
+    bool? found;
+
+    [Parameter]
+    public int Id { get; set; }
+    private Track? track;
+
+    [Inject]
+    public ITrackService TrackService { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        track = await TrackService.GetTrack(Id);
+
+        if (track == null)
+        {
+            found = false;
+
+            await Task.Delay(2000);
+
+            NavigationManager.NavigateTo("/Track");
+        }
+        else 
+        {
+            found = true;
+        }
+    }
+}

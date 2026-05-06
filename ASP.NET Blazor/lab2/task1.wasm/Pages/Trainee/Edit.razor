@@ -1,0 +1,154 @@
+@page "/Trainee/Edit/{Id:int}"
+@inject NavigationManager Navigation
+
+<PageTitle>Trainee</PageTitle>
+
+<h1>Edit Trainee</h1>
+
+@if(showMessage)
+{
+    <p class="alert alert-success">Edited successfully!</p>
+}
+
+@if (trainee == null && found == null)
+{
+    <p><em>Loading...</em></p>
+}
+
+@if (found == true)
+{
+    <EditForm Model="@tempTrainee" OnValidSubmit="EditTrainee">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label>Name</label>
+            <InputText class="form-control" @bind-Value="tempTrainee.Name" />
+            <ValidationMessage For="@(() => tempTrainee.Name)" />
+        </div>
+
+        <div class="form-group mt-2">
+            <label>Gender</label>
+            <InputSelect class="form-control" @bind-Value="tempTrainee.Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </InputSelect>
+            <ValidationMessage For="@(() => tempTrainee.Gender)" />
+        </div>
+
+        <div class="form-group mt-2">
+            <label>Email</label>
+            <InputText class="form-control" @bind-Value="tempTrainee.Email" />
+            <ValidationMessage For="@(() => tempTrainee.Email)" />
+        </div>
+
+        <div class="form-group mt-2">
+            <label>Mobile Number</label>
+            <InputText class="form-control" @bind-Value="tempTrainee.MobileNumber" />
+            <ValidationMessage For="@(() => tempTrainee.MobileNumber)" />
+        </div>
+
+        <div class="form-group mt-2">
+            <label>Birth Date</label>
+            <InputDate class="form-control" @bind-Value="tempTrainee.BirthDate" />
+        </div>
+
+        <div class="form-check mt-2">
+            <InputCheckbox class="form-check-input" @bind-Value="tempTrainee.IsGraduated" />
+            <label class="form-check-label">Is Graduated</label>
+        </div>
+
+        <div class="form-group mt-2">
+            <label>Track</label>
+            <InputSelect class="form-control" @bind-Value="tempTrainee.TrackId">
+		 @if (tracks != null) 
+		 {
+		      @foreach (var track in tracks)
+		      {
+			   <option value="@track.Id">@track.Name</option>
+		      }            
+		 }
+            </InputSelect>
+            <ValidationMessage For="@(() => tempTrainee.Track)" />
+        </div>
+
+        <br />
+
+        <button type="submit" class="btn btn-success">Save</button>
+        <button type="button" class="btn btn-secondary ms-2" @onclick="Cancel">Cancel</button>
+    </EditForm>
+}
+else if (found == false)
+{
+    <p class="alert alert-danger">Trainee not found</p>
+}
+
+@code {
+    bool? found;
+
+    public bool showMessage = false;
+
+    [Parameter]
+    public int Id { get; set; }
+    private Trainee? trainee;
+    private Trainee? tempTrainee;
+
+    private IEnumerable<Track> tracks;
+
+    [Inject]
+    public ITraineeService TraineeService { get; set; }
+
+    [Inject]
+    public ITrackService TrackService { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        trainee = await TraineeService.GetTrainee(Id);
+
+        if (trainee == null)
+        {
+            found = false;
+
+            await Task.Delay(2000);
+
+            Navigation.NavigateTo("/Trainee");
+        }
+        else
+        {
+            tracks = await TrackService.GetTracks();
+
+            found = true;
+
+            tempTrainee = new Trainee
+            {
+                Id = trainee.Id,
+                Name = trainee.Name,
+                Gender = trainee.Gender,
+                Email = trainee.Email,
+                MobileNumber = trainee.MobileNumber,
+                BirthDate = trainee.BirthDate,
+                IsGraduated = trainee.IsGraduated,
+                TrackId = trainee.TrackId
+            };
+        }
+    }
+
+    async void EditTrainee()
+    {
+        if (trainee != null && tempTrainee != null)
+        {
+            await TraineeService.UpdateTrainee(trainee.Id, tempTrainee);
+        }
+
+        showMessage = true;
+
+        await Task.Delay(2000);
+
+        Navigation.NavigateTo("/Trainee");
+    }
+
+    void Cancel()
+    {
+        Navigation.NavigateTo("/Trainee");
+    }
+}

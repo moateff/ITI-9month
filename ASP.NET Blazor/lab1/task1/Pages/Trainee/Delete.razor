@@ -1,0 +1,39 @@
+@page "/Trainee/Delete/{Id:int}"
+@inject NavigationManager NavigationManager
+
+<PageTitle>Trainee</PageTitle>
+
+<h1>Delete Trainee</h1>
+
+@if (isDeleted)
+{
+    <p class="alert alert-success">Deleted successfully!</p>
+}
+else
+{
+    <p class="alert alert-danger">Delete failed!</p>
+}
+
+@code {
+    public bool isDeleted = false;
+
+    [Parameter]
+    public int Id { get; set; }
+    private Trainee? trainee;
+
+    protected override async Task OnInitializedAsync()
+    {
+        trainee = Context.Trainees.FirstOrDefault(t => t.Id == Id);
+
+        if (trainee != null)
+        {
+            ((List<Trainee>)Context.Trainees).Remove(trainee);
+
+            isDeleted = true;
+
+            await Task.Delay(1000);
+        }
+
+        NavigationManager.NavigateTo("/Trainee");
+    }
+}

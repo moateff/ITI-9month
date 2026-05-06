@@ -1,0 +1,54 @@
+@page "/Track/Delete/{Id:int}"
+@inject NavigationManager NavigationManager
+
+
+<PageTitle>Track</PageTitle>
+
+<h1>Delete Track</h1>
+
+@if (isDeleted && found == true)
+{
+    <p class="alert alert-success">Deleted successfully!</p>
+}
+else if (found == false)
+{
+    <p class="alert alert-danger">Delete failed!</p>
+}
+else
+{
+    <p><em>Deleting...</em></p>
+}
+
+@code {    
+    bool? found;
+    public bool isDeleted = false;
+
+    [Parameter]
+    public int Id { get; set; }
+    private Track? track;
+
+    [Inject]
+    public ITrackService TrackService { get; set; }
+        
+    protected override async Task OnInitializedAsync()
+    {
+        track = await TrackService.GetTrack(Id);
+
+        if (track != null)
+        {
+            found = true;
+
+            await TrackService.DeleteTrack(Id);
+
+            isDeleted = true;
+
+            await Task.Delay(2000);
+        }
+        else
+        {
+            found = false;
+        }
+
+        NavigationManager.NavigateTo("/Track");
+    }
+}

@@ -1,0 +1,56 @@
+@page "/Track/Create"
+@inject NavigationManager Navigation
+
+<PageTitle>Track</PageTitle>
+
+<h1>Create Track</h1>
+
+@if(showMessage)
+{
+    <p class="alert alert-success">Created successfully!</p>
+}
+
+<EditForm Model="@track" OnValidSubmit="CreateTrack">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label>Name</label>
+        <InputText class="form-control" @bind-Value="track.Name" />
+        <ValidationMessage For="@(() => track.Name)" />
+    </div>
+
+    <div class="form-group mt-2">
+        <label>Description</label>
+        <InputText class="form-control" @bind-Value="track.Description" />
+        <ValidationMessage For="@(() => track.Description)" />
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <button type="button" class="btn btn-secondary ms-2" @onclick="Cancel">Cancel</button>
+</EditForm>
+
+@code {
+    public bool showMessage = false;
+    private Track track = new Track();
+
+    async void CreateTrack()
+    {
+        track.Id = Context.NextTrackId;
+
+        ((List<Track>)Context.Tracks).Add(track);
+
+        showMessage = true;
+
+        await Task.Delay(1000);
+
+        Navigation.NavigateTo("/Track");
+    }
+
+    void Cancel()
+    {
+        Navigation.NavigateTo("/Track");
+    }
+}

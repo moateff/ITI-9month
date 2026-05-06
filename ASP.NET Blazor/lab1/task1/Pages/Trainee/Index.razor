@@ -1,0 +1,53 @@
+@page "/Trainee"
+
+<PageTitle>Trainee</PageTitle>
+
+<h1>Trainees</h1>
+
+@if (trainees == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <a class="btn btn-success" href="/Trainee/Create">Create</a>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Email</th>
+                <th colspan="3">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var trainee in trainees)
+            {
+                <tr>
+                    <td>@trainee.Name</td>
+                    <td>@trainee.Gender.ToString()</td>
+                    <td>@trainee.Email</td>
+                    <td>
+                        <a class="btn btn-primary" href="/Trainee/Edit/@trainee.Id">Edit</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-warning" href="/Trainee/Details/@trainee.Id">Details</a>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" href="/Trainee/Delete/@trainee.Id">Delete</a>
+                    </td> 
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IEnumerable<Trainee>? trainees;
+
+    protected override async Task OnInitializedAsync()
+    {
+        trainees = Context.Trainees.ToList();
+    }
+}
