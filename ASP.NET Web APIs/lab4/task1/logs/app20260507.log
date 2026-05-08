@@ -1,0 +1,1424 @@
+2026-05-07 20:44:30.662 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 20:44:30.707 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 20:44:30.707 +03:00 [INF] Hosting environment: Development
+2026-05-07 20:44:30.708 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 20:44:39.217 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/ - null null
+2026-05-07 20:44:39.263 +03:00 [INF] [Request] GET /
+2026-05-07 20:44:39.291 +03:00 [INF] [Response] 404 took 27 ms
+2026-05-07 20:44:39.318 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/ - 404 0 null 103.7535ms
+2026-05-07 20:44:39.320 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5132/, Response status code: 404
+2026-05-07 20:47:55.457 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 20:47:55.691 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 20:47:55.731 +03:00 [INF] Hosting environment: Development
+2026-05-07 20:47:55.731 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 20:49:04.863 +03:00 [INF] Application is shutting down...
+2026-05-07 20:49:38.865 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 20:49:38.950 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 20:49:38.951 +03:00 [INF] Hosting environment: Development
+2026-05-07 20:49:38.951 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 20:50:00.411 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/ - null null
+2026-05-07 20:50:00.440 +03:00 [INF] [Request] GET /
+2026-05-07 20:50:00.466 +03:00 [INF] [Response] 404 took 25 ms
+2026-05-07 20:50:00.480 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/ - 404 0 null 72.0457ms
+2026-05-07 20:50:00.482 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5132/, Response status code: 404
+2026-05-07 20:50:03.046 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/ - null null
+2026-05-07 20:50:03.047 +03:00 [INF] [Request] GET /
+2026-05-07 20:50:03.050 +03:00 [INF] [Response] 404 took 2 ms
+2026-05-07 20:50:03.051 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/ - 404 0 null 4.9548ms
+2026-05-07 20:50:03.051 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5132/, Response status code: 404
+2026-05-07 20:50:18.397 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/ - null null
+2026-05-07 20:50:18.405 +03:00 [INF] [Request] GET /swagger/
+2026-05-07 20:50:18.410 +03:00 [INF] [Response] 301 took 4 ms
+2026-05-07 20:50:18.411 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/ - 301 0 null 14.5002ms
+2026-05-07 20:50:18.418 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-07 20:50:18.419 +03:00 [INF] [Request] GET /swagger/index.html
+2026-05-07 20:50:18.524 +03:00 [INF] [Response] 200 took 105 ms
+2026-05-07 20:50:18.525 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 200 null text/html;charset=utf-8 106.7541ms
+2026-05-07 20:50:18.558 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - null null
+2026-05-07 20:50:18.560 +03:00 [INF] [Request] GET /swagger/swagger-ui.css
+2026-05-07 20:50:18.561 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.css - null null
+2026-05-07 20:50:18.562 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - null null
+2026-05-07 20:50:18.563 +03:00 [INF] [Request] GET /swagger/swagger-ui-bundle.js
+2026-05-07 20:50:18.562 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-07 20:50:18.566 +03:00 [INF] [Request] GET /swagger/swagger-ui-standalone-preset.js
+2026-05-07 20:50:18.566 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.js - null null
+2026-05-07 20:50:18.562 +03:00 [INF] [Request] GET /swagger/index.css
+2026-05-07 20:50:18.741 +03:00 [INF] [Response] 200 took 178 ms
+2026-05-07 20:50:18.953 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - 200 26479 text/css 394.8072ms
+2026-05-07 20:50:18.887 +03:00 [INF] [Response] 200 took 209 ms
+2026-05-07 20:50:18.957 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - 200 76613 text/javascript 394.7026ms
+2026-05-07 20:50:18.953 +03:00 [INF] [Response] 200 took 0 ms
+2026-05-07 20:50:18.959 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.css - 200 152 text/css 398.2941ms
+2026-05-07 20:50:18.952 +03:00 [INF] [Request] GET /swagger/index.js
+2026-05-07 20:50:18.961 +03:00 [INF] [Response] 200 took 1 ms
+2026-05-07 20:50:18.962 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.js - 200 null application/javascript;charset=utf-8 396.3063ms
+2026-05-07 20:50:18.965 +03:00 [INF] [Response] 200 took 400 ms
+2026-05-07 20:50:18.966 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - 200 418181 text/javascript 403.8623ms
+2026-05-07 20:50:19.587 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/favicon-16x16.png - null null
+2026-05-07 20:50:19.588 +03:00 [INF] [Request] GET /swagger/favicon-16x16.png
+2026-05-07 20:50:19.591 +03:00 [INF] [Response] 200 took 2 ms
+2026-05-07 20:50:19.602 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/favicon-16x16.png - 200 665 image/png 4.0026ms
+2026-05-07 20:50:20.092 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-07 20:50:20.092 +03:00 [INF] [Request] GET /swagger/v1/swagger.json
+2026-05-07 20:50:20.300 +03:00 [INF] [Response] 200 took 206 ms
+2026-05-07 20:50:20.300 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 207.8207ms
+2026-05-07 20:50:27.476 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Test - null null
+2026-05-07 20:50:27.478 +03:00 [INF] [Request] GET /api/Test
+2026-05-07 20:50:27.481 +03:00 [INF] Executing endpoint 'TestController.Index (task1)'
+2026-05-07 20:50:27.493 +03:00 [INF] Route matched with {action = "Index", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller TestController (task1).
+2026-05-07 20:50:27.503 +03:00 [INF] Executed action TestController.Index (task1) in 3.6617ms
+2026-05-07 20:50:27.504 +03:00 [INF] Executed endpoint 'TestController.Index (task1)'
+2026-05-07 20:50:27.504 +03:00 [ERR] Something went wrong
+System.NotImplementedException: The method or operation is not implemented.
+   at TestController.Index() in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Controllers/TestController.cs:line 11
+   at lambda_method7(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ExceptionMiddleware.InvokeAsync(HttpContext context) in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Middlewares/ExceptionMiddleware.cs:line 19
+2026-05-07 20:50:27.542 +03:00 [INF] [Response] 500 took 63 ms
+2026-05-07 20:50:27.543 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Test - 500 null application/json 66.0919ms
+2026-05-07 20:50:39.378 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Test/error - null null
+2026-05-07 20:50:39.380 +03:00 [INF] [Request] GET /api/Test/error
+2026-05-07 20:50:39.381 +03:00 [INF] Executing endpoint 'TestController.Error (task1)'
+2026-05-07 20:50:39.383 +03:00 [INF] Route matched with {action = "Error", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller TestController (task1).
+2026-05-07 20:50:39.386 +03:00 [ERR] Something went wrong
+System.Exception: Db exception
+   at TestController.Error() in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Controllers/TestController.cs:line 18
+   at lambda_method9(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2026-05-07 20:50:39.391 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-07 20:50:39.396 +03:00 [INF] Executed action TestController.Error (task1) in 12.1871ms
+2026-05-07 20:50:39.396 +03:00 [INF] Executed endpoint 'TestController.Error (task1)'
+2026-05-07 20:50:39.396 +03:00 [INF] [Response] 500 took 15 ms
+2026-05-07 20:50:39.396 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Test/error - 500 null application/json; charset=utf-8 18.1579ms
+2026-05-07 20:50:40.494 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Test/error - null null
+2026-05-07 20:50:40.495 +03:00 [INF] [Request] GET /api/Test/error
+2026-05-07 20:50:40.496 +03:00 [INF] Executing endpoint 'TestController.Error (task1)'
+2026-05-07 20:50:40.496 +03:00 [INF] Route matched with {action = "Error", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller TestController (task1).
+2026-05-07 20:50:40.497 +03:00 [ERR] Something went wrong
+System.Exception: Db exception
+   at TestController.Error() in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Controllers/TestController.cs:line 18
+   at lambda_method9(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2026-05-07 20:50:40.498 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-07 20:50:40.498 +03:00 [INF] Executed action TestController.Error (task1) in 2.0178ms
+2026-05-07 20:50:40.499 +03:00 [INF] Executed endpoint 'TestController.Error (task1)'
+2026-05-07 20:50:40.499 +03:00 [INF] [Response] 500 took 3 ms
+2026-05-07 20:50:40.499 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Test/error - 500 null application/json; charset=utf-8 5.4265ms
+2026-05-07 20:50:48.614 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Test/ok - null null
+2026-05-07 20:50:48.615 +03:00 [INF] [Request] GET /api/Test/ok
+2026-05-07 20:50:48.617 +03:00 [INF] Executing endpoint 'TestController.OK (task1)'
+2026-05-07 20:50:48.619 +03:00 [INF] Route matched with {action = "OK", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult OK() on controller TestController (task1).
+2026-05-07 20:50:48.620 +03:00 [INF] Before sending response
+2026-05-07 20:50:48.623 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2026-05-07 20:50:48.623 +03:00 [INF] After sending response
+2026-05-07 20:50:48.624 +03:00 [INF] Executed action TestController.OK (task1) in 4.5305ms
+2026-05-07 20:50:48.624 +03:00 [INF] Executed endpoint 'TestController.OK (task1)'
+2026-05-07 20:50:48.624 +03:00 [INF] [Response] 200 took 7 ms
+2026-05-07 20:50:48.624 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Test/ok - 200 0 null 10.3869ms
+2026-05-07 20:51:11.863 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Department - null null
+2026-05-07 20:51:11.863 +03:00 [INF] [Request] GET /api/Department
+2026-05-07 20:51:11.864 +03:00 [INF] Executing endpoint 'DepartmentController.GetAll (task1)'
+2026-05-07 20:51:11.866 +03:00 [INF] Route matched with {action = "GetAll", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller DepartmentController (task1).
+2026-05-07 20:51:30.247 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[task1.DTOs.DepartmentGetAllDTO, task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-07 20:51:30.255 +03:00 [INF] Executed action DepartmentController.GetAll (task1) in 18388.2173ms
+2026-05-07 20:51:30.256 +03:00 [INF] Executed endpoint 'DepartmentController.GetAll (task1)'
+2026-05-07 20:51:30.256 +03:00 [INF] [Response] 200 took 18392 ms
+2026-05-07 20:51:30.256 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Department - 200 null application/json; charset=utf-8 18393.1055ms
+2026-05-07 20:54:24.406 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Student - null null
+2026-05-07 20:54:24.407 +03:00 [INF] [Request] GET /api/Student
+2026-05-07 20:54:24.407 +03:00 [INF] Executing endpoint 'StudentController.GetAll (task1)'
+2026-05-07 20:54:24.410 +03:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller StudentController (task1).
+2026-05-07 20:54:24.943 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[task1.DTOs.StudentDTO, task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-07 20:54:24.954 +03:00 [INF] Executed action StudentController.GetAll (task1) in 543.5094ms
+2026-05-07 20:54:24.954 +03:00 [INF] Executed endpoint 'StudentController.GetAll (task1)'
+2026-05-07 20:54:24.955 +03:00 [INF] [Response] 200 took 547 ms
+2026-05-07 20:54:24.955 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Student - 200 null application/json; charset=utf-8 549.0512ms
+2026-05-07 21:03:51.065 +03:00 [INF] Application is shutting down...
+2026-05-07 21:32:27.441 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 21:32:28.365 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 21:32:28.366 +03:00 [INF] Hosting environment: Development
+2026-05-07 21:32:28.366 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 21:32:53.432 +03:00 [INF] Application is shutting down...
+2026-05-07 21:33:04.534 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 21:33:04.579 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 21:33:04.580 +03:00 [INF] Hosting environment: Development
+2026-05-07 21:33:04.580 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 21:35:12.125 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-07 21:35:12.165 +03:00 [INF] [Request] GET /swagger/index.html
+2026-05-07 21:35:12.277 +03:00 [INF] [Response] 304 took 111 ms
+2026-05-07 21:35:12.282 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 304 null null 160.0101ms
+2026-05-07 21:35:14.672 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - null null
+2026-05-07 21:35:14.674 +03:00 [INF] [Request] GET /swagger/swagger-ui.css
+2026-05-07 21:35:14.684 +03:00 [INF] [Response] 304 took 9 ms
+2026-05-07 21:35:14.684 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - 304 null null 13.2325ms
+2026-05-07 21:35:14.703 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-07 21:35:14.705 +03:00 [INF] [Request] GET /swagger/swagger-ui-standalone-preset.js
+2026-05-07 21:35:14.708 +03:00 [INF] [Response] 304 took 2 ms
+2026-05-07 21:35:14.709 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - 304 null null 5.2264ms
+2026-05-07 21:35:14.710 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.css - null null
+2026-05-07 21:35:14.710 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.js - null null
+2026-05-07 21:35:14.710 +03:00 [INF] [Request] GET /swagger/index.css
+2026-05-07 21:35:14.710 +03:00 [INF] [Request] GET /swagger/index.js
+2026-05-07 21:35:14.711 +03:00 [INF] [Response] 304 took 0 ms
+2026-05-07 21:35:14.711 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.css - 304 null null 1.2205ms
+2026-05-07 21:35:14.711 +03:00 [INF] [Response] 304 took 0 ms
+2026-05-07 21:35:14.712 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.js - 304 null null 1.9721ms
+2026-05-07 21:35:14.724 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - null null
+2026-05-07 21:35:14.724 +03:00 [INF] [Request] GET /swagger/swagger-ui-bundle.js
+2026-05-07 21:35:14.730 +03:00 [INF] [Response] 304 took 5 ms
+2026-05-07 21:35:14.731 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - 304 null null 6.6691ms
+2026-05-07 21:35:17.554 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-07 21:35:17.554 +03:00 [INF] [Request] GET /swagger/v1/swagger.json
+2026-05-07 21:35:17.735 +03:00 [INF] [Response] 200 took 180 ms
+2026-05-07 21:35:17.736 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 181.777ms
+2026-05-07 21:35:22.259 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Department - null null
+2026-05-07 21:35:22.261 +03:00 [INF] [Request] GET /api/Department
+2026-05-07 21:35:22.265 +03:00 [INF] Executing endpoint 'DepartmentController.GetAll (task1)'
+2026-05-07 21:35:22.279 +03:00 [INF] Route matched with {action = "GetAll", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller DepartmentController (task1).
+2026-05-07 21:35:22.288 +03:00 [INF] Executed action DepartmentController.GetAll (task1) in 1.8814ms
+2026-05-07 21:35:22.289 +03:00 [INF] Executed endpoint 'DepartmentController.GetAll (task1)'
+2026-05-07 21:35:22.289 +03:00 [ERR] Something went wrong
+System.InvalidOperationException: Unable to resolve service for type 'task1.Repositories.DepartmentRepository' while attempting to activate 'DepartmentController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method4(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ExceptionMiddleware.InvokeAsync(HttpContext context) in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Middlewares/ExceptionMiddleware.cs:line 19
+2026-05-07 21:35:22.336 +03:00 [INF] [Response] 500 took 74 ms
+2026-05-07 21:35:22.337 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Department - 500 null application/json 77.5316ms
+2026-05-07 21:35:35.134 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Student - null null
+2026-05-07 21:35:35.136 +03:00 [INF] [Request] GET /api/Student
+2026-05-07 21:35:35.137 +03:00 [INF] Executing endpoint 'StudentController.GetAll (task1)'
+2026-05-07 21:35:35.140 +03:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller StudentController (task1).
+2026-05-07 21:35:35.141 +03:00 [INF] Executed action StudentController.GetAll (task1) in 0.295ms
+2026-05-07 21:35:35.141 +03:00 [INF] Executed endpoint 'StudentController.GetAll (task1)'
+2026-05-07 21:35:35.141 +03:00 [ERR] Something went wrong
+System.InvalidOperationException: Unable to resolve service for type 'task1.Repositories.StudentRepository' while attempting to activate 'StudentController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method6(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ExceptionMiddleware.InvokeAsync(HttpContext context) in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Middlewares/ExceptionMiddleware.cs:line 19
+2026-05-07 21:35:35.142 +03:00 [INF] [Response] 500 took 6 ms
+2026-05-07 21:35:35.143 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Student - 500 null application/json 9.0997ms
+2026-05-07 21:35:36.128 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Student - null null
+2026-05-07 21:35:36.128 +03:00 [INF] [Request] GET /api/Student
+2026-05-07 21:35:36.129 +03:00 [INF] Executing endpoint 'StudentController.GetAll (task1)'
+2026-05-07 21:35:36.130 +03:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller StudentController (task1).
+2026-05-07 21:35:36.130 +03:00 [INF] Executed action StudentController.GetAll (task1) in 0.1481ms
+2026-05-07 21:35:36.130 +03:00 [INF] Executed endpoint 'StudentController.GetAll (task1)'
+2026-05-07 21:35:36.130 +03:00 [ERR] Something went wrong
+System.InvalidOperationException: Unable to resolve service for type 'task1.Repositories.StudentRepository' while attempting to activate 'StudentController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method6(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ExceptionMiddleware.InvokeAsync(HttpContext context) in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Middlewares/ExceptionMiddleware.cs:line 19
+2026-05-07 21:35:36.131 +03:00 [INF] [Response] 500 took 2 ms
+2026-05-07 21:35:36.132 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Student - 500 null application/json 3.6151ms
+2026-05-07 21:36:12.827 +03:00 [INF] Application is shutting down...
+2026-05-07 21:36:20.991 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 21:36:21.042 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 21:36:21.043 +03:00 [INF] Hosting environment: Development
+2026-05-07 21:36:21.044 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 21:36:24.548 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Student - null null
+2026-05-07 21:36:24.596 +03:00 [INF] [Request] GET /api/Student
+2026-05-07 21:36:24.659 +03:00 [INF] Executing endpoint 'StudentController.GetAll (task1)'
+2026-05-07 21:36:24.683 +03:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller StudentController (task1).
+2026-05-07 21:36:32.446 +03:00 [INF] Executed DbCommand (2,472ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SSN], [s].[Age], [s].[DateOfBirth], [s].[DepartmentId], [s].[Email], [s].[Image], [s].[Level], [s].[Name], [d].[Id], [d].[Location], [d].[Manger], [d].[Name], [d].[PhoneNumber]
+FROM [Students] AS [s]
+INNER JOIN [Departments] AS [d] ON [s].[DepartmentId] = [d].[Id]
+2026-05-07 21:36:32.604 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[task1.DTOs.StudentDTO, task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-07 21:36:32.638 +03:00 [INF] Executed action StudentController.GetAll (task1) in 7950.0341ms
+2026-05-07 21:36:32.639 +03:00 [INF] Executed endpoint 'StudentController.GetAll (task1)'
+2026-05-07 21:36:32.639 +03:00 [INF] [Response] 200 took 8040 ms
+2026-05-07 21:36:32.656 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Student - 200 null application/json; charset=utf-8 8111.5159ms
+2026-05-07 21:36:36.102 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Department - null null
+2026-05-07 21:36:36.105 +03:00 [INF] [Request] GET /api/Department
+2026-05-07 21:36:36.107 +03:00 [INF] Executing endpoint 'DepartmentController.GetAll (task1)'
+2026-05-07 21:36:36.110 +03:00 [INF] Route matched with {action = "GetAll", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller DepartmentController (task1).
+2026-05-07 21:36:36.646 +03:00 [INF] Executed DbCommand (337ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Location], [d].[Manger], [d].[Name], [d].[PhoneNumber], [s].[SSN], [s].[Age], [s].[DateOfBirth], [s].[DepartmentId], [s].[Email], [s].[Image], [s].[Level], [s].[Name]
+FROM [Departments] AS [d]
+LEFT JOIN [Students] AS [s] ON [d].[Id] = [s].[DepartmentId]
+ORDER BY [d].[Id]
+2026-05-07 21:36:36.767 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[task1.DTOs.DepartmentGetAllDTO, task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-07 21:36:36.774 +03:00 [INF] Executed action DepartmentController.GetAll (task1) in 663.8335ms
+2026-05-07 21:36:36.775 +03:00 [INF] Executed endpoint 'DepartmentController.GetAll (task1)'
+2026-05-07 21:36:36.776 +03:00 [INF] [Response] 200 took 669 ms
+2026-05-07 21:36:36.776 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Department - 200 null application/json; charset=utf-8 674.783ms
+2026-05-07 21:43:08.046 +03:00 [INF] Application is shutting down...
+2026-05-07 21:50:09.734 +03:00 [INF] Executed DbCommand (5,893ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [ApiDb];
+2026-05-07 21:50:11.806 +03:00 [INF] Executed DbCommand (2,002ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [ApiDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2026-05-07 21:50:12.316 +03:00 [INF] Executed DbCommand (139ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-05-07 21:50:12.320 +03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2026-05-07 21:50:13.393 +03:00 [INF] Executed DbCommand (1,068ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2026-05-07 21:50:13.851 +03:00 [INF] Executed DbCommand (358ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2026-05-07 21:50:13.926 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-05-07 21:50:13.938 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-05-07 21:50:14.280 +03:00 [INF] Executed DbCommand (338ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-05-07 21:50:14.296 +03:00 [INF] Applying migration '20260507184942_InitIdentity'.
+2026-05-07 21:50:14.511 +03:00 [INF] Executed DbCommand (160ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2026-05-07 21:50:14.628 +03:00 [INF] Executed DbCommand (116ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+2026-05-07 21:50:14.763 +03:00 [INF] Executed DbCommand (134ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Departments] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [Location] nvarchar(50) NOT NULL,
+    [PhoneNumber] nvarchar(50) NOT NULL,
+    [Manger] nvarchar(50) NOT NULL,
+    CONSTRAINT [PK_Departments] PRIMARY KEY ([Id])
+);
+2026-05-07 21:50:14.935 +03:00 [INF] Executed DbCommand (172ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+2026-05-07 21:50:15.130 +03:00 [INF] Executed DbCommand (194ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2026-05-07 21:50:15.365 +03:00 [INF] Executed DbCommand (235ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2026-05-07 21:50:15.547 +03:00 [INF] Executed DbCommand (182ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] nvarchar(450) NOT NULL,
+    [RoleId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2026-05-07 21:50:15.710 +03:00 [INF] Executed DbCommand (162ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] nvarchar(450) NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2026-05-07 21:50:15.945 +03:00 [INF] Executed DbCommand (235ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Students] (
+    [SSN] int NOT NULL IDENTITY,
+    [Name] nvarchar(12) NOT NULL,
+    [Age] int NOT NULL,
+    [Email] nvarchar(50) NOT NULL,
+    [Image] nvarchar(100) NOT NULL,
+    [Level] int NOT NULL,
+    [DateOfBirth] date NOT NULL,
+    [DepartmentId] int NOT NULL,
+    CONSTRAINT [PK_Students] PRIMARY KEY ([SSN]),
+    CONSTRAINT [FK_Students_Departments_DepartmentId] FOREIGN KEY ([DepartmentId]) REFERENCES [Departments] ([Id]) ON DELETE CASCADE
+);
+2026-05-07 21:50:16.821 +03:00 [INF] Executed DbCommand (876ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+2026-05-07 21:50:16.888 +03:00 [INF] Executed DbCommand (66ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+2026-05-07 21:50:16.929 +03:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+2026-05-07 21:50:16.993 +03:00 [INF] Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+2026-05-07 21:50:17.026 +03:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+2026-05-07 21:50:17.042 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+2026-05-07 21:50:17.079 +03:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+2026-05-07 21:50:17.096 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Students_DepartmentId] ON [Students] ([DepartmentId]);
+2026-05-07 21:50:17.216 +03:00 [INF] Executed DbCommand (119ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20260507184942_InitIdentity', N'10.0.7');
+2026-05-07 21:50:17.496 +03:00 [INF] Executed DbCommand (99ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2026-05-07 21:51:45.607 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-07 21:51:45.955 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 21:51:45.963 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 21:51:45.966 +03:00 [INF] Hosting environment: Development
+2026-05-07 21:51:45.966 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 21:51:53.467 +03:00 [INF] Application is shutting down...
+2026-05-07 21:52:04.281 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-07 21:52:04.456 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 21:52:04.460 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 21:52:04.461 +03:00 [INF] Hosting environment: Development
+2026-05-07 21:52:04.461 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 21:52:22.000 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-07 21:52:22.032 +03:00 [INF] [Request] GET /swagger/index.html
+2026-05-07 21:52:22.136 +03:00 [INF] [Response] 304 took 102 ms
+2026-05-07 21:52:22.140 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 304 null null 144.0549ms
+2026-05-07 21:52:22.177 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.js - null null
+2026-05-07 21:52:22.177 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-07 21:52:22.177 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - null null
+2026-05-07 21:52:22.179 +03:00 [INF] [Request] GET /swagger/index.js
+2026-05-07 21:52:22.180 +03:00 [INF] [Request] GET /swagger/swagger-ui-bundle.js
+2026-05-07 21:52:22.181 +03:00 [INF] [Request] GET /swagger/swagger-ui-standalone-preset.js
+2026-05-07 21:52:22.194 +03:00 [INF] [Response] 304 took 14 ms
+2026-05-07 21:52:22.195 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.js - 304 null null 18.7338ms
+2026-05-07 21:52:22.206 +03:00 [INF] [Response] 304 took 25 ms
+2026-05-07 21:52:22.208 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - 304 null null 31.2625ms
+2026-05-07 21:52:22.208 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - null null
+2026-05-07 21:52:22.419 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.css - null null
+2026-05-07 21:52:22.419 +03:00 [INF] [Request] GET /swagger/swagger-ui.css
+2026-05-07 21:52:22.419 +03:00 [INF] [Request] GET /swagger/index.css
+2026-05-07 21:52:22.421 +03:00 [INF] [Response] 304 took 241 ms
+2026-05-07 21:52:22.425 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - 304 null null 248.2248ms
+2026-05-07 21:52:22.425 +03:00 [INF] [Response] 304 took 4 ms
+2026-05-07 21:52:22.426 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.css - 304 null null 6.9239ms
+2026-05-07 21:52:22.426 +03:00 [INF] [Response] 304 took 6 ms
+2026-05-07 21:52:22.427 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - 304 null null 218.7108ms
+2026-05-07 21:52:22.791 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-07 21:52:22.792 +03:00 [INF] [Request] GET /swagger/v1/swagger.json
+2026-05-07 21:52:23.005 +03:00 [INF] [Response] 200 took 212 ms
+2026-05-07 21:52:23.005 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 213.7716ms
+2026-05-07 21:52:28.142 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Department - null null
+2026-05-07 21:52:28.143 +03:00 [INF] [Request] GET /api/Department
+2026-05-07 21:52:28.161 +03:00 [INF] Executing endpoint 'DepartmentController.GetAll (task1)'
+2026-05-07 21:52:28.174 +03:00 [INF] Route matched with {action = "GetAll", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller DepartmentController (task1).
+2026-05-07 21:52:31.557 +03:00 [INF] Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Location], [d].[Manger], [d].[Name], [d].[PhoneNumber], [s].[SSN], [s].[Age], [s].[DateOfBirth], [s].[DepartmentId], [s].[Email], [s].[Image], [s].[Level], [s].[Name]
+FROM [Departments] AS [d]
+LEFT JOIN [Students] AS [s] ON [d].[Id] = [s].[DepartmentId]
+ORDER BY [d].[Id]
+2026-05-07 21:52:31.590 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[task1.DTOs.DepartmentGetAllDTO, task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-07 21:52:31.614 +03:00 [INF] Executed action DepartmentController.GetAll (task1) in 3434.0327ms
+2026-05-07 21:52:31.615 +03:00 [INF] Executed endpoint 'DepartmentController.GetAll (task1)'
+2026-05-07 21:52:31.615 +03:00 [INF] [Response] 200 took 3471 ms
+2026-05-07 21:52:31.635 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Department - 200 null application/json; charset=utf-8 3492.8518ms
+2026-05-07 21:52:50.694 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Department - application/json 106
+2026-05-07 21:52:50.696 +03:00 [INF] [Request] POST /api/Department
+2026-05-07 21:52:50.700 +03:00 [INF] CORS policy execution successful.
+2026-05-07 21:52:50.702 +03:00 [INF] Executing endpoint 'DepartmentController.Add (task1)'
+2026-05-07 21:52:50.712 +03:00 [INF] Route matched with {action = "Add", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.DTOs.DepartmentDTO) on controller DepartmentController (task1).
+2026-05-07 21:52:51.188 +03:00 [INF] Executed DbCommand (270ms) [Parameters=[@name='?' (Size = 50), @id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Departments] AS [d]
+        WHERE [d].[Name] = @name AND [d].[Id] <> @id) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-07 21:52:51.200 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-07 21:52:51.224 +03:00 [INF] Executed action DepartmentController.Add (task1) in 511.7322ms
+2026-05-07 21:52:51.224 +03:00 [INF] Executed endpoint 'DepartmentController.Add (task1)'
+2026-05-07 21:52:51.225 +03:00 [INF] [Response] 400 took 528 ms
+2026-05-07 21:52:51.225 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Department - 400 null application/problem+json; charset=utf-8 531.1893ms
+2026-05-07 21:52:54.652 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Department - null null
+2026-05-07 21:52:54.652 +03:00 [INF] [Request] GET /api/Department
+2026-05-07 21:52:54.660 +03:00 [INF] Executing endpoint 'DepartmentController.GetAll (task1)'
+2026-05-07 21:52:54.660 +03:00 [INF] Route matched with {action = "GetAll", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller DepartmentController (task1).
+2026-05-07 21:52:54.692 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Location], [d].[Manger], [d].[Name], [d].[PhoneNumber], [s].[SSN], [s].[Age], [s].[DateOfBirth], [s].[DepartmentId], [s].[Email], [s].[Image], [s].[Level], [s].[Name]
+FROM [Departments] AS [d]
+LEFT JOIN [Students] AS [s] ON [d].[Id] = [s].[DepartmentId]
+ORDER BY [d].[Id]
+2026-05-07 21:52:54.692 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[task1.DTOs.DepartmentGetAllDTO, task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-07 21:52:54.693 +03:00 [INF] Executed action DepartmentController.GetAll (task1) in 32.3578ms
+2026-05-07 21:52:54.693 +03:00 [INF] Executed endpoint 'DepartmentController.GetAll (task1)'
+2026-05-07 21:52:54.693 +03:00 [INF] [Response] 200 took 40 ms
+2026-05-07 21:52:54.694 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Department - 200 null application/json; charset=utf-8 41.9319ms
+2026-05-07 21:53:16.082 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Department - application/json 103
+2026-05-07 21:53:16.082 +03:00 [INF] [Request] POST /api/Department
+2026-05-07 21:53:16.083 +03:00 [INF] CORS policy execution successful.
+2026-05-07 21:53:16.084 +03:00 [INF] Executing endpoint 'DepartmentController.Add (task1)'
+2026-05-07 21:53:16.084 +03:00 [INF] Route matched with {action = "Add", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.DTOs.DepartmentDTO) on controller DepartmentController (task1).
+2026-05-07 21:53:16.089 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@name='?' (Size = 50), @id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Departments] AS [d]
+        WHERE [d].[Name] = @name AND [d].[Id] <> @id) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-07 21:53:16.182 +03:00 [INF] Executed DbCommand (54ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[Id], [d].[Location], [d].[Manger], [d].[Name], [d].[PhoneNumber]
+FROM [Departments] AS [d]
+WHERE [d].[Id] = @p
+2026-05-07 21:53:16.718 +03:00 [INF] Executed DbCommand (200ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 50), @p2='?' (Size = 50), @p3='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Departments] ([Location], [Manger], [Name], [PhoneNumber])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2026-05-07 21:53:16.753 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'task1.DTOs.DepartmentDTO'.
+2026-05-07 21:53:16.779 +03:00 [INF] Executed action DepartmentController.Add (task1) in 694.2557ms
+2026-05-07 21:53:16.779 +03:00 [INF] Executed endpoint 'DepartmentController.Add (task1)'
+2026-05-07 21:53:16.779 +03:00 [INF] [Response] 201 took 696 ms
+2026-05-07 21:53:16.780 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Department - 201 null application/json; charset=utf-8 697.4877ms
+2026-05-07 21:53:21.142 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Department - null null
+2026-05-07 21:53:21.143 +03:00 [INF] [Request] GET /api/Department
+2026-05-07 21:53:21.143 +03:00 [INF] Executing endpoint 'DepartmentController.GetAll (task1)'
+2026-05-07 21:53:21.144 +03:00 [INF] Route matched with {action = "GetAll", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller DepartmentController (task1).
+2026-05-07 21:53:21.296 +03:00 [INF] Executed DbCommand (150ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Location], [d].[Manger], [d].[Name], [d].[PhoneNumber], [s].[SSN], [s].[Age], [s].[DateOfBirth], [s].[DepartmentId], [s].[Email], [s].[Image], [s].[Level], [s].[Name]
+FROM [Departments] AS [d]
+LEFT JOIN [Students] AS [s] ON [d].[Id] = [s].[DepartmentId]
+ORDER BY [d].[Id]
+2026-05-07 21:53:21.320 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[task1.DTOs.DepartmentGetAllDTO, task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-07 21:53:21.323 +03:00 [INF] Executed action DepartmentController.GetAll (task1) in 179.3568ms
+2026-05-07 21:53:21.324 +03:00 [INF] Executed endpoint 'DepartmentController.GetAll (task1)'
+2026-05-07 21:53:21.325 +03:00 [INF] [Response] 200 took 181 ms
+2026-05-07 21:53:21.325 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Department - 200 null application/json; charset=utf-8 182.6043ms
+2026-05-07 21:53:31.733 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Student - null null
+2026-05-07 21:53:31.733 +03:00 [INF] [Request] GET /api/Student
+2026-05-07 21:53:31.733 +03:00 [INF] Executing endpoint 'StudentController.GetAll (task1)'
+2026-05-07 21:53:31.735 +03:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller StudentController (task1).
+2026-05-07 21:53:31.812 +03:00 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SSN], [s].[Age], [s].[DateOfBirth], [s].[DepartmentId], [s].[Email], [s].[Image], [s].[Level], [s].[Name], [d].[Id], [d].[Location], [d].[Manger], [d].[Name], [d].[PhoneNumber]
+FROM [Students] AS [s]
+INNER JOIN [Departments] AS [d] ON [s].[DepartmentId] = [d].[Id]
+2026-05-07 21:53:31.838 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[task1.DTOs.StudentDTO, task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-07 21:53:31.844 +03:00 [INF] Executed action StudentController.GetAll (task1) in 108.6038ms
+2026-05-07 21:53:31.845 +03:00 [INF] Executed endpoint 'StudentController.GetAll (task1)'
+2026-05-07 21:53:31.845 +03:00 [INF] [Response] 200 took 111 ms
+2026-05-07 21:53:31.845 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Student - 200 null application/json; charset=utf-8 112.6255ms
+2026-05-07 21:53:41.921 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Student - application/json 171
+2026-05-07 21:53:41.923 +03:00 [INF] [Request] POST /api/Student
+2026-05-07 21:53:41.925 +03:00 [INF] CORS policy execution successful.
+2026-05-07 21:53:41.926 +03:00 [INF] Executing endpoint 'StudentController.Add (task1)'
+2026-05-07 21:53:41.928 +03:00 [INF] Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.DTOs.StudentDTO) on controller StudentController (task1).
+2026-05-07 21:53:42.005 +03:00 [INF] Executed DbCommand (61ms) [Parameters=[@email='?' (Size = 50), @ssn='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Students] AS [s]
+        WHERE [s].[Email] = @email AND [s].[SSN] <> @ssn) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-07 21:53:42.009 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-07 21:53:42.010 +03:00 [INF] Executed action StudentController.Add (task1) in 80.9005ms
+2026-05-07 21:53:42.010 +03:00 [INF] Executed endpoint 'StudentController.Add (task1)'
+2026-05-07 21:53:42.010 +03:00 [INF] [Response] 400 took 84 ms
+2026-05-07 21:53:42.010 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Student - 400 null application/problem+json; charset=utf-8 89.7817ms
+2026-05-07 21:53:54.661 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Student - application/json 171
+2026-05-07 21:53:54.661 +03:00 [INF] [Request] POST /api/Student
+2026-05-07 21:53:54.661 +03:00 [INF] CORS policy execution successful.
+2026-05-07 21:53:54.662 +03:00 [INF] Executing endpoint 'StudentController.Add (task1)'
+2026-05-07 21:53:54.663 +03:00 [INF] Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.DTOs.StudentDTO) on controller StudentController (task1).
+2026-05-07 21:53:54.669 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@email='?' (Size = 50), @ssn='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Students] AS [s]
+        WHERE [s].[Email] = @email AND [s].[SSN] <> @ssn) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-07 21:53:54.697 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[SSN], [s].[Age], [s].[DateOfBirth], [s].[DepartmentId], [s].[Email], [s].[Image], [s].[Level], [s].[Name]
+FROM [Students] AS [s]
+WHERE [s].[SSN] = @p
+2026-05-07 21:53:54.978 +03:00 [INF] Executed DbCommand (234ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Date), @p2='?' (DbType = Int32), @p3='?' (Size = 50), @p4='?' (Size = 100), @p5='?' (DbType = Int32), @p6='?' (Size = 12)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Students] ([Age], [DateOfBirth], [DepartmentId], [Email], [Image], [Level], [Name])
+OUTPUT INSERTED.[SSN]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-05-07 21:53:55.084 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'task1.Context.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Students_Departments_DepartmentId". The conflict occurred in database "ApiDb", table "dbo.Departments", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:98ac6c4e-3470-4a36-8468-8f5b6aa12196
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__114_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Students_Departments_DepartmentId". The conflict occurred in database "ApiDb", table "dbo.Departments", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:98ac6c4e-3470-4a36-8468-8f5b6aa12196
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__114_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2026-05-07 21:53:55.085 +03:00 [INF] Executed action StudentController.Add (task1) in 422.0698ms
+2026-05-07 21:53:55.086 +03:00 [INF] Executed endpoint 'StudentController.Add (task1)'
+2026-05-07 21:53:55.087 +03:00 [ERR] Something went wrong
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Students_Departments_DepartmentId". The conflict occurred in database "ApiDb", table "dbo.Departments", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:98ac6c4e-3470-4a36-8468-8f5b6aa12196
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__114_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at task1.Repositories.GenericRepository`1.SaveChanges() in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Repositories/GenericRepository.cs:line 47
+   at task1.Repositories.GenericRepository`1.Add(T entity) in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Repositories/GenericRepository.cs:line 36
+   at StudentController.Add(StudentDTO dto) in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Controllers/StudentController.cs:line 73
+   at lambda_method179(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ExceptionMiddleware.InvokeAsync(HttpContext context) in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Middlewares/ExceptionMiddleware.cs:line 19
+2026-05-07 21:53:55.100 +03:00 [INF] [Response] 500 took 438 ms
+2026-05-07 21:53:55.101 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Student - 500 null application/json 439.9715ms
+2026-05-07 21:54:39.044 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Student - application/json 171
+2026-05-07 21:54:39.045 +03:00 [INF] [Request] POST /api/Student
+2026-05-07 21:54:39.045 +03:00 [INF] CORS policy execution successful.
+2026-05-07 21:54:39.046 +03:00 [INF] Executing endpoint 'StudentController.Add (task1)'
+2026-05-07 21:54:39.046 +03:00 [INF] Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.DTOs.StudentDTO) on controller StudentController (task1).
+2026-05-07 21:54:39.049 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@email='?' (Size = 50), @ssn='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Students] AS [s]
+        WHERE [s].[Email] = @email AND [s].[SSN] <> @ssn) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-07 21:54:39.067 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[SSN], [s].[Age], [s].[DateOfBirth], [s].[DepartmentId], [s].[Email], [s].[Image], [s].[Level], [s].[Name]
+FROM [Students] AS [s]
+WHERE [s].[SSN] = @p
+2026-05-07 21:54:39.166 +03:00 [INF] Executed DbCommand (97ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Date), @p2='?' (DbType = Int32), @p3='?' (Size = 50), @p4='?' (Size = 100), @p5='?' (DbType = Int32), @p6='?' (Size = 12)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Students] ([Age], [DateOfBirth], [DepartmentId], [Email], [Image], [Level], [Name])
+OUTPUT INSERTED.[SSN]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2026-05-07 21:54:39.179 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'task1.DTOs.StudentDTO'.
+2026-05-07 21:54:39.183 +03:00 [INF] Executed action StudentController.Add (task1) in 136.7077ms
+2026-05-07 21:54:39.183 +03:00 [INF] Executed endpoint 'StudentController.Add (task1)'
+2026-05-07 21:54:39.184 +03:00 [INF] [Response] 201 took 138 ms
+2026-05-07 21:54:39.184 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Student - 201 null application/json; charset=utf-8 139.9538ms
+2026-05-07 21:54:47.780 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Student - null null
+2026-05-07 21:54:47.781 +03:00 [INF] [Request] GET /api/Student
+2026-05-07 21:54:47.781 +03:00 [INF] Executing endpoint 'StudentController.GetAll (task1)'
+2026-05-07 21:54:47.782 +03:00 [INF] Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller StudentController (task1).
+2026-05-07 21:54:47.848 +03:00 [INF] Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[SSN], [s].[Age], [s].[DateOfBirth], [s].[DepartmentId], [s].[Email], [s].[Image], [s].[Level], [s].[Name], [d].[Id], [d].[Location], [d].[Manger], [d].[Name], [d].[PhoneNumber]
+FROM [Students] AS [s]
+INNER JOIN [Departments] AS [d] ON [s].[DepartmentId] = [d].[Id]
+2026-05-07 21:54:47.854 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[task1.DTOs.StudentDTO, task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-07 21:54:47.854 +03:00 [INF] Executed action StudentController.GetAll (task1) in 72.4366ms
+2026-05-07 21:54:47.855 +03:00 [INF] Executed endpoint 'StudentController.GetAll (task1)'
+2026-05-07 21:54:47.855 +03:00 [INF] [Response] 200 took 73 ms
+2026-05-07 21:54:47.855 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Student - 200 null application/json; charset=utf-8 75.0841ms
+2026-05-07 21:54:51.030 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Department - null null
+2026-05-07 21:54:51.030 +03:00 [INF] [Request] GET /api/Department
+2026-05-07 21:54:51.030 +03:00 [INF] Executing endpoint 'DepartmentController.GetAll (task1)'
+2026-05-07 21:54:51.031 +03:00 [INF] Route matched with {action = "GetAll", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller DepartmentController (task1).
+2026-05-07 21:54:51.103 +03:00 [INF] Executed DbCommand (71ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Location], [d].[Manger], [d].[Name], [d].[PhoneNumber], [s].[SSN], [s].[Age], [s].[DateOfBirth], [s].[DepartmentId], [s].[Email], [s].[Image], [s].[Level], [s].[Name]
+FROM [Departments] AS [d]
+LEFT JOIN [Students] AS [s] ON [d].[Id] = [s].[DepartmentId]
+ORDER BY [d].[Id]
+2026-05-07 21:54:51.112 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[task1.DTOs.DepartmentGetAllDTO, task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-07 21:54:51.113 +03:00 [INF] Executed action DepartmentController.GetAll (task1) in 81.9645ms
+2026-05-07 21:54:51.113 +03:00 [INF] Executed endpoint 'DepartmentController.GetAll (task1)'
+2026-05-07 21:54:51.113 +03:00 [INF] [Response] 200 took 82 ms
+2026-05-07 21:54:51.113 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Department - 200 null application/json; charset=utf-8 83.6956ms
+2026-05-07 21:55:07.083 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Department - application/json 103
+2026-05-07 21:55:07.084 +03:00 [INF] [Request] POST /api/Department
+2026-05-07 21:55:07.084 +03:00 [INF] CORS policy execution successful.
+2026-05-07 21:55:07.084 +03:00 [INF] Executing endpoint 'DepartmentController.Add (task1)'
+2026-05-07 21:55:07.084 +03:00 [INF] Route matched with {action = "Add", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.DTOs.DepartmentDTO) on controller DepartmentController (task1).
+2026-05-07 21:55:07.387 +03:00 [INF] Executed DbCommand (300ms) [Parameters=[@name='?' (Size = 50), @id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Departments] AS [d]
+        WHERE [d].[Name] = @name AND [d].[Id] <> @id) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-07 21:55:07.388 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-07 21:55:07.388 +03:00 [INF] Executed action DepartmentController.Add (task1) in 303.9461ms
+2026-05-07 21:55:07.389 +03:00 [INF] Executed endpoint 'DepartmentController.Add (task1)'
+2026-05-07 21:55:07.389 +03:00 [INF] [Response] 400 took 305 ms
+2026-05-07 21:55:07.390 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Department - 400 null application/problem+json; charset=utf-8 306.2313ms
+2026-05-07 21:55:22.516 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Department - application/json 104
+2026-05-07 21:55:22.516 +03:00 [INF] [Request] POST /api/Department
+2026-05-07 21:55:22.516 +03:00 [INF] CORS policy execution successful.
+2026-05-07 21:55:22.517 +03:00 [INF] Executing endpoint 'DepartmentController.Add (task1)'
+2026-05-07 21:55:22.518 +03:00 [INF] Route matched with {action = "Add", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(task1.DTOs.DepartmentDTO) on controller DepartmentController (task1).
+2026-05-07 21:55:22.521 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@name='?' (Size = 50), @id='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Departments] AS [d]
+        WHERE [d].[Name] = @name AND [d].[Id] <> @id) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-07 21:55:22.523 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[Id], [d].[Location], [d].[Manger], [d].[Name], [d].[PhoneNumber]
+FROM [Departments] AS [d]
+WHERE [d].[Id] = @p
+2026-05-07 21:55:22.571 +03:00 [INF] Executed DbCommand (47ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 50), @p2='?' (Size = 50), @p3='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Departments] ([Location], [Manger], [Name], [PhoneNumber])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2026-05-07 21:55:22.571 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'task1.DTOs.DepartmentDTO'.
+2026-05-07 21:55:22.572 +03:00 [INF] Executed action DepartmentController.Add (task1) in 53.6753ms
+2026-05-07 21:55:22.573 +03:00 [INF] Executed endpoint 'DepartmentController.Add (task1)'
+2026-05-07 21:55:22.574 +03:00 [INF] [Response] 201 took 57 ms
+2026-05-07 21:55:22.574 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Department - 201 null application/json; charset=utf-8 58.4976ms
+2026-05-07 21:55:26.983 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Department - null null
+2026-05-07 21:55:26.983 +03:00 [INF] [Request] GET /api/Department
+2026-05-07 21:55:26.983 +03:00 [INF] Executing endpoint 'DepartmentController.GetAll (task1)'
+2026-05-07 21:55:26.984 +03:00 [INF] Route matched with {action = "GetAll", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller DepartmentController (task1).
+2026-05-07 21:55:26.988 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Id], [d].[Location], [d].[Manger], [d].[Name], [d].[PhoneNumber], [s].[SSN], [s].[Age], [s].[DateOfBirth], [s].[DepartmentId], [s].[Email], [s].[Image], [s].[Level], [s].[Name]
+FROM [Departments] AS [d]
+LEFT JOIN [Students] AS [s] ON [d].[Id] = [s].[DepartmentId]
+ORDER BY [d].[Id]
+2026-05-07 21:55:26.992 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[task1.DTOs.DepartmentGetAllDTO, task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-07 21:55:26.993 +03:00 [INF] Executed action DepartmentController.GetAll (task1) in 8.4734ms
+2026-05-07 21:55:26.993 +03:00 [INF] Executed endpoint 'DepartmentController.GetAll (task1)'
+2026-05-07 21:55:26.993 +03:00 [INF] [Response] 200 took 10 ms
+2026-05-07 21:55:26.994 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Department - 200 null application/json; charset=utf-8 11.3589ms
+2026-05-07 21:55:41.120 +03:00 [INF] Application is shutting down...
+2026-05-07 22:19:14.312 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-07 22:19:14.510 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 22:19:14.514 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 22:19:14.515 +03:00 [INF] Hosting environment: Development
+2026-05-07 22:19:14.515 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 22:19:15.588 +03:00 [INF] Application is shutting down...
+2026-05-07 22:28:28.718 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-07 22:28:28.973 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 22:28:28.977 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 22:28:28.977 +03:00 [INF] Hosting environment: Development
+2026-05-07 22:28:28.978 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 22:28:30.559 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-07 22:28:30.594 +03:00 [INF] [Request] GET /swagger/index.html
+2026-05-07 22:28:30.778 +03:00 [INF] [Response] 304 took 182 ms
+2026-05-07 22:28:30.794 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 304 null null 237.9998ms
+2026-05-07 22:28:30.839 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - null null
+2026-05-07 22:28:30.839 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-07 22:28:30.842 +03:00 [INF] [Request] GET /swagger/swagger-ui-standalone-preset.js
+2026-05-07 22:28:30.839 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.js - null null
+2026-05-07 22:28:30.844 +03:00 [INF] [Request] GET /swagger/index.js
+2026-05-07 22:28:30.844 +03:00 [INF] [Request] GET /swagger/swagger-ui-bundle.js
+2026-05-07 22:28:30.847 +03:00 [INF] [Response] 304 took 2 ms
+2026-05-07 22:28:30.851 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.css - null null
+2026-05-07 22:28:30.853 +03:00 [INF] [Request] GET /swagger/index.css
+2026-05-07 22:28:30.856 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.js - 304 null null 13.4269ms
+2026-05-07 22:28:30.858 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - null null
+2026-05-07 22:28:30.858 +03:00 [INF] [Request] GET /swagger/swagger-ui.css
+2026-05-07 22:28:30.861 +03:00 [INF] [Response] 304 took 2 ms
+2026-05-07 22:28:30.862 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - 304 null null 4.0966ms
+2026-05-07 22:28:30.862 +03:00 [INF] [Response] 304 took 19 ms
+2026-05-07 22:28:30.862 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - 304 null null 22.9386ms
+2026-05-07 22:28:30.861 +03:00 [INF] [Response] 304 took 7 ms
+2026-05-07 22:28:30.863 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.css - 304 null null 11.8933ms
+2026-05-07 22:28:30.872 +03:00 [INF] [Response] 304 took 27 ms
+2026-05-07 22:28:30.872 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - 304 null null 35.1782ms
+2026-05-07 22:28:31.504 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-07 22:28:31.505 +03:00 [INF] [Request] GET /swagger/v1/swagger.json
+2026-05-07 22:28:31.762 +03:00 [INF] [Response] 200 took 257 ms
+2026-05-07 22:28:31.765 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 260.4163ms
+2026-05-07 22:28:59.380 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Role - application/json 21
+2026-05-07 22:28:59.382 +03:00 [INF] [Request] POST /api/Role
+2026-05-07 22:28:59.385 +03:00 [INF] CORS policy execution successful.
+2026-05-07 22:28:59.402 +03:00 [INF] Executing endpoint 'RoleController.Add (task1)'
+2026-05-07 22:28:59.435 +03:00 [INF] Route matched with {action = "Add", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(task1.DTOs.RoleDTO) on controller RoleController (task1).
+2026-05-07 22:29:03.644 +03:00 [INF] Executed DbCommand (325ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-05-07 22:29:04.147 +03:00 [INF] Executed DbCommand (274ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);
+2026-05-07 22:29:04.179 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.AspNetCore.Identity.IdentityResult'.
+2026-05-07 22:29:04.197 +03:00 [INF] Executed action RoleController.Add (task1) in 4736.3228ms
+2026-05-07 22:29:04.199 +03:00 [INF] Executed endpoint 'RoleController.Add (task1)'
+2026-05-07 22:29:04.216 +03:00 [INF] [Response] 200 took 4834 ms
+2026-05-07 22:29:04.228 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Role - 200 null application/json; charset=utf-8 4848.2215ms
+2026-05-07 22:29:15.210 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Role - null null
+2026-05-07 22:29:15.212 +03:00 [INF] [Request] GET /api/Role
+2026-05-07 22:29:15.215 +03:00 [INF] Executing endpoint 'RoleController.Get (task1)'
+2026-05-07 22:29:15.218 +03:00 [INF] Route matched with {action = "Get", controller = "Role"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller RoleController (task1).
+2026-05-07 22:29:15.384 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AspNetRoles] AS [a]
+2026-05-07 22:29:15.393 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-07 22:29:15.394 +03:00 [INF] Executed action RoleController.Get (task1) in 175.762ms
+2026-05-07 22:29:15.395 +03:00 [INF] Executed endpoint 'RoleController.Get (task1)'
+2026-05-07 22:29:15.395 +03:00 [INF] [Response] 200 took 182 ms
+2026-05-07 22:29:15.395 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Role - 200 null application/json; charset=utf-8 185.0284ms
+2026-05-07 22:29:28.981 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Role - application/json 23
+2026-05-07 22:29:28.982 +03:00 [INF] [Request] POST /api/Role
+2026-05-07 22:29:28.986 +03:00 [INF] CORS policy execution successful.
+2026-05-07 22:29:28.993 +03:00 [INF] Executing endpoint 'RoleController.Add (task1)'
+2026-05-07 22:29:28.993 +03:00 [INF] Route matched with {action = "Add", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(task1.DTOs.RoleDTO) on controller RoleController (task1).
+2026-05-07 22:29:29.335 +03:00 [INF] Executed DbCommand (302ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-05-07 22:29:29.390 +03:00 [INF] Executed DbCommand (51ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);
+2026-05-07 22:29:29.391 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.AspNetCore.Identity.IdentityResult'.
+2026-05-07 22:29:29.392 +03:00 [INF] Executed action RoleController.Add (task1) in 399.0287ms
+2026-05-07 22:29:29.393 +03:00 [INF] Executed endpoint 'RoleController.Add (task1)'
+2026-05-07 22:29:29.394 +03:00 [INF] [Response] 200 took 410 ms
+2026-05-07 22:29:29.395 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Role - 200 null application/json; charset=utf-8 413.4315ms
+2026-05-07 22:29:34.717 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Role - null null
+2026-05-07 22:29:34.718 +03:00 [INF] [Request] GET /api/Role
+2026-05-07 22:29:34.718 +03:00 [INF] Executing endpoint 'RoleController.Get (task1)'
+2026-05-07 22:29:34.719 +03:00 [INF] Route matched with {action = "Get", controller = "Role"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller RoleController (task1).
+2026-05-07 22:29:34.722 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AspNetRoles] AS [a]
+2026-05-07 22:29:34.723 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-07 22:29:34.723 +03:00 [INF] Executed action RoleController.Get (task1) in 3.8849ms
+2026-05-07 22:29:34.723 +03:00 [INF] Executed endpoint 'RoleController.Get (task1)'
+2026-05-07 22:29:34.723 +03:00 [INF] [Response] 200 took 5 ms
+2026-05-07 22:29:34.724 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Role - 200 null application/json; charset=utf-8 6.655ms
+2026-05-07 22:29:41.130 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Role - application/json 4
+2026-05-07 22:29:41.130 +03:00 [INF] [Request] POST /api/Role
+2026-05-07 22:29:41.131 +03:00 [INF] CORS policy execution successful.
+2026-05-07 22:29:41.132 +03:00 [INF] Executing endpoint 'RoleController.Add (task1)'
+2026-05-07 22:29:41.133 +03:00 [INF] Route matched with {action = "Add", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(task1.DTOs.RoleDTO) on controller RoleController (task1).
+2026-05-07 22:29:41.135 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-07 22:29:41.159 +03:00 [INF] Executed action RoleController.Add (task1) in 25.7097ms
+2026-05-07 22:29:41.159 +03:00 [INF] Executed endpoint 'RoleController.Add (task1)'
+2026-05-07 22:29:41.159 +03:00 [INF] [Response] 400 took 28 ms
+2026-05-07 22:29:41.160 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Role - 400 null application/problem+json; charset=utf-8 29.7633ms
+2026-05-07 22:29:49.719 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Role - application/json 16
+2026-05-07 22:29:49.720 +03:00 [INF] [Request] POST /api/Role
+2026-05-07 22:29:49.720 +03:00 [INF] CORS policy execution successful.
+2026-05-07 22:29:49.721 +03:00 [INF] Executing endpoint 'RoleController.Add (task1)'
+2026-05-07 22:29:49.721 +03:00 [INF] Route matched with {action = "Add", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(task1.DTOs.RoleDTO) on controller RoleController (task1).
+2026-05-07 22:29:49.723 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-07 22:29:49.723 +03:00 [INF] Executed action RoleController.Add (task1) in 1.6774ms
+2026-05-07 22:29:49.724 +03:00 [INF] Executed endpoint 'RoleController.Add (task1)'
+2026-05-07 22:29:49.725 +03:00 [INF] [Response] 400 took 4 ms
+2026-05-07 22:29:49.725 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Role - 400 null application/problem+json; charset=utf-8 5.4547ms
+2026-05-07 22:30:12.790 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Role - application/json 23
+2026-05-07 22:30:12.791 +03:00 [INF] [Request] POST /api/Role
+2026-05-07 22:30:12.792 +03:00 [INF] CORS policy execution successful.
+2026-05-07 22:30:12.793 +03:00 [INF] Executing endpoint 'RoleController.Add (task1)'
+2026-05-07 22:30:12.793 +03:00 [INF] Route matched with {action = "Add", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(task1.DTOs.RoleDTO) on controller RoleController (task1).
+2026-05-07 22:30:12.826 +03:00 [INF] Executed DbCommand (31ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-05-07 22:30:12.981 +03:00 [INF] Executed DbCommand (153ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);
+2026-05-07 22:30:12.982 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.AspNetCore.Identity.IdentityResult'.
+2026-05-07 22:30:12.983 +03:00 [INF] Executed action RoleController.Add (task1) in 189.2813ms
+2026-05-07 22:30:12.983 +03:00 [INF] Executed endpoint 'RoleController.Add (task1)'
+2026-05-07 22:30:12.983 +03:00 [INF] [Response] 200 took 191 ms
+2026-05-07 22:30:12.984 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Role - 200 null application/json; charset=utf-8 193.539ms
+2026-05-07 22:30:16.180 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Role - null null
+2026-05-07 22:30:16.181 +03:00 [INF] [Request] GET /api/Role
+2026-05-07 22:30:16.181 +03:00 [INF] Executing endpoint 'RoleController.Get (task1)'
+2026-05-07 22:30:16.181 +03:00 [INF] Route matched with {action = "Get", controller = "Role"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller RoleController (task1).
+2026-05-07 22:30:16.184 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AspNetRoles] AS [a]
+2026-05-07 22:30:16.185 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-07 22:30:16.185 +03:00 [INF] Executed action RoleController.Get (task1) in 3.086ms
+2026-05-07 22:30:16.185 +03:00 [INF] Executed endpoint 'RoleController.Get (task1)'
+2026-05-07 22:30:16.185 +03:00 [INF] [Response] 200 took 4 ms
+2026-05-07 22:30:16.186 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Role - 200 null application/json; charset=utf-8 5.7309ms
+2026-05-07 22:30:25.068 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5132/api/Role/3 - null null
+2026-05-07 22:30:25.068 +03:00 [INF] [Request] DELETE /api/Role/3
+2026-05-07 22:30:25.068 +03:00 [INF] CORS policy execution successful.
+2026-05-07 22:30:25.069 +03:00 [INF] Executing endpoint 'RoleController.Delete (task1)'
+2026-05-07 22:30:25.078 +03:00 [INF] Route matched with {action = "Delete", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.String) on controller RoleController (task1).
+2026-05-07 22:30:25.194 +03:00 [INF] Executed DbCommand (61ms) [Parameters=[@roleId='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Id] = @roleId
+2026-05-07 22:30:25.195 +03:00 [INF] Executed action RoleController.Delete (task1) in 117.0995ms
+2026-05-07 22:30:25.195 +03:00 [INF] Executed endpoint 'RoleController.Delete (task1)'
+2026-05-07 22:30:25.196 +03:00 [ERR] Something went wrong
+System.ArgumentNullException: Value cannot be null. (Parameter 'role')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at Microsoft.AspNetCore.Identity.RoleManager`1.DeleteAsync(TRole role)
+   at RoleController.Delete(String id) in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Controllers/RoleController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ExceptionMiddleware.InvokeAsync(HttpContext context) in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Middlewares/ExceptionMiddleware.cs:line 19
+2026-05-07 22:30:25.231 +03:00 [INF] [Response] 500 took 162 ms
+2026-05-07 22:30:25.231 +03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5132/api/Role/3 - 500 null application/json 163.7262ms
+2026-05-07 22:31:16.717 +03:00 [INF] Application is shutting down...
+2026-05-07 23:00:18.435 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-07 23:00:18.867 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 23:00:18.880 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 23:00:18.881 +03:00 [INF] Hosting environment: Development
+2026-05-07 23:00:18.881 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 23:00:19.538 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-07 23:00:19.614 +03:00 [INF] [Request] GET /swagger/index.html
+2026-05-07 23:00:19.786 +03:00 [INF] [Response] 304 took 171 ms
+2026-05-07 23:00:19.808 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 304 null null 274.6712ms
+2026-05-07 23:00:20.969 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-07 23:00:20.970 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - null null
+2026-05-07 23:00:20.973 +03:00 [INF] [Request] GET /swagger/swagger-ui-bundle.js
+2026-05-07 23:00:20.974 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.js - null null
+2026-05-07 23:00:20.975 +03:00 [INF] [Request] GET /swagger/index.js
+2026-05-07 23:00:20.976 +03:00 [INF] [Request] GET /swagger/swagger-ui-standalone-preset.js
+2026-05-07 23:00:20.976 +03:00 [INF] [Response] 304 took 1 ms
+2026-05-07 23:00:20.978 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.js - 304 null null 3.4506ms
+2026-05-07 23:00:21.909 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.css - null null
+2026-05-07 23:00:21.934 +03:00 [INF] [Request] GET /swagger/index.css
+2026-05-07 23:00:21.909 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - null null
+2026-05-07 23:00:21.935 +03:00 [INF] [Request] GET /swagger/swagger-ui.css
+2026-05-07 23:00:22.027 +03:00 [INF] [Response] 304 took 92 ms
+2026-05-07 23:00:22.563 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.css - 304 null null 654.1015ms
+2026-05-07 23:00:22.544 +03:00 [INF] [Response] 304 took 606 ms
+2026-05-07 23:00:22.565 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - 304 null null 655.3051ms
+2026-05-07 23:00:22.555 +03:00 [INF] [Response] 304 took 1578 ms
+2026-05-07 23:00:22.567 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - 304 null null 1599.8674ms
+2026-05-07 23:00:22.576 +03:00 [INF] [Response] 304 took 1603 ms
+2026-05-07 23:00:22.577 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - 304 null null 1607.1747ms
+2026-05-07 23:00:23.375 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-07 23:00:23.375 +03:00 [INF] [Request] GET /swagger/v1/swagger.json
+2026-05-07 23:00:23.558 +03:00 [INF] [Response] 200 took 182 ms
+2026-05-07 23:00:23.559 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 184.5094ms
+2026-05-07 23:00:43.086 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Role - null null
+2026-05-07 23:00:43.088 +03:00 [INF] [Request] GET /api/Role
+2026-05-07 23:00:43.140 +03:00 [INF] Executing endpoint 'RoleController.Get (task1)'
+2026-05-07 23:00:43.168 +03:00 [INF] Route matched with {action = "Get", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller RoleController (task1).
+2026-05-07 23:00:55.941 +03:00 [INF] Executed DbCommand (3,592ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AspNetRoles] AS [a]
+2026-05-07 23:00:55.985 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-07 23:00:56.000 +03:00 [INF] Executed action RoleController.Get (task1) in 12827.782ms
+2026-05-07 23:00:56.001 +03:00 [INF] Executed endpoint 'RoleController.Get (task1)'
+2026-05-07 23:00:56.003 +03:00 [INF] [Response] 200 took 12914 ms
+2026-05-07 23:00:56.017 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Role - 200 null application/json; charset=utf-8 12931.1653ms
+2026-05-07 23:01:13.297 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5132/api/Role/teacher - null null
+2026-05-07 23:01:13.299 +03:00 [INF] [Request] DELETE /api/Role/teacher
+2026-05-07 23:01:13.303 +03:00 [INF] CORS policy execution successful.
+2026-05-07 23:01:13.306 +03:00 [INF] Executing endpoint 'RoleController.Delete (task1)'
+2026-05-07 23:01:13.322 +03:00 [INF] Route matched with {action = "Delete", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.String) on controller RoleController (task1).
+2026-05-07 23:01:13.885 +03:00 [INF] Executed DbCommand (318ms) [Parameters=[@normalizedName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedName
+2026-05-07 23:01:16.169 +03:00 [INF] Executed DbCommand (2,053ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [AspNetRoles]
+OUTPUT 1
+WHERE [Id] = @p0 AND [ConcurrencyStamp] = @p1;
+2026-05-07 23:01:16.193 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-05-07 23:01:16.194 +03:00 [INF] Executed action RoleController.Delete (task1) in 2871.0994ms
+2026-05-07 23:01:16.194 +03:00 [INF] Executed endpoint 'RoleController.Delete (task1)'
+2026-05-07 23:01:16.194 +03:00 [INF] [Response] 200 took 2894 ms
+2026-05-07 23:01:16.195 +03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5132/api/Role/teacher - 200 null text/plain; charset=utf-8 2897.8247ms
+2026-05-07 23:01:21.084 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Role - null null
+2026-05-07 23:01:21.085 +03:00 [INF] [Request] GET /api/Role
+2026-05-07 23:01:21.091 +03:00 [INF] Executing endpoint 'RoleController.Get (task1)'
+2026-05-07 23:01:21.091 +03:00 [INF] Route matched with {action = "Get", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller RoleController (task1).
+2026-05-07 23:01:21.158 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AspNetRoles] AS [a]
+2026-05-07 23:01:21.158 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-07 23:01:21.159 +03:00 [INF] Executed action RoleController.Get (task1) in 67.741ms
+2026-05-07 23:01:21.159 +03:00 [INF] Executed endpoint 'RoleController.Get (task1)'
+2026-05-07 23:01:21.159 +03:00 [INF] [Response] 200 took 74 ms
+2026-05-07 23:01:21.161 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Role - 200 null application/json; charset=utf-8 76.601ms
+2026-05-07 23:01:45.298 +03:00 [INF] Application is shutting down...
+2026-05-07 23:06:11.158 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-07 23:06:11.391 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 23:06:11.396 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 23:06:11.397 +03:00 [INF] Hosting environment: Development
+2026-05-07 23:06:11.397 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 23:06:14.160 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Role - null null
+2026-05-07 23:06:14.217 +03:00 [INF] [Request] GET /api/Role
+2026-05-07 23:06:14.297 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-07 23:06:14.305 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-07 23:06:14.305 +03:00 [INF] [Response] 401 took 88 ms
+2026-05-07 23:06:14.319 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Role - 401 0 null 161.9283ms
+2026-05-07 23:06:25.977 +03:00 [INF] Application is shutting down...
+2026-05-07 23:16:41.052 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-07 23:16:41.325 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 23:16:41.328 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 23:16:41.329 +03:00 [INF] Hosting environment: Development
+2026-05-07 23:16:41.329 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 23:16:45.613 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-07 23:16:45.650 +03:00 [INF] [Request] GET /swagger/index.html
+2026-05-07 23:16:45.767 +03:00 [INF] [Response] 304 took 116 ms
+2026-05-07 23:16:45.794 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 304 null null 184.1374ms
+2026-05-07 23:16:45.843 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.css - null null
+2026-05-07 23:16:45.843 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-07 23:16:45.844 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - null null
+2026-05-07 23:16:45.845 +03:00 [INF] [Request] GET /swagger/swagger-ui-standalone-preset.js
+2026-05-07 23:16:45.845 +03:00 [INF] [Request] GET /swagger/swagger-ui-bundle.js
+2026-05-07 23:16:45.845 +03:00 [INF] [Request] GET /swagger/index.css
+2026-05-07 23:16:45.843 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - null null
+2026-05-07 23:16:45.847 +03:00 [INF] [Request] GET /swagger/swagger-ui.css
+2026-05-07 23:16:45.856 +03:00 [INF] [Response] 304 took 9 ms
+2026-05-07 23:16:45.857 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.css - 304 null null 15.243ms
+2026-05-07 23:16:45.857 +03:00 [INF] [Response] 304 took 11 ms
+2026-05-07 23:16:45.857 +03:00 [INF] [Response] 304 took 9 ms
+2026-05-07 23:16:45.858 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - 304 null null 15.7124ms
+2026-05-07 23:16:45.858 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - 304 null null 15.7336ms
+2026-05-07 23:16:45.863 +03:00 [INF] [Response] 304 took 16 ms
+2026-05-07 23:16:45.863 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - 304 null null 19.0629ms
+2026-05-07 23:16:45.869 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.js - null null
+2026-05-07 23:16:45.871 +03:00 [INF] [Request] GET /swagger/index.js
+2026-05-07 23:16:45.873 +03:00 [INF] [Response] 304 took 1 ms
+2026-05-07 23:16:45.873 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.js - 304 null null 4.6723ms
+2026-05-07 23:16:46.475 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-07 23:16:46.475 +03:00 [INF] [Request] GET /swagger/v1/swagger.json
+2026-05-07 23:16:46.671 +03:00 [INF] [Response] 200 took 195 ms
+2026-05-07 23:16:46.672 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 197.2935ms
+2026-05-07 23:17:57.146 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/register/admin - application/json 114
+2026-05-07 23:17:57.152 +03:00 [INF] [Request] POST /api/Account/register/admin
+2026-05-07 23:17:57.158 +03:00 [INF] CORS policy execution successful.
+2026-05-07 23:17:57.186 +03:00 [INF] Executing endpoint 'AccountController.RegisterAdmin (task1)'
+2026-05-07 23:17:57.276 +03:00 [INF] Route matched with {action = "RegisterAdmin", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterAdmin(task1.DTOs.RegisterDTO) on controller AccountController (task1).
+2026-05-07 23:18:01.322 +03:00 [INF] Executed DbCommand (688ms) [Parameters=[@name='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[UserName] = @name) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-07 23:18:01.357 +03:00 [INF] Executed action AccountController.RegisterAdmin (task1) in 4076.5007ms
+2026-05-07 23:18:01.358 +03:00 [INF] Executed endpoint 'AccountController.RegisterAdmin (task1)'
+2026-05-07 23:18:01.358 +03:00 [ERR] Something went wrong
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at task1.Validations.UniqueEmailAddressAttribute.IsValid(Object value, ValidationContext validationContext) in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Validations/UniqueEmailAddressAttribute.cs:line 24
+   at System.ComponentModel.DataAnnotations.ValidationAttribute.GetValidationResult(Object value, ValidationContext validationContext)
+   at Microsoft.AspNetCore.Mvc.DataAnnotations.DataAnnotationsModelValidator.Validate(ModelValidationContext validationContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.ValidateNode()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ExceptionMiddleware.InvokeAsync(HttpContext context) in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Middlewares/ExceptionMiddleware.cs:line 19
+2026-05-07 23:18:01.396 +03:00 [INF] [Response] 500 took 4242 ms
+2026-05-07 23:18:01.411 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/register/admin - 500 null application/json 4265.0135ms
+2026-05-07 23:19:52.520 +03:00 [INF] Application is shutting down...
+2026-05-07 23:20:11.948 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-07 23:20:12.179 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 23:20:12.182 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 23:20:12.184 +03:00 [INF] Hosting environment: Development
+2026-05-07 23:20:12.185 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 23:20:15.549 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/register/admin - application/json 114
+2026-05-07 23:20:15.608 +03:00 [INF] [Request] POST /api/Account/register/admin
+2026-05-07 23:20:15.667 +03:00 [INF] CORS policy execution successful.
+2026-05-07 23:20:15.693 +03:00 [INF] Executing endpoint 'AccountController.RegisterAdmin (task1)'
+2026-05-07 23:20:15.730 +03:00 [INF] Route matched with {action = "RegisterAdmin", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterAdmin(task1.DTOs.RegisterDTO) on controller AccountController (task1).
+2026-05-07 23:20:19.270 +03:00 [INF] Executed DbCommand (103ms) [Parameters=[@name='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[UserName] = @name) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-07 23:20:19.311 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.Collections.Generic.List`1[[Microsoft.AspNetCore.Identity.IdentityError, Microsoft.Extensions.Identity.Core, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2026-05-07 23:20:19.330 +03:00 [INF] Executed action AccountController.RegisterAdmin (task1) in 3594.4372ms
+2026-05-07 23:20:19.330 +03:00 [INF] Executed endpoint 'AccountController.RegisterAdmin (task1)'
+2026-05-07 23:20:19.331 +03:00 [INF] [Response] 400 took 3722 ms
+2026-05-07 23:20:19.345 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/register/admin - 400 null application/json; charset=utf-8 3800.2571ms
+2026-05-07 23:20:47.650 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/register/admin - application/json 118
+2026-05-07 23:20:47.653 +03:00 [INF] [Request] POST /api/Account/register/admin
+2026-05-07 23:20:47.655 +03:00 [INF] CORS policy execution successful.
+2026-05-07 23:20:47.657 +03:00 [INF] Executing endpoint 'AccountController.RegisterAdmin (task1)'
+2026-05-07 23:20:47.657 +03:00 [INF] Route matched with {action = "RegisterAdmin", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterAdmin(task1.DTOs.RegisterDTO) on controller AccountController (task1).
+2026-05-07 23:20:47.715 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[@name='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[UserName] = @name) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-07 23:20:47.718 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-07 23:20:47.765 +03:00 [INF] Executed action AccountController.RegisterAdmin (task1) in 107.3226ms
+2026-05-07 23:20:47.765 +03:00 [INF] Executed endpoint 'AccountController.RegisterAdmin (task1)'
+2026-05-07 23:20:47.765 +03:00 [INF] [Response] 400 took 111 ms
+2026-05-07 23:20:47.766 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/register/admin - 400 null application/problem+json; charset=utf-8 116.7149ms
+2026-05-07 23:20:55.190 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/register/admin - application/json 122
+2026-05-07 23:20:55.190 +03:00 [INF] [Request] POST /api/Account/register/admin
+2026-05-07 23:20:55.193 +03:00 [INF] CORS policy execution successful.
+2026-05-07 23:20:55.197 +03:00 [INF] Executing endpoint 'AccountController.RegisterAdmin (task1)'
+2026-05-07 23:20:55.198 +03:00 [INF] Route matched with {action = "RegisterAdmin", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterAdmin(task1.DTOs.RegisterDTO) on controller AccountController (task1).
+2026-05-07 23:20:55.346 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@name='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[UserName] = @name) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-07 23:20:55.697 +03:00 [INF] Executed DbCommand (94ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-07 23:20:56.254 +03:00 [INF] Executed DbCommand (226ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2026-05-07 23:20:56.340 +03:00 [INF] Executed DbCommand (49ms) [Parameters=[@normalizedRoleName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedRoleName
+2026-05-07 23:20:56.460 +03:00 [INF] Executed DbCommand (33ms) [Parameters=[@p='?' (Size = 450), @p1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @p AND [a].[RoleId] = @p1
+2026-05-07 23:20:56.465 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedRoleName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedRoleName
+2026-05-07 23:20:56.785 +03:00 [INF] Executed DbCommand (299ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-07 23:20:57.265 +03:00 [INF] Executed DbCommand (418ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450), @p16='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p17='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2026-05-07 23:20:57.325 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-05-07 23:20:57.327 +03:00 [INF] Executed action AccountController.RegisterAdmin (task1) in 2128.6354ms
+2026-05-07 23:20:57.328 +03:00 [INF] Executed endpoint 'AccountController.RegisterAdmin (task1)'
+2026-05-07 23:20:57.360 +03:00 [INF] [Response] 200 took 2168 ms
+2026-05-07 23:20:57.361 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/register/admin - 200 null text/plain; charset=utf-8 2170.9405ms
+2026-05-07 23:21:23.693 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Role - null null
+2026-05-07 23:21:23.694 +03:00 [INF] [Request] GET /api/Role
+2026-05-07 23:21:23.709 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-07 23:21:23.714 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-07 23:21:23.714 +03:00 [INF] [Response] 401 took 20 ms
+2026-05-07 23:21:23.715 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Role - 401 0 null 21.6218ms
+2026-05-07 23:21:34.126 +03:00 [INF] Application is shutting down...
+2026-05-07 23:32:51.001 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-07 23:32:51.299 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 23:32:51.305 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 23:32:51.306 +03:00 [INF] Hosting environment: Development
+2026-05-07 23:32:51.307 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 23:32:53.223 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-07 23:32:53.265 +03:00 [INF] [Request] GET /swagger/index.html
+2026-05-07 23:32:53.385 +03:00 [INF] [Response] 304 took 120 ms
+2026-05-07 23:32:53.392 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 304 null null 171.0147ms
+2026-05-07 23:32:53.469 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - null null
+2026-05-07 23:32:53.471 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.js - null null
+2026-05-07 23:32:53.473 +03:00 [INF] [Request] GET /swagger/swagger-ui-bundle.js
+2026-05-07 23:32:53.470 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-07 23:32:53.473 +03:00 [INF] [Request] GET /swagger/index.js
+2026-05-07 23:32:53.476 +03:00 [INF] [Request] GET /swagger/swagger-ui-standalone-preset.js
+2026-05-07 23:32:53.471 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - null null
+2026-05-07 23:32:53.477 +03:00 [INF] [Request] GET /swagger/swagger-ui.css
+2026-05-07 23:32:53.479 +03:00 [INF] [Response] 304 took 3 ms
+2026-05-07 23:32:53.483 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.js - 304 null null 12.3708ms
+2026-05-07 23:32:53.484 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.css - null null
+2026-05-07 23:32:53.485 +03:00 [INF] [Request] GET /swagger/index.css
+2026-05-07 23:32:53.497 +03:00 [INF] [Response] 304 took 20 ms
+2026-05-07 23:32:53.498 +03:00 [INF] [Response] 304 took 17 ms
+2026-05-07 23:32:53.504 +03:00 [INF] [Response] 304 took 18 ms
+2026-05-07 23:32:53.504 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.css - 304 null null 19.7436ms
+2026-05-07 23:32:53.504 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - 304 null null 32.6147ms
+2026-05-07 23:32:53.504 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - 304 null null 35.8849ms
+2026-05-07 23:32:53.509 +03:00 [INF] [Response] 304 took 32 ms
+2026-05-07 23:32:53.509 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - 304 null null 41.0897ms
+2026-05-07 23:32:54.196 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-07 23:32:54.199 +03:00 [INF] [Request] GET /swagger/v1/swagger.json
+2026-05-07 23:32:54.474 +03:00 [INF] [Response] 200 took 274 ms
+2026-05-07 23:32:54.477 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 280.5091ms
+2026-05-07 23:33:16.672 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/login - application/json 61
+2026-05-07 23:33:16.675 +03:00 [INF] [Request] POST /api/Account/login
+2026-05-07 23:33:16.678 +03:00 [INF] CORS policy execution successful.
+2026-05-07 23:33:16.698 +03:00 [INF] Executing endpoint 'AccountController.Login (task1)'
+2026-05-07 23:33:16.727 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(task1.DTOs.LoginDTO) on controller AccountController (task1).
+2026-05-07 23:33:20.038 +03:00 [INF] Executed DbCommand (248ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-05-07 23:33:20.089 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2026-05-07 23:33:20.100 +03:00 [INF] Executed action AccountController.Login (task1) in 3363.977ms
+2026-05-07 23:33:20.101 +03:00 [INF] Executed endpoint 'AccountController.Login (task1)'
+2026-05-07 23:33:20.104 +03:00 [INF] [Response] 400 took 3428 ms
+2026-05-07 23:33:20.120 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/login - 400 null text/plain; charset=utf-8 3447.4095ms
+2026-05-07 23:33:33.912 +03:00 [INF] Application is shutting down...
+2026-05-07 23:33:43.279 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-07 23:33:43.655 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 23:33:43.659 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 23:33:43.660 +03:00 [INF] Hosting environment: Development
+2026-05-07 23:33:43.660 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 23:33:44.871 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/login - application/json 61
+2026-05-07 23:33:44.935 +03:00 [INF] [Request] POST /api/Account/login
+2026-05-07 23:33:44.999 +03:00 [INF] CORS policy execution successful.
+2026-05-07 23:33:45.030 +03:00 [INF] Executing endpoint 'AccountController.Login (task1)'
+2026-05-07 23:33:45.083 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(task1.DTOs.LoginDTO) on controller AccountController (task1).
+2026-05-07 23:33:48.448 +03:00 [INF] Executed DbCommand (140ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-07 23:33:48.731 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-05-07 23:33:48.741 +03:00 [INF] Executed action AccountController.Login (task1) in 3652.4718ms
+2026-05-07 23:33:48.742 +03:00 [INF] Executed endpoint 'AccountController.Login (task1)'
+2026-05-07 23:33:48.745 +03:00 [INF] [Response] 200 took 3805 ms
+2026-05-07 23:33:48.760 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/login - 200 null text/plain; charset=utf-8 3892.939ms
+2026-05-07 23:33:56.299 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Role - null null
+2026-05-07 23:33:56.302 +03:00 [INF] [Request] GET /api/Role
+2026-05-07 23:33:56.320 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-07 23:33:56.325 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-07 23:33:56.325 +03:00 [INF] [Response] 401 took 23 ms
+2026-05-07 23:33:56.326 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Role - 401 0 null 27.2043ms
+2026-05-07 23:34:22.133 +03:00 [INF] Application is shutting down...
+2026-05-07 23:43:14.109 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-07 23:43:14.335 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-07 23:43:14.340 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 23:43:14.341 +03:00 [INF] Hosting environment: Development
+2026-05-07 23:43:14.341 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-07 23:43:17.719 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.html - null null
+2026-05-07 23:43:17.757 +03:00 [INF] [Request] GET /swagger/index.html
+2026-05-07 23:43:17.926 +03:00 [INF] [Response] 304 took 167 ms
+2026-05-07 23:43:17.936 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.html - 304 null null 218.2357ms
+2026-05-07 23:43:17.991 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - null null
+2026-05-07 23:43:17.993 +03:00 [INF] [Request] GET /swagger/swagger-ui-bundle.js
+2026-05-07 23:43:17.991 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-07 23:43:17.994 +03:00 [INF] [Request] GET /swagger/swagger-ui-standalone-preset.js
+2026-05-07 23:43:18.000 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.js - null null
+2026-05-07 23:43:18.002 +03:00 [INF] [Request] GET /swagger/index.js
+2026-05-07 23:43:18.004 +03:00 [INF] [Response] 304 took 1 ms
+2026-05-07 23:43:18.000 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - null null
+2026-05-07 23:43:18.005 +03:00 [INF] [Request] GET /swagger/swagger-ui.css
+2026-05-07 23:43:18.010 +03:00 [INF] [Response] 304 took 15 ms
+2026-05-07 23:43:18.011 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-standalone-preset.js - 304 null null 20.4286ms
+2026-05-07 23:43:18.010 +03:00 [INF] [Response] 304 took 4 ms
+2026-05-07 23:43:18.015 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui.css - 304 null null 13.9999ms
+2026-05-07 23:43:18.012 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/index.css - null null
+2026-05-07 23:43:18.011 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.js - 304 null null 10.5889ms
+2026-05-07 23:43:18.016 +03:00 [INF] [Request] GET /swagger/index.css
+2026-05-07 23:43:18.017 +03:00 [INF] [Response] 304 took 0 ms
+2026-05-07 23:43:18.017 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/index.css - 304 null null 5.3684ms
+2026-05-07 23:43:18.021 +03:00 [INF] [Response] 304 took 28 ms
+2026-05-07 23:43:18.022 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/swagger-ui-bundle.js - 304 null null 33.1811ms
+2026-05-07 23:43:18.555 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - null null
+2026-05-07 23:43:18.556 +03:00 [INF] [Request] GET /swagger/v1/swagger.json
+2026-05-07 23:43:18.803 +03:00 [INF] [Response] 200 took 246 ms
+2026-05-07 23:43:18.804 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 248.2958ms
+2026-05-07 23:43:54.820 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/login - application/json 61
+2026-05-07 23:43:54.823 +03:00 [INF] [Request] POST /api/Account/login
+2026-05-07 23:43:54.826 +03:00 [INF] CORS policy execution successful.
+2026-05-07 23:43:54.839 +03:00 [INF] Executing endpoint 'AccountController.Login (task1)'
+2026-05-07 23:43:54.867 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(task1.DTOs.LoginDTO) on controller AccountController (task1).
+2026-05-07 23:43:58.009 +03:00 [INF] Executed DbCommand (148ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-07 23:43:58.288 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-05-07 23:43:58.297 +03:00 [INF] Executed action AccountController.Login (task1) in 3423.6803ms
+2026-05-07 23:43:58.298 +03:00 [INF] Executed endpoint 'AccountController.Login (task1)'
+2026-05-07 23:43:58.300 +03:00 [INF] [Response] 200 took 3476 ms
+2026-05-07 23:43:58.310 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/login - 200 null text/plain; charset=utf-8 3490.4331ms
+2026-05-07 23:44:07.924 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Role - null null
+2026-05-07 23:44:07.929 +03:00 [INF] [Request] GET /api/Role
+2026-05-07 23:44:07.940 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-07 23:44:07.948 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-07 23:44:07.948 +03:00 [INF] [Response] 401 took 19 ms
+2026-05-07 23:44:07.949 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Role - 401 0 null 25.1265ms
+2026-05-07 23:45:52.564 +03:00 [INF] Application is shutting down...

@@ -1,0 +1,785 @@
+2026-05-08 00:01:34.341 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-08 00:01:34.559 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-08 00:01:34.562 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-08 00:01:34.563 +03:00 [INF] Hosting environment: Development
+2026-05-08 00:01:34.563 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-08 00:01:37.832 +03:00 [INF] Application is shutting down...
+2026-05-08 01:28:15.492 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-08 01:28:16.052 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-08 01:28:16.067 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-08 01:28:16.068 +03:00 [INF] Hosting environment: Development
+2026-05-08 01:28:16.068 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-08 01:29:30.776 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/login - application/json 65
+2026-05-08 01:29:30.813 +03:00 [INF] [Request] POST /api/Account/login
+2026-05-08 01:29:30.869 +03:00 [INF] Executing endpoint 'AccountController.Login (task1)'
+2026-05-08 01:29:30.902 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(task1.DTOs.LoginDTO) on controller AccountController (task1).
+2026-05-08 01:29:48.403 +03:00 [ERR] An error occurred using the connection to database 'ApiDb' on server 'localhost,1433'.
+2026-05-08 01:29:48.510 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'task1.Context.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=44; handshake=1466; [Login] initialization=3; authentication=6; [Post-Login] complete=13092; 
+ ---> System.ComponentModel.Win32Exception (258): Unknown error 258
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:5122d26b-9d22-43d7-8c00-6019ddad845d
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=44; handshake=1466; [Login] initialization=3; authentication=6; [Post-Login] complete=13092; 
+ ---> System.ComponentModel.Win32Exception (258): Unknown error 258
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:5122d26b-9d22-43d7-8c00-6019ddad845d
+Error Number:-2,State:0,Class:11
+2026-05-08 01:29:48.530 +03:00 [INF] Executed action AccountController.Login (task1) in 17620.6034ms
+2026-05-08 01:29:48.532 +03:00 [INF] Executed endpoint 'AccountController.Login (task1)'
+2026-05-08 01:29:48.545 +03:00 [ERR] Something went wrong
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=44; handshake=1466; [Login] initialization=3; authentication=6; [Post-Login] complete=13092; 
+ ---> System.ComponentModel.Win32Exception (258): Unknown error 258
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at AccountController.Login(LoginDTO dto) in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Controllers/AccountController.cs:line 56
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ExceptionMiddleware.InvokeAsync(HttpContext context) in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Middlewares/ExceptionMiddleware.cs:line 19
+ClientConnectionId:5122d26b-9d22-43d7-8c00-6019ddad845d
+Error Number:-2,State:0,Class:11
+2026-05-08 01:29:48.567 +03:00 [INF] [Response] 500 took 17753 ms
+2026-05-08 01:29:48.589 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/login - 500 null application/json 17815.5772ms
+2026-05-08 01:31:28.485 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/login - application/json 65
+2026-05-08 01:31:28.491 +03:00 [INF] [Request] POST /api/Account/login
+2026-05-08 01:31:28.496 +03:00 [INF] Executing endpoint 'AccountController.Login (task1)'
+2026-05-08 01:31:28.497 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(task1.DTOs.LoginDTO) on controller AccountController (task1).
+2026-05-08 01:31:52.666 +03:00 [INF] Executed DbCommand (16,872ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-08 01:31:53.075 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-05-08 01:31:53.076 +03:00 [INF] Executed action AccountController.Login (task1) in 24579.4087ms
+2026-05-08 01:31:53.077 +03:00 [INF] Executed endpoint 'AccountController.Login (task1)'
+2026-05-08 01:31:53.077 +03:00 [INF] [Response] 200 took 24585 ms
+2026-05-08 01:31:53.078 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/login - 200 null text/plain; charset=utf-8 24593.4008ms
+2026-05-08 01:32:22.014 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Role/ - null 0
+2026-05-08 01:32:22.015 +03:00 [INF] [Request] POST /api/Role/
+2026-05-08 01:32:22.028 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-08 01:32:22.032 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-08 01:32:22.033 +03:00 [INF] [Response] 401 took 16 ms
+2026-05-08 01:32:22.033 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Role/ - 401 0 null 18.9059ms
+2026-05-08 01:34:05.892 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Role/ - null null
+2026-05-08 01:34:05.893 +03:00 [INF] [Request] GET /api/Role/
+2026-05-08 01:34:05.901 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-08 01:34:05.901 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-08 01:34:05.902 +03:00 [INF] [Response] 401 took 8 ms
+2026-05-08 01:34:05.902 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Role/ - 401 0 null 9.8121ms
+2026-05-08 01:34:49.199 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Role/ - null null
+2026-05-08 01:34:49.200 +03:00 [INF] [Request] GET /api/Role/
+2026-05-08 01:34:49.206 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-08 01:34:49.207 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-08 01:34:49.207 +03:00 [INF] [Response] 401 took 6 ms
+2026-05-08 01:34:49.207 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Role/ - 401 0 null 8.0877ms
+2026-05-08 01:41:16.844 +03:00 [INF] Application is shutting down...
+2026-05-08 01:42:31.172 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-08 01:42:31.420 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-08 01:42:31.426 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-08 01:42:31.427 +03:00 [INF] Hosting environment: Development
+2026-05-08 01:42:31.427 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-08 01:43:02.178 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/login/ - application/json 65
+2026-05-08 01:43:02.220 +03:00 [INF] [Request] POST /api/Account/login/
+2026-05-08 01:43:02.296 +03:00 [INF] Executing endpoint 'AccountController.Login (task1)'
+2026-05-08 01:43:02.332 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(task1.DTOs.LoginDTO) on controller AccountController (task1).
+2026-05-08 01:43:08.130 +03:00 [INF] Executed DbCommand (290ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-08 01:43:09.851 +03:00 [INF] Executed DbCommand (1,019ms) [Parameters=[@userId='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @userId
+2026-05-08 01:43:09.945 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-05-08 01:43:09.960 +03:00 [INF] Executed action AccountController.Login (task1) in 7616.9068ms
+2026-05-08 01:43:09.962 +03:00 [INF] Executed endpoint 'AccountController.Login (task1)'
+2026-05-08 01:43:09.965 +03:00 [INF] [Response] 200 took 7743 ms
+2026-05-08 01:43:09.983 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/login/ - 200 null text/plain; charset=utf-8 7807.7403ms
+2026-05-08 01:43:57.775 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Role/ - application/json 65
+2026-05-08 01:43:57.777 +03:00 [INF] [Request] POST /api/Role/
+2026-05-08 01:43:57.788 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-08 01:43:57.792 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-08 01:43:57.792 +03:00 [INF] [Response] 401 took 14 ms
+2026-05-08 01:43:57.793 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Role/ - 401 0 null 17.9252ms
+2026-05-08 01:44:44.871 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/login/ - application/json 65
+2026-05-08 01:44:44.872 +03:00 [INF] [Request] POST /api/Account/login/
+2026-05-08 01:44:44.879 +03:00 [INF] Executing endpoint 'AccountController.Login (task1)'
+2026-05-08 01:44:44.880 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(task1.DTOs.LoginDTO) on controller AccountController (task1).
+2026-05-08 01:44:45.026 +03:00 [INF] Executed DbCommand (25ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-08 01:44:45.189 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[@userId='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @userId
+2026-05-08 01:44:45.191 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-05-08 01:44:45.193 +03:00 [INF] Executed action AccountController.Login (task1) in 312.0894ms
+2026-05-08 01:44:45.193 +03:00 [INF] Executed endpoint 'AccountController.Login (task1)'
+2026-05-08 01:44:45.194 +03:00 [INF] [Response] 200 took 321 ms
+2026-05-08 01:44:45.194 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/login/ - 200 null text/plain; charset=utf-8 323.1436ms
+2026-05-08 01:44:59.973 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Role/ - application/json 65
+2026-05-08 01:44:59.973 +03:00 [INF] [Request] POST /api/Role/
+2026-05-08 01:44:59.975 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-08 01:44:59.977 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-08 01:44:59.980 +03:00 [INF] [Response] 401 took 5 ms
+2026-05-08 01:44:59.980 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Role/ - 401 0 null 7.3465ms
+2026-05-08 01:45:24.481 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Role/ - application/json 65
+2026-05-08 01:45:24.481 +03:00 [INF] [Request] POST /api/Role/
+2026-05-08 01:45:24.483 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-08 01:45:24.484 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-08 01:45:24.484 +03:00 [INF] [Response] 401 took 2 ms
+2026-05-08 01:45:24.484 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Role/ - 401 0 null 3.6763ms
+2026-05-08 01:45:34.869 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Role/ - null 0
+2026-05-08 01:45:34.870 +03:00 [INF] [Request] POST /api/Role/
+2026-05-08 01:45:34.870 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-08 01:45:34.870 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-08 01:45:34.871 +03:00 [INF] [Response] 401 took 0 ms
+2026-05-08 01:45:34.871 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Role/ - 401 0 null 1.7087ms
+2026-05-08 01:51:11.549 +03:00 [INF] Application is shutting down...
+2026-05-08 01:51:47.331 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-08 01:51:47.758 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-08 01:51:47.761 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-08 01:51:47.762 +03:00 [INF] Hosting environment: Development
+2026-05-08 01:51:47.763 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-08 01:52:00.169 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/login/ - application/json 65
+2026-05-08 01:52:00.203 +03:00 [INF] [Request] POST /api/Account/login/
+2026-05-08 01:52:00.254 +03:00 [INF] Executing endpoint 'AccountController.Login (task1)'
+2026-05-08 01:52:00.288 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(task1.DTOs.LoginDTO) on controller AccountController (task1).
+2026-05-08 01:52:11.670 +03:00 [INF] Executed DbCommand (474ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-08 01:52:12.345 +03:00 [INF] Executed DbCommand (256ms) [Parameters=[@userId='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @userId
+2026-05-08 01:52:12.392 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-05-08 01:52:12.402 +03:00 [INF] Executed action AccountController.Login (task1) in 12107.0795ms
+2026-05-08 01:52:12.404 +03:00 [INF] Executed endpoint 'AccountController.Login (task1)'
+2026-05-08 01:52:12.409 +03:00 [INF] [Response] 200 took 12204 ms
+2026-05-08 01:52:12.430 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/login/ - 200 null text/plain; charset=utf-8 12263.3825ms
+2026-05-08 01:52:37.118 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/profile/ - application/json 65
+2026-05-08 01:52:37.128 +03:00 [INF] [Request] POST /api/Account/profile/
+2026-05-08 01:52:37.138 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-05-08 01:52:37.141 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-05-08 01:52:37.141 +03:00 [INF] [Response] 405 took 10 ms
+2026-05-08 01:52:37.142 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/profile/ - 405 0 null 24.025ms
+2026-05-08 01:52:46.499 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - application/json 65
+2026-05-08 01:52:46.500 +03:00 [INF] [Request] GET /api/Account/profile/
+2026-05-08 01:52:46.518 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-05-08 01:52:46.522 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-08 01:52:46.523 +03:00 [INF] [Response] 401 took 22 ms
+2026-05-08 01:52:46.523 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - 401 0 null 23.7302ms
+2026-05-08 01:53:18.106 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - application/json 65
+2026-05-08 01:53:18.106 +03:00 [INF] [Request] GET /api/Account/profile/
+2026-05-08 01:53:18.110 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-05-08 01:53:18.111 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-08 01:53:18.112 +03:00 [INF] [Response] 401 took 5 ms
+2026-05-08 01:53:18.112 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - 401 0 null 6.5039ms
+2026-05-08 01:53:33.854 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - application/json 65
+2026-05-08 01:53:33.854 +03:00 [INF] [Request] GET /api/Account/profile/
+2026-05-08 01:53:33.857 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-05-08 01:53:33.858 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-08 01:53:33.858 +03:00 [INF] [Response] 401 took 3 ms
+2026-05-08 01:53:33.858 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - 401 0 null 4.5713ms
+2026-05-08 01:57:12.083 +03:00 [INF] Application is shutting down...
+2026-05-08 02:16:22.400 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-08 02:16:23.834 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-08 02:16:24.725 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-08 02:16:24.726 +03:00 [INF] Hosting environment: Development
+2026-05-08 02:16:24.727 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-08 02:17:13.981 +03:00 [INF] Application is shutting down...
+2026-05-08 02:17:36.187 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-08 02:17:36.385 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-08 02:17:36.389 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-08 02:17:36.390 +03:00 [INF] Hosting environment: Development
+2026-05-08 02:17:36.390 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-08 02:19:07.105 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - application/json 65
+2026-05-08 02:19:07.151 +03:00 [INF] [Request] GET /api/Account/profile/
+2026-05-08 02:19:07.183 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-05-08 02:19:07.207 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-08 02:19:07.207 +03:00 [INF] [Response] 401 took 55 ms
+2026-05-08 02:19:07.211 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - 401 0 null 110.9859ms
+2026-05-08 02:20:05.724 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/login - application/json 65
+2026-05-08 02:20:05.727 +03:00 [INF] [Request] POST /api/Account/login
+2026-05-08 02:20:05.739 +03:00 [INF] Executing endpoint 'AccountController.Login (task1)'
+2026-05-08 02:20:05.870 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(task1.DTOs.LoginDTO) on controller AccountController (task1).
+2026-05-08 02:20:22.758 +03:00 [ERR] An error occurred using the connection to database 'ApiDb' on server 'localhost,1433'.
+2026-05-08 02:20:22.991 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'task1.Context.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=79; handshake=4941; [Login] initialization=2; authentication=6; [Post-Login] complete=9014; 
+ ---> System.ComponentModel.Win32Exception (258): Unknown error 258
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:6e630a40-be09-43df-9517-3c146c0d6e43
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=79; handshake=4941; [Login] initialization=2; authentication=6; [Post-Login] complete=9014; 
+ ---> System.ComponentModel.Win32Exception (258): Unknown error 258
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:6e630a40-be09-43df-9517-3c146c0d6e43
+Error Number:-2,State:0,Class:11
+2026-05-08 02:20:23.070 +03:00 [INF] Executed action AccountController.Login (task1) in 17193.7827ms
+2026-05-08 02:20:23.071 +03:00 [INF] Executed endpoint 'AccountController.Login (task1)'
+2026-05-08 02:20:23.090 +03:00 [ERR] Something went wrong
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=79; handshake=4941; [Login] initialization=2; authentication=6; [Post-Login] complete=9014; 
+ ---> System.ComponentModel.Win32Exception (258): Unknown error 258
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at AccountController.Login(LoginDTO dto) in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Controllers/AccountController.cs:line 84
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ExceptionMiddleware.InvokeAsync(HttpContext context) in /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1/Middlewares/ExceptionMiddleware.cs:line 19
+ClientConnectionId:6e630a40-be09-43df-9517-3c146c0d6e43
+Error Number:-2,State:0,Class:11
+2026-05-08 02:20:23.113 +03:00 [INF] [Response] 500 took 17385 ms
+2026-05-08 02:20:23.138 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/login - 500 null application/json 17415.6531ms
+2026-05-08 02:21:14.875 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/login - application/json 65
+2026-05-08 02:21:14.875 +03:00 [INF] [Request] POST /api/Account/login
+2026-05-08 02:21:14.879 +03:00 [INF] Executing endpoint 'AccountController.Login (task1)'
+2026-05-08 02:21:14.879 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(task1.DTOs.LoginDTO) on controller AccountController (task1).
+2026-05-08 02:21:24.402 +03:00 [INF] Executed DbCommand (5,960ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-08 02:21:26.627 +03:00 [INF] Executed DbCommand (1,518ms) [Parameters=[@userId='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @userId
+2026-05-08 02:21:26.796 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-08 02:21:26.807 +03:00 [INF] Executed action AccountController.Login (task1) in 11927.4124ms
+2026-05-08 02:21:26.808 +03:00 [INF] Executed endpoint 'AccountController.Login (task1)'
+2026-05-08 02:21:26.808 +03:00 [INF] [Response] 200 took 11932 ms
+2026-05-08 02:21:26.809 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/login - 200 null application/json; charset=utf-8 11934.1524ms
+2026-05-08 02:22:22.298 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - application/json 65
+2026-05-08 02:22:22.299 +03:00 [INF] [Request] GET /api/Account/profile/
+2026-05-08 02:22:22.303 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-05-08 02:22:22.304 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-08 02:22:22.304 +03:00 [INF] [Response] 401 took 5 ms
+2026-05-08 02:22:22.305 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - 401 0 null 7.0064ms
+2026-05-08 02:22:45.209 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - null null
+2026-05-08 02:22:45.210 +03:00 [INF] [Request] GET /api/Account/profile/
+2026-05-08 02:22:45.212 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-05-08 02:22:45.213 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-08 02:22:45.213 +03:00 [INF] [Response] 401 took 2 ms
+2026-05-08 02:22:45.213 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - 401 0 null 3.9684ms
+2026-05-08 02:23:08.443 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - null null
+2026-05-08 02:23:08.445 +03:00 [INF] [Request] GET /api/Account/profile/
+2026-05-08 02:23:08.446 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-05-08 02:23:08.446 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-08 02:23:08.446 +03:00 [INF] [Response] 401 took 1 ms
+2026-05-08 02:23:08.447 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - 401 0 null 3.7869ms
+2026-05-08 02:23:29.321 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - null null
+2026-05-08 02:23:29.322 +03:00 [INF] [Request] GET /api/Account/profile/
+2026-05-08 02:23:29.323 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-05-08 02:23:29.324 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-08 02:23:29.325 +03:00 [INF] [Response] 401 took 2 ms
+2026-05-08 02:23:29.327 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - 401 0 null 5.1581ms
+2026-05-08 02:23:50.482 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - null null
+2026-05-08 02:23:50.482 +03:00 [INF] [Request] GET /api/Account/profile/
+2026-05-08 02:23:50.483 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-05-08 02:23:50.483 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2026-05-08 02:23:50.484 +03:00 [INF] [Response] 401 took 1 ms
+2026-05-08 02:23:50.484 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - 401 0 null 2.2973ms
+2026-05-08 02:25:26.218 +03:00 [INF] Application is shutting down...
+2026-05-08 02:25:43.185 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-08 02:25:43.475 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-08 02:25:43.480 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-08 02:25:43.481 +03:00 [INF] Hosting environment: Development
+2026-05-08 02:25:43.481 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-08 02:25:51.859 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/login - application/json 65
+2026-05-08 02:25:51.893 +03:00 [INF] [Request] POST /api/Account/login
+2026-05-08 02:25:52.073 +03:00 [INF] Executing endpoint 'AccountController.Login (task1)'
+2026-05-08 02:25:52.106 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(task1.DTOs.LoginDTO) on controller AccountController (task1).
+2026-05-08 02:25:56.099 +03:00 [INF] Executed DbCommand (228ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-08 02:25:57.508 +03:00 [INF] Executed DbCommand (1,017ms) [Parameters=[@userId='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @userId
+2026-05-08 02:25:57.535 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-08 02:25:57.557 +03:00 [INF] Executed action AccountController.Login (task1) in 5444.3182ms
+2026-05-08 02:25:57.559 +03:00 [INF] Executed endpoint 'AccountController.Login (task1)'
+2026-05-08 02:25:57.561 +03:00 [INF] [Response] 200 took 5666 ms
+2026-05-08 02:25:57.579 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/login - 200 null application/json; charset=utf-8 5722.6082ms
+2026-05-08 02:26:06.309 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/login - application/json 65
+2026-05-08 02:26:06.314 +03:00 [INF] [Request] POST /api/Account/login
+2026-05-08 02:26:06.319 +03:00 [INF] Executing endpoint 'AccountController.Login (task1)'
+2026-05-08 02:26:06.319 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(task1.DTOs.LoginDTO) on controller AccountController (task1).
+2026-05-08 02:26:06.573 +03:00 [INF] Executed DbCommand (103ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-08 02:26:06.751 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@userId='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @userId
+2026-05-08 02:26:06.752 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-08 02:26:06.753 +03:00 [INF] Executed action AccountController.Login (task1) in 432.9726ms
+2026-05-08 02:26:06.753 +03:00 [INF] Executed endpoint 'AccountController.Login (task1)'
+2026-05-08 02:26:06.754 +03:00 [INF] [Response] 200 took 439 ms
+2026-05-08 02:26:06.754 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/login - 200 null application/json; charset=utf-8 445.5938ms
+2026-05-08 02:26:19.803 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - null null
+2026-05-08 02:26:19.803 +03:00 [INF] [Request] GET /api/Account/profile/
+2026-05-08 02:26:19.815 +03:00 [INF] Executing endpoint 'AccountController.Profile (task1)'
+2026-05-08 02:26:19.824 +03:00 [INF] Route matched with {action = "Profile", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Profile() on controller AccountController (task1).
+2026-05-08 02:26:20.170 +03:00 [INF] Executed DbCommand (224ms) [Parameters=[@p='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @p
+2026-05-08 02:26:20.173 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@userId='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @userId
+2026-05-08 02:26:20.174 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-05-08 02:26:20.175 +03:00 [INF] Executed action AccountController.Profile (task1) in 350.5985ms
+2026-05-08 02:26:20.176 +03:00 [INF] Executed endpoint 'AccountController.Profile (task1)'
+2026-05-08 02:26:20.176 +03:00 [INF] [Response] 200 took 372 ms
+2026-05-08 02:26:20.177 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - 200 null text/plain; charset=utf-8 374.2278ms
+2026-05-08 02:27:18.477 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Role - null null
+2026-05-08 02:27:18.478 +03:00 [INF] [Request] GET /api/Role
+2026-05-08 02:27:18.482 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-08 02:27:18.488 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-05-08 02:27:18.489 +03:00 [INF] [Response] 401 took 10 ms
+2026-05-08 02:27:18.489 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Role - 401 0 null 12.1934ms
+2026-05-08 02:28:06.694 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Role - null null
+2026-05-08 02:28:06.694 +03:00 [INF] [Request] GET /api/Role
+2026-05-08 02:28:06.699 +03:00 [INF] Executing endpoint 'RoleController.Get (task1)'
+2026-05-08 02:28:06.709 +03:00 [INF] Route matched with {action = "Get", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller RoleController (task1).
+2026-05-08 02:28:06.847 +03:00 [INF] Executed DbCommand (127ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AspNetRoles] AS [a]
+2026-05-08 02:28:06.849 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-08 02:28:06.861 +03:00 [INF] Executed action RoleController.Get (task1) in 151.5887ms
+2026-05-08 02:28:06.861 +03:00 [INF] Executed endpoint 'RoleController.Get (task1)'
+2026-05-08 02:28:06.861 +03:00 [INF] [Response] 200 took 166 ms
+2026-05-08 02:28:06.862 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Role - 200 null application/json; charset=utf-8 168.6728ms
+2026-05-08 02:28:19.804 +03:00 [INF] Application is shutting down...
+2026-05-08 02:32:13.795 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-08 02:32:13.962 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-08 02:32:13.965 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-08 02:32:13.965 +03:00 [INF] Hosting environment: Development
+2026-05-08 02:32:13.966 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-08 02:32:53.449 +03:00 [INF] Application is shutting down...
+2026-05-08 02:33:05.153 +03:00 [INF] User profile is available. Using '/home/atef/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-05-08 02:33:05.352 +03:00 [INF] Now listening on: http://localhost:5132
+2026-05-08 02:33:05.355 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-08 02:33:05.356 +03:00 [INF] Hosting environment: Development
+2026-05-08 02:33:05.356 +03:00 [INF] Content root path: /mnt/shared/ITI-9month/ASP.NET Web APIs/lab4/task1
+2026-05-08 02:36:29.562 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/RegisterStudent - application/json 125
+2026-05-08 02:36:29.599 +03:00 [INF] [Request] POST /api/Account/RegisterStudent
+2026-05-08 02:36:29.647 +03:00 [INF] [Response] 404 took 47 ms
+2026-05-08 02:36:29.652 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/RegisterStudent - 404 0 null 93.2537ms
+2026-05-08 02:36:29.654 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5132/api/Account/RegisterStudent, Response status code: 404
+2026-05-08 02:37:06.097 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/login - application/json 71
+2026-05-08 02:37:06.103 +03:00 [INF] [Request] POST /api/Account/login
+2026-05-08 02:37:06.204 +03:00 [INF] Executing endpoint 'AccountController.Login (task1)'
+2026-05-08 02:37:06.242 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(task1.DTOs.LoginDTO) on controller AccountController (task1).
+2026-05-08 02:37:11.204 +03:00 [INF] Executed DbCommand (320ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-08 02:37:11.389 +03:00 [INF] Executed DbCommand (124ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-05-08 02:37:11.400 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2026-05-08 02:37:11.409 +03:00 [INF] Executed action AccountController.Login (task1) in 5160.0601ms
+2026-05-08 02:37:11.410 +03:00 [INF] Executed endpoint 'AccountController.Login (task1)'
+2026-05-08 02:37:11.412 +03:00 [INF] [Response] 400 took 5309 ms
+2026-05-08 02:37:11.433 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/login - 400 null text/plain; charset=utf-8 5336.4102ms
+2026-05-08 02:37:41.419 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/login - application/json 71
+2026-05-08 02:37:41.420 +03:00 [INF] [Request] POST /api/Account/login
+2026-05-08 02:37:41.426 +03:00 [INF] Executing endpoint 'AccountController.Login (task1)'
+2026-05-08 02:37:41.426 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(task1.DTOs.LoginDTO) on controller AccountController (task1).
+2026-05-08 02:37:41.611 +03:00 [INF] Executed DbCommand (44ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-08 02:37:41.651 +03:00 [INF] Executed DbCommand (39ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-05-08 02:37:41.652 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2026-05-08 02:37:41.653 +03:00 [INF] Executed action AccountController.Login (task1) in 226.1763ms
+2026-05-08 02:37:41.653 +03:00 [INF] Executed endpoint 'AccountController.Login (task1)'
+2026-05-08 02:37:41.654 +03:00 [INF] [Response] 400 took 233 ms
+2026-05-08 02:37:41.654 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/login - 400 null text/plain; charset=utf-8 235.0745ms
+2026-05-08 02:38:00.689 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/login - application/json 66
+2026-05-08 02:38:00.690 +03:00 [INF] [Request] POST /api/Account/login
+2026-05-08 02:38:00.691 +03:00 [INF] Executing endpoint 'AccountController.Login (task1)'
+2026-05-08 02:38:00.691 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(task1.DTOs.LoginDTO) on controller AccountController (task1).
+2026-05-08 02:38:00.760 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-08 02:38:00.763 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-05-08 02:38:00.764 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2026-05-08 02:38:00.764 +03:00 [INF] Executed action AccountController.Login (task1) in 72.5583ms
+2026-05-08 02:38:00.765 +03:00 [INF] Executed endpoint 'AccountController.Login (task1)'
+2026-05-08 02:38:00.766 +03:00 [INF] [Response] 400 took 75 ms
+2026-05-08 02:38:00.766 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/login - 400 null text/plain; charset=utf-8 76.8292ms
+2026-05-08 02:38:20.609 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/RegisterStudent - application/json 125
+2026-05-08 02:38:20.610 +03:00 [INF] [Request] POST /api/Account/RegisterStudent
+2026-05-08 02:38:20.611 +03:00 [INF] [Response] 404 took 0 ms
+2026-05-08 02:38:20.611 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/RegisterStudent - 404 0 null 1.5831ms
+2026-05-08 02:38:20.612 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5132/api/Account/RegisterStudent, Response status code: 404
+2026-05-08 02:39:03.224 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/register/student - application/json 125
+2026-05-08 02:39:03.225 +03:00 [INF] [Request] POST /api/Account/register/student
+2026-05-08 02:39:03.225 +03:00 [INF] Executing endpoint 'AccountController.RegisterStudent (task1)'
+2026-05-08 02:39:03.238 +03:00 [INF] Route matched with {action = "RegisterStudent", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterStudent(task1.DTOs.RegisterDTO) on controller AccountController (task1).
+2026-05-08 02:39:04.299 +03:00 [INF] Executed DbCommand (1,012ms) [Parameters=[@name='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[UserName] = @name) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-08 02:39:04.468 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2026-05-08 02:39:04.468 +03:00 [INF] Executed action AccountController.RegisterStudent (task1) in 1229.4263ms
+2026-05-08 02:39:04.470 +03:00 [INF] Executed endpoint 'AccountController.RegisterStudent (task1)'
+2026-05-08 02:39:04.470 +03:00 [INF] [Response] 400 took 1244 ms
+2026-05-08 02:39:04.470 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/register/student - 400 null text/plain; charset=utf-8 1246.6619ms
+2026-05-08 02:39:18.838 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/register/student - application/json 119
+2026-05-08 02:39:18.839 +03:00 [INF] [Request] POST /api/Account/register/student
+2026-05-08 02:39:18.839 +03:00 [INF] Executing endpoint 'AccountController.RegisterStudent (task1)'
+2026-05-08 02:39:18.840 +03:00 [INF] Route matched with {action = "RegisterStudent", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterStudent(task1.DTOs.RegisterDTO) on controller AccountController (task1).
+2026-05-08 02:39:18.843 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@name='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[UserName] = @name) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-08 02:39:18.846 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-05-08 02:39:18.897 +03:00 [INF] Executed action AccountController.RegisterStudent (task1) in 56.571ms
+2026-05-08 02:39:18.897 +03:00 [INF] Executed endpoint 'AccountController.RegisterStudent (task1)'
+2026-05-08 02:39:18.897 +03:00 [INF] [Response] 400 took 57 ms
+2026-05-08 02:39:18.898 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/register/student - 400 null application/problem+json; charset=utf-8 60.2042ms
+2026-05-08 02:39:30.741 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/register/student - application/json 120
+2026-05-08 02:39:30.741 +03:00 [INF] [Request] POST /api/Account/register/student
+2026-05-08 02:39:30.742 +03:00 [INF] Executing endpoint 'AccountController.RegisterStudent (task1)'
+2026-05-08 02:39:30.742 +03:00 [INF] Route matched with {action = "RegisterStudent", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RegisterStudent(task1.DTOs.RegisterDTO) on controller AccountController (task1).
+2026-05-08 02:39:30.764 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[@name='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE [a].[UserName] = @name) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-05-08 02:39:30.909 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-08 02:39:31.695 +03:00 [INF] Executed DbCommand (538ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14);
+2026-05-08 02:39:31.833 +03:00 [INF] Executed DbCommand (109ms) [Parameters=[@normalizedRoleName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedRoleName
+2026-05-08 02:39:31.953 +03:00 [INF] Executed DbCommand (38ms) [Parameters=[@p='?' (Size = 450), @p1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @p AND [a].[RoleId] = @p1
+2026-05-08 02:39:31.959 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@normalizedRoleName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @normalizedRoleName
+2026-05-08 02:39:32.006 +03:00 [INF] Executed DbCommand (31ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-08 02:39:32.520 +03:00 [INF] Executed DbCommand (462ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450), @p16='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p17='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2026-05-08 02:39:32.643 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-05-08 02:39:32.643 +03:00 [INF] Executed action AccountController.RegisterStudent (task1) in 1901.0714ms
+2026-05-08 02:39:32.644 +03:00 [INF] Executed endpoint 'AccountController.RegisterStudent (task1)'
+2026-05-08 02:39:32.644 +03:00 [INF] [Response] 200 took 1902 ms
+2026-05-08 02:39:32.644 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/register/student - 200 null text/plain; charset=utf-8 1903.484ms
+2026-05-08 02:39:44.775 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5132/api/Account/login - application/json 66
+2026-05-08 02:39:44.775 +03:00 [INF] [Request] POST /api/Account/login
+2026-05-08 02:39:44.776 +03:00 [INF] Executing endpoint 'AccountController.Login (task1)'
+2026-05-08 02:39:44.779 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(task1.DTOs.LoginDTO) on controller AccountController (task1).
+2026-05-08 02:39:44.791 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@normalizedUserName='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @normalizedUserName
+2026-05-08 02:39:44.813 +03:00 [INF] Executed DbCommand (22ms) [Parameters=[@normalizedEmail='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @normalizedEmail
+2026-05-08 02:39:45.032 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[@userId='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @userId
+2026-05-08 02:39:45.044 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-08 02:39:45.051 +03:00 [INF] Executed action AccountController.Login (task1) in 272.3744ms
+2026-05-08 02:39:45.051 +03:00 [INF] Executed endpoint 'AccountController.Login (task1)'
+2026-05-08 02:39:45.052 +03:00 [INF] [Response] 200 took 275 ms
+2026-05-08 02:39:45.052 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5132/api/Account/login - 200 null application/json; charset=utf-8 276.5546ms
+2026-05-08 02:40:02.585 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Role - null null
+2026-05-08 02:40:02.586 +03:00 [INF] [Request] GET /api/Role
+2026-05-08 02:40:02.595 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-05-08 02:40:02.598 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-05-08 02:40:02.598 +03:00 [INF] [Response] 403 took 12 ms
+2026-05-08 02:40:02.599 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Role - 403 0 null 13.1451ms
+2026-05-08 02:40:07.389 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Role - null null
+2026-05-08 02:40:07.389 +03:00 [INF] [Request] GET /api/Role
+2026-05-08 02:40:07.393 +03:00 [INF] Executing endpoint 'RoleController.Get (task1)'
+2026-05-08 02:40:07.402 +03:00 [INF] Route matched with {action = "Get", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller RoleController (task1).
+2026-05-08 02:40:07.413 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AspNetRoles] AS [a]
+2026-05-08 02:40:07.413 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-08 02:40:07.414 +03:00 [INF] Executed action RoleController.Get (task1) in 12.5326ms
+2026-05-08 02:40:07.415 +03:00 [INF] Executed endpoint 'RoleController.Get (task1)'
+2026-05-08 02:40:07.416 +03:00 [INF] [Response] 200 took 26 ms
+2026-05-08 02:40:07.416 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Role - 200 null application/json; charset=utf-8 27.7454ms
+2026-05-08 02:40:28.881 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - null null
+2026-05-08 02:40:28.882 +03:00 [INF] [Request] GET /api/Account/profile/
+2026-05-08 02:40:28.885 +03:00 [INF] Executing endpoint 'AccountController.Profile (task1)'
+2026-05-08 02:40:28.894 +03:00 [INF] Route matched with {action = "Profile", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Profile() on controller AccountController (task1).
+2026-05-08 02:40:29.001 +03:00 [INF] Executed DbCommand (96ms) [Parameters=[@p='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @p
+2026-05-08 02:40:29.004 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@userId='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @userId
+2026-05-08 02:40:29.004 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-05-08 02:40:29.005 +03:00 [INF] Executed action AccountController.Profile (task1) in 109.7189ms
+2026-05-08 02:40:29.005 +03:00 [INF] Executed endpoint 'AccountController.Profile (task1)'
+2026-05-08 02:40:29.005 +03:00 [INF] [Response] 200 took 123 ms
+2026-05-08 02:40:29.005 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5132/api/Account/profile/ - 200 null text/plain; charset=utf-8 123.7672ms
+2026-05-08 02:41:44.922 +03:00 [INF] Application is shutting down...
