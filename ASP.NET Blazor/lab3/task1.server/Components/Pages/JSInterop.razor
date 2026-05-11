@@ -1,0 +1,55 @@
+@page "/interop"
+
+@rendermode InteractiveServer
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.JSInterop
+
+@attribute [Authorize]
+
+@inject IJSRuntime JS
+
+<h3>JS Interop Demo</h3>
+
+<button class="btn btn-primary"
+        @onclick="CallJsFromCSharp">
+    Show Alert
+</button>
+
+<button class="btn btn-success"
+        @onclick="CallCSharpFromJs">
+    Show Time
+</button>
+
+<p>@CurrentTime</p>
+
+@code {
+
+    private string CurrentTime = "";
+
+    private async Task CallJsFromCSharp()
+    {
+        await JS.InvokeVoidAsync(
+            "console.log",
+            "button clicked!");
+
+        await JS.InvokeVoidAsync(
+            "blazorInterop.showAlert",
+            "Hello from Blazor C#");
+    }
+
+    private async Task CallCSharpFromJs()
+    {
+        await JS.InvokeVoidAsync(
+            "callDotNetMethod",
+            DotNetObjectReference.Create(this));
+    }
+
+    [JSInvokable]
+    public void ReceiveTime(string time)
+    {
+        CurrentTime = time;
+
+        StateHasChanged();
+    }
+}

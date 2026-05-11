@@ -1,0 +1,22 @@
+<div class="border rounded p-3 m-2">
+
+    <h4>Counter Component</h4>
+
+    <p>Current Count: @count</p>
+
+    <button class="btn btn-primary"
+            @onclick="Increment">
+        Increment
+    </button>
+
+</div>
+
+@code {
+
+    private int count = 0;
+
+    private void Increment()
+    {
+        count++;
+    }
+}

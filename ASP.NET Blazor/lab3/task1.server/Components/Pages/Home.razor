@@ -1,0 +1,15 @@
+﻿@page "/"
+
+<AuthorizeView>
+<Authorized>
+    <h1>Hello, @context.User.Identity?.Name!</h1>
+
+    <a href="/interop">JS Interop Demo Page</a>
+</Authorized>
+<NotAuthorized>
+    <h1>Hello, anonymous!</h1>
+
+    <p><a href="Account/Register">Register</a> or <a href="Account/Login">log in</a> to see the JS Interop demo.</p>
+</NotAuthorized>
+</AuthorizeView>
+

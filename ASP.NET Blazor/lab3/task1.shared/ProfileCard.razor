@@ -1,0 +1,16 @@
+<div class="card p-3 m-2 shadow-sm">
+
+    <h3>@Name</h3>
+
+    <p>Email: @Email</p>
+
+</div>
+
+@code {
+
+    [Parameter]
+    public string Name { get; set; } = string.Empty;
+
+    [Parameter]
+    public string Email { get; set; } = string.Empty;
+}
