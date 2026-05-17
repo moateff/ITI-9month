@@ -1,0 +1,13 @@
+<h1>Slider</h1>
+
+<div class="slider-image">
+  <img src="{{ imageUrl }}" alt="image">
+</div>
+
+<div class="slider-control">
+  <button (click)="stop()">stop</button>
+  <input type="range" min="0" max="4" [(ngModel)]="index" (input)="func($event)">
+  <button (click)="start()">start</button>
+</div>
+
+

@@ -1,0 +1,15 @@
+@use './variables' as v;
+
+$red-to-pink-to-purple-gradient: linear-gradient(
+  180deg,
+  var(v.$orange-red) 0%,
+  var(v.$vivid-pink) 50%,
+  var(v.$electric-violet) 100%
+);
+
+$red-to-violet-to-blue-gradient: linear-gradient(
+  180deg,
+  var(v.$hot-red) 0%,
+  var(v.$french-violet) 50%,
+  var(v.$bright-blue) 100%
+);
