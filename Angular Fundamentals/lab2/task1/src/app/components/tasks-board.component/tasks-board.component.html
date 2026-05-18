@@ -1,0 +1,10 @@
+<app-tabs (onChange)="changeTab($event)"></app-tabs>
+@if(currentTab === 'all') {
+  <app-task-list [tasks]="allTasks" (onAction)="actionTask($event)"></app-task-list>
+}
+@else if(currentTab === 'in-progress') {
+  <app-task-list [tasks]="inProgressTasks" (onAction)="actionTask($event)"></app-task-list>
+}
+@else if(currentTab === 'completed') {
+  <app-task-list [tasks]="completedTasks" (onAction)="actionTask($event)"></app-task-list>
+}

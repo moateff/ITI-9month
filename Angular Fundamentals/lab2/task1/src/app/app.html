@@ -1,0 +1,5 @@
+<app-header></app-header>
+<app-slider></app-slider>
+
+<app-task-form (onAction)="actionTask($event)" [task]="task"></app-task-form>
+<app-tasks-board [tasks]="tasks" (onAction)="actionTask($event)"></app-tasks-board>

@@ -1,0 +1,127 @@
+<div class="container mt-4 col-md-6">
+
+  @if(task.id) {
+    <h1 class="mb-4 text-center">Update Task</h1>
+  } @else {
+    <h1 class="mb-4 text-center">Add New Task</h1>
+  }
+
+  <form class="row g-3">
+
+    <!-- Title -->
+    <div class="col-12">
+      <label for="title" class="form-label">Title</label>
+      <input
+        type="text"
+        id="title"
+        class="form-control"
+        placeholder="Enter task title"
+        [(ngModel)]="task.title"
+        name="title">
+    </div>
+
+    <!-- Description -->
+    <div class="col-12">
+      <label for="description" class="form-label">Description</label>
+      <textarea
+        id="description"
+        class="form-control"
+        rows="3"
+        placeholder="Write task details..."
+        [(ngModel)]="task.description"
+        name="description">
+      </textarea>
+    </div>
+
+    <!-- Start Date -->
+    <div class="col-md-6">
+      <label for="startDate" class="form-label">Start Date</label>
+      <input
+        type="date"
+        id="startDate"
+        class="form-control"
+        [(ngModel)]="task.startDate"
+        name="startDate">
+    </div>
+
+    <!-- Due Date -->
+    <div class="col-md-6">
+      <label for="dueDate" class="form-label">Due Date</label>
+      <input
+        type="date"
+        id="dueDate"
+        class="form-control"
+        [(ngModel)]="task.dueDate"
+        name="dueDate">
+    </div>
+
+    <!-- Priority -->
+    <div class="col-md-6">
+      <label for="priority" class="form-label">Priority</label>
+      <select
+        id="priority"
+        class="form-select"
+        [(ngModel)]="task.priority"
+        name="priority">
+
+        <option disabled selected value="">Select priority</option>
+        <option [ngValue]="PriorityEnum.LOW">Low</option>
+        <option [ngValue]="PriorityEnum.MEDIUM">Medium</option>
+        <option [ngValue]="PriorityEnum.HIGH">High</option>
+
+      </select>
+    </div>
+
+    <!-- Category -->
+    <div class="col-md-6">
+      <label for="category" class="form-label">Category</label>
+      <select
+        id="category"
+        class="form-select"
+        [(ngModel)]="task.category"
+        name="category">
+
+        <option disabled selected value="">Select category</option>
+        <option [ngValue]="CategoryEnum.WORK">Work</option>
+        <option [ngValue]="CategoryEnum.PERSONAL">Personal</option>
+        <option [ngValue]="CategoryEnum.STUDY">Study</option>
+
+      </select>
+    </div>
+
+    <!-- Tags -->
+    <div class="col-md-12">
+      <label for="tags" class="form-label">Tags</label>
+      <textarea
+        id="tags"
+        class="form-control"
+        rows="2"
+        placeholder="e.g. #abc #xyz"
+        [(ngModel)]="task.tags"
+        name="tags">
+        </textarea>
+    </div>
+
+    <!-- Button -->
+    @if(task.id) {
+      <div class="text-center mt-4">
+        <button
+          class="btn btn-dark col-12"
+          (click)="saveTask()">
+          Update
+        </button>
+      </div>
+    } @else {
+      <div class="text-center mt-4">
+        <button
+          class="btn btn-dark col-12"
+          (click)="addTask()">
+          Add
+        </button>
+      </div>
+    }
+
+  </form>
+</div>
+
+

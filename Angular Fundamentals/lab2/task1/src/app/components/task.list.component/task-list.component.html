@@ -1,0 +1,11 @@
+
+@if(tasks.length === 0) {
+  <h2 class="text-center mt-4 vh-100">No tasks found</h2>
+}
+@else {
+  <div class="container mt-4 vh-100">
+    @for(t of tasks; track t.id; let index = $index) {
+      <app-task [task]="t" class="col-md-3 mx-3" (onAction)="actionTask($event)"></app-task>
+    }
+  </div>
+}
