@@ -1,0 +1,70 @@
+@model List<Order>
+
+@{
+    ViewData["Title"] = "Order Page";
+}
+
+<a class="btn btn-primary" asp-controller="Order" asp-action="Create">Create</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Customer Name</th>
+            <th>Product Name</th>
+            <th>Quantity</th> 
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.CustomerName</td>
+                <td>@item.ProductName</td>
+                <td>@item.Quantity</td>
+                <td><a class="btn btn-danger" href="/Order/Delete/@item.Id">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@section Scripts {
+<script>
+    const hubConnection = new signalR.HubConnectionBuilder()
+        .withUrl("/orderHub")
+        .build();
+
+    async function startConnection() {
+        try {
+            await hubConnection.start();
+            console.log("SignalR connected");
+        } catch (err) {
+            console.error("Connection failed, retrying...", err);
+            setTimeout(startConnection, 2000);
+        }
+    }
+
+    startConnection();
+
+    hubConnection.on("OrderCreated", (order) => {
+        document.querySelector('tbody').appendChild(createRow(order));
+    });
+
+
+    function createRow(order) {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td>${order.id}</td>
+            <td>${order.customerName}</td>
+            <td>${order.productName}</td>
+            <td>${order.quantity}</td>
+            <td><a class="btn btn-danger" href="/Order/Delete/${order.id}">Delete</a></td>
+        `;
+        console.log(row);
+        return row;
+    }
+</script>
+}
