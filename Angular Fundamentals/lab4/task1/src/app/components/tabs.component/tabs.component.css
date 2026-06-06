@@ -1,0 +1,21 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+aside .nav-pills, .nav-link {
+  color: #212529;
+}
+
+aside .nav-link.active {
+  background-color: #212529;
+  color: white;
+}
+
+aside .nav-link:hover {
+  background-color: #30363b;
+  color: white !important;
+  border-radius: 5px;
+}

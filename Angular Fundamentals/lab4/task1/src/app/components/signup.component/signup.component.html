@@ -1,0 +1,29 @@
+<div class="container col-md-6">
+  <h1 class="mb-4 text-center">Sign Up</h1>
+
+  <div class="row g-3">
+    <div class="col-12">
+      <label for="name" class="form-label">Name</label>
+      <input [value]="signupData.name" (input)="signupData.name = $any($event.target).value" type="text" class="form-control" id="name" placeholder="Enter your name">
+    </div>
+    <div class="col-12">
+      <label for="email" class="form-label">Email</label>
+      <input [value]="signupData.email" (input)="signupData.email = $any($event.target).value" type="email" class="form-control" id="email" placeholder="Enter your email">
+    </div>
+    <div class="col-12">
+      <label for="password" class="form-label">Password</label>
+      <input [value]="signupData.password" (input)="signupData.password = $any($event.target).value" type="password" class="form-control" id="password" placeholder="Enter your password">
+    </div>
+    <div class="col-12">
+      <label for="confirmPassword" class="form-label">Confirm Password</label>
+      <input [value]="signupData.confirmPassword" (input)="signupData.confirmPassword = $any($event.target).value" type="password" class="form-control" id="confirmPassword" placeholder="Enter your password again">
+    </div>
+    <div class="col-12 text-center">
+      <button (click)="signup()" type="submit" class="btn btn-dark col-12">Submit</button>
+    </div>
+  </div>
+</div>
+
+<div>
+  <p class="text-center mt-4">Already have an account? <a routerLink="/login">Log In</a></p>
+</div>

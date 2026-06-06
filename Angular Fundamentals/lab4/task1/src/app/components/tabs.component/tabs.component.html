@@ -1,0 +1,32 @@
+<aside class="p-3" style="width: 250px;">
+  <ul class="nav nav-pills flex-column gap-2">
+
+    <li class="nav-item">
+      <button
+        class="nav-link active w-100 text-start"
+        [class.active]="selectedTab === 'all'"
+        (click)="changeTab('all')">
+        All
+      </button>
+    </li>
+
+    <li class="nav-item">
+      <button
+        class="nav-link w-100 text-start"
+        [class.active]="selectedTab === 'in-progress'"
+        (click)="changeTab('in-progress')">
+        In Progress
+      </button>
+    </li>
+
+    <li class="nav-item">
+      <button
+        class="nav-link w-100 text-start"
+        [class.active]="selectedTab === 'completed'"
+        (click)="changeTab('completed')">
+        Completed
+      </button>
+    </li>
+
+  </ul>
+</aside>

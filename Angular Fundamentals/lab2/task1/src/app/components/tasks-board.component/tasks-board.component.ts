@@ -25,7 +25,6 @@ export class TasksBoardComponent {
     this.allTasks = tasks;
     this.completedTasks = tasks.filter(t => t.status === StatusEnum.COMPLETED);
     this.inProgressTasks = tasks.filter(t => t.status === StatusEnum.IN_PROGRESS);
-    console.log('Completed tasks:', this.completedTasks);
   }
 
   changeTab(tab: string) {

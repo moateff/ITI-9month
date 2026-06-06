@@ -1,0 +1,108 @@
+<div class="container p-0 mt-4 text-center">
+
+  <div class="card">
+
+    <div class="card-body">
+
+      <!-- Title -->
+      <h4 class="card-title">
+        {{ task.title }}
+      </h4>
+
+      <!-- Description -->
+      <p class="text-muted">
+        {{ task.description }}
+      </p>
+
+      <!-- Meta Info -->
+
+      <div class="mb-3">
+        @if(task.category) {
+          <span class="badge bg-secondary me-1">
+            @switch(task.category) {
+              @case (CategoryEnum.WORK) {
+                Work
+              }
+              @case (CategoryEnum.PERSONAL) {
+                Personal
+              }
+              @case (CategoryEnum.STUDY) {
+                Study
+              }
+            }
+          </span>
+        }
+
+        @if (task.priority) {
+          <span class="badge bg-warning text-dark me-1">
+            @switch(task.priority) {
+              @case (PriorityEnum.LOW) {
+                Low
+              }
+              @case (PriorityEnum.MEDIUM) {
+                Medium
+              }
+              @case (PriorityEnum.HIGH) {
+                High
+              }
+            }
+          </span>
+        }
+
+        <span class="badge bg-dark">
+          @switch(task.status) {
+            @case (StatusEnum.PENDING) {
+              Pending
+            }
+            @case (StatusEnum.IN_PROGRESS) {
+              In Progress
+            }
+            @case (StatusEnum.COMPLETED) {
+              Completed
+            }
+          }
+        </span>
+      </div>
+
+      <!-- Dates -->
+      <div class="small text-muted mb-2">
+        Start Date: {{ task.startDate | date:'short' }} <br>
+        Due Date: {{ task.dueDate | date:'short' }}
+      </div>
+
+      <!-- Tags -->
+      <div class="mb-3">
+        <span class="badge bg-light text-dark">
+          {{ task.tags }}
+        </span>
+      </div>
+
+      <!-- Buttons -->
+      <div class="gap-2 d-flex justify-content-center">
+
+        @if(task.status !== StatusEnum.COMPLETED) {
+          <button
+            class="btn btn-success btn-sm"
+            (click)="completeTask(task)">
+            Done
+          </button>
+
+          <button
+            class="btn btn-primary btn-sm"
+            (click)="updateTask(task)">
+            Update
+          </button>
+        }
+
+        <button
+          class="btn btn-danger btn-sm"
+          (click)="deleteTask(task)">
+          Delete
+        </button>
+
+    </div>
+
+  </div>
+
+</div>
+

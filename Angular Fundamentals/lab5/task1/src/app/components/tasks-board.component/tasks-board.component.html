@@ -1,0 +1,21 @@
+<app-header></app-header>
+
+<div class="row">
+  <div class="col-md-2">
+    <app-tabs (onChange)="changeTab($event)"></app-tabs>
+  </div>
+
+  <div class="col-md-10">
+    @if(currentTab === 'all') {
+      <app-task-list [tasks]="allTasks"></app-task-list>
+    }
+    @else if(currentTab === 'in-progress') {
+      <app-task-list [tasks]="inProgressTasks"></app-task-list>
+    }
+    @else if(currentTab === 'completed') {
+      <app-task-list [tasks]="completedTasks"></app-task-list>
+    }
+  </div>
+</div>
+
+<app-footer></app-footer>

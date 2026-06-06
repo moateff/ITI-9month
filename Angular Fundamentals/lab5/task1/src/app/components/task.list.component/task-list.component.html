@@ -1,0 +1,11 @@
+
+@if(tasks.length === 0) {
+  <h2 class="text-center mt-4">No tasks found</h2>
+}
+@else {
+  <div class="row wrap justify-content-start mt-4">
+    @for(t of tasks; track t.id; let index = $index) {
+      <app-task [task]="t"></app-task>
+    }
+  </div>
+}

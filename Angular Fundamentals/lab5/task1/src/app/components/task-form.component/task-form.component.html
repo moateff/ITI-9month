@@ -1,0 +1,121 @@
+<app-header></app-header>
+
+<div class="container mt-4 col-md-6 mx-auto">
+
+  <h1 class="mb-4 text-center">
+    @if (isUpdate) {
+      Update Task
+    } @else {
+      Add New Task
+    }
+  </h1>
+
+  <form [formGroup]="taskForm" class="row g-3">
+
+    <div class="col-12">
+      <label class="form-label">Title</label>
+      <input
+        type="text"
+        class="form-control"
+        formControlName="title"
+        placeholder="Enter task title">
+
+      @if (taskForm.get('title')?.touched && taskForm.get('title')?.invalid) {
+        <small class="text-danger">
+          Title is required (min 3 characters)
+        </small>
+      }
+    </div>
+
+    <div class="col-12">
+      <label class="form-label">Description</label>
+      <textarea
+        class="form-control"
+        rows="3"
+        formControlName="description"
+        placeholder="Write task details..."
+      ></textarea>
+
+      @if (taskForm.get('description')?.touched && taskForm.get('description')?.invalid) {
+        <small class="text-danger">
+          Description is required
+        </small>
+      }
+    </div>
+
+    <div class="col-md-6">
+      <label class="form-label">Start Date</label>
+      <input type="date" class="form-control" formControlName="startDate">
+    </div>
+
+    <div class="col-md-6">
+      <label class="form-label">Due Date</label>
+      <input type="date" class="form-control" formControlName="dueDate">
+    </div>
+
+    <div class="col-md-6">
+      <label class="form-label">Priority</label>
+      <select class="form-select" formControlName="priority">
+        <option value="">Select priority</option>
+        <option [ngValue]="PriorityEnum.LOW">Low</option>
+        <option [ngValue]="PriorityEnum.MEDIUM">Medium</option>
+        <option [ngValue]="PriorityEnum.HIGH">High</option>
+      </select>
+    </div>
+
+    <div class="col-md-6">
+      <label class="form-label">Category</label>
+      <select class="form-select" formControlName="category">
+        <option value="">Select category</option>
+        <option [ngValue]="CategoryEnum.WORK">Work</option>
+        <option [ngValue]="CategoryEnum.PERSONAL">Personal</option>
+        <option [ngValue]="CategoryEnum.STUDY">Study</option>
+      </select>
+    </div>
+
+    <div class="col-md-12">
+      <label class="form-label">Tags</label>
+      <textarea
+        class="form-control"
+        rows="2"
+        formControlName="tags"
+        placeholder="e.g. #abc #xyz"></textarea>
+
+      @if (taskForm.get('tags')?.touched && taskForm.get('tags')?.hasError('required')) {
+        <small class="text-danger">
+          Tags are required
+        </small>
+      }
+
+      @if (taskForm.get('tags')?.touched && taskForm.get('tags')?.hasError('invalidTag')) {
+        <small class="text-danger">
+          Invalid tag
+        </small>
+      }
+    </div>
+
+    <div class="text-center mt-4">
+
+      @if (isUpdate) {
+        <input
+          class="btn btn-dark col-12"
+          type="submit"
+          [disabled]="taskForm.invalid"
+          (click)="updateTask()"
+          value="Update" />
+
+      } @else {
+        <input
+          class="btn btn-dark col-12"
+          type="submit"
+          [disabled]="taskForm.invalid"
+          (click)="addTask()"
+          value="Add" />
+      }
+
+    </div>
+
+  </form>
+</div>
+
+<app-footer></app-footer>

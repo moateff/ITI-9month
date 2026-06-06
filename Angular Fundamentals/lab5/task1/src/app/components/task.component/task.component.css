@@ -1,0 +1,23 @@
+:host {
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  margin-bottom: 25px;
+}
+
+.container {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+p {
+  min-height: 48px;
+  max-height: 48px;
+  overflow: hidden;
+}
+
+h4 {
+  min-height: 28px;
+  max-height: 28px;
+  overflow: hidden;
+}
