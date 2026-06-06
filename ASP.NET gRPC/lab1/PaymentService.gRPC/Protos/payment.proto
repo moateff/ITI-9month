@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "PaymentService.gRPC";
+
+package payment;
+
+// The greeting service definition.
+service Payment {
+  rpc Deduct (DeductRequest) returns (DeductResponse);
+}
+
+message DeductRequest {
+  int32 id = 1;
+  int32 totalPrice = 2;
+}
+
+message DeductResponse {
+  bool success = 1;
+  string message = 2;
+}
