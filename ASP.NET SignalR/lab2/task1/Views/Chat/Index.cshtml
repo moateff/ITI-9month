@@ -1,0 +1,237 @@
+@model ChatViewModel
+
+@{
+    ViewData["Title"] = "Chat Page";
+}
+
+<div class="container" style="max-width: 900px;">
+
+    <!-- create room -->
+    <div class="card mb-4 p-4">
+        <div class="row g-3 align-items-center">
+            <div class="col-md-3">Create Room</div>
+            <div class="col-md-6">
+                <input id="createRoomInput" class="form-control" placeholder="Room name" />
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-success w-100" onclick="createRoom()">Create</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- delete room -->
+    <div class="card mb-4 p-4">
+        <div class="row g-3 align-items-center">
+            <div class="col-md-3">Delete Room</div>
+            <div class="col-md-6">
+                <select id="deleteRoomSelect" class="form-select">
+                    <option value="">Select room</option>
+
+                    @foreach (var room in Model.Rooms)
+                    {
+                        <option value="@room.Id">@room.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-danger w-100" onclick="deleteRoom()">Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- join room -->
+    <div class="card mb-4 p-4">
+        <div class="row g-3 align-items-center">
+            <div class="col-md-3">Join Room</div>
+            <div class="col-md-6">
+                <select id="joinRoomSelect" class="form-select">
+                    <option value="">Select room</option>
+
+                    @foreach (var room in Model.Rooms)
+                    {
+                        <option value="@room.Id">@room.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-info w-100" onclick="joinRoom()">Join</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- group message -->
+    <div class="card mb-4 p-4">
+        <div class="row g-3 align-items-center">
+            <div class="col-md-3">Group Message</div>
+            <div class="col-md-6">
+                <select id="groupRoomSelect" class="form-select">
+                    <option value="">Select room</option>
+
+                    @foreach (var room in Model.Rooms)
+                    {
+                        <option value="@room.Id">@room.Name</option>
+                    }
+                </select>
+                <input id="groupMessageInput" class="form-control mt-2" placeholder="Message" />
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-warning w-100 text-white" onclick="sendGroupMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- public message -->
+    <div class="card mb-4 p-4">
+        <div class="row g-3 align-items-center">
+            <div class="col-md-3">Public Message</div>
+            <div class="col-md-6">
+                <input id="publicMessageInput" class="form-control" placeholder="Message" />
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-primary w-100 text-white" onclick="sendPublicMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- private message -->
+    <div class="card mb-4 p-4">
+        <div class="row g-3 align-items-center">
+            <div class="col-md-3">Private</div>
+            <div class="col-md-6">
+                <select id="selectUserPrivate" class="form-select">
+                    <option value="">Select user</option>
+
+                    @foreach (var user in Model.Users)
+                    {
+                        <option value="@user.Email">@user.Email</option>
+                    }
+                </select>
+                <input id="privateMessageInput" class="form-control mt-2" placeholder="Message" />
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-secondary w-100" onclick="sendPrivateMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- messages -->
+    <div class="card p-4">
+        <h6>Messages</h6>
+        <ul id="messageList" class="list-unstyled"></ul>
+    </div>
+</div>
+
+@section Scripts {
+
+<script>
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/chatHub")
+        .withAutomaticReconnect()
+        .build();
+
+    function addMessage(text, css = "") {
+        $("#messageList").append(`<li class="${css}">${text}</li>`);
+    }
+
+    function getDisplayNameFromEmail(email) {
+        return "@@" + email.split("@@")[0];
+    }
+
+    // event handlers
+    connection.on("connected", (email) => {
+        addMessage(`${getDisplayNameFromEmail(email)} connected`, "text-info");
+    });
+
+    connection.on("disconnected", (email) => {
+        addMessage(`${getDisplayNameFromEmail(email)} disconnected`, "text-info");
+    });
+
+    connection.on("groupmessage", (email, room, msg) => {
+        addMessage(`${getDisplayNameFromEmail(email)} in ${room}: ${msg}`, "text-warning");
+    });
+
+    connection.on("publicmessage", (email, msg) => {
+        addMessage(`${getDisplayNameFromEmail(email)}: ${msg}`, "text-primary");
+    });
+
+    connection.on("privatemessage", (email, msg) => {
+        addMessage(`${getDisplayNameFromEmail(email)}: ${msg}`, "text-secondary");
+    });
+
+    connection.on("createroom", (email, id, name) => {
+        addMessage(`${getDisplayNameFromEmail(email)} created room ${name}`, "text-success");
+        $("#deleteRoomSelect").append(`<option value="${id}">${name}</option>`);
+        $("#groupRoomSelect").append(`<option value="${id}">${name}</option>`);
+        $("#joinRoomSelect").append(`<option value="${id}">${name}</option>`);
+    });
+
+    connection.on("deleteroom", (email, id, name) => {
+        addMessage(`${getDisplayNameFromEmail(email)} deleted room ${name}`, "text-danger");
+        $(`#deleteRoomSelect option[value="${id}"]`).remove();
+        $(`#groupRoomSelect option[value="${id}"]`).remove();
+        $(`#joinRoomSelect option[value="${id}"]`).remove();
+    });
+
+    connection.on("joinroom", (email, name) => {
+        addMessage(`${getDisplayNameFromEmail(email)} joined room ${name}`, "text-info");
+    });
+
+    // start connection
+    connection.start()
+        .then(() => console.log("SignalR connected"))
+        .catch(err => console.error(err));
+
+    // actions
+    async function createRoom() {
+        const name = $("#createRoomInput").val();
+        if (!name) return;
+
+        await connection.invoke("CreateRoom", name);
+        $("#createRoomInput").val("");
+    }
+
+    async function deleteRoom() {
+        const id = $("#deleteRoomSelect").val();
+        if (!id) return;
+        await connection.invoke("DeleteRoom", id);
+    }
+
+    async function joinRoom() {
+        const id = $("#joinRoomSelect").val();
+        if (!id) return;
+        await connection.invoke("JoinRoom", id);
+    }
+
+    async function sendGroupMessage() {
+        const roomId = $("#groupRoomSelect").val();
+        if (!roomId) return;
+
+        const msg = $("#groupMessageInput").val();
+        if (!msg) return;
+
+        await connection.invoke("SendGroupMessage", roomId, msg);
+        $("#groupMessageInput").val("");
+    }
+
+    async function sendPublicMessage() {
+        const msg = $("#publicMessageInput").val();
+        if (!msg) return;
+
+        await connection.invoke("SendPublicMessage", msg);
+        $("#publicMessageInput").val("");
+    }
+
+    async function sendPrivateMessage() {
+        const email = $("#selectUserPrivate").val();
+        if (!email) return;
+
+        const msg = $("#privateMessageInput").val();
+        if (!msg) return;
+        
+        addMessage(`You to ${getDisplayNameFromEmail(email)}: ${msg}`, "text-secondary");
+
+        await connection.invoke("SendPrivateMessage", email, msg);
+        $("#privateMessageInput").val("");
+    }
+</script>
+}
